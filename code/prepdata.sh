@@ -29,12 +29,12 @@ codedir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 dsroot="$(dirname "$codedir")"
 
 # make bids folder if it doesn't exist
-if [ ! -d $dsroot/bids-testing ]; then
-	mkdir -p $dsroot/bids-testing
+if [ ! -d $dsroot/bids ]; then
+	mkdir -p $dsroot/bids
 fi
 
 # overwrite existing
-rm -rf $dsroot/bids-testing/sub-${sub}
+rm -rf $dsroot/bids/sub-${sub}
 
 
 # PART 1: running heudiconv
@@ -43,7 +43,7 @@ singularity run --cleanenv \
 -B $sourcedata:/sourcedata \
 /ZPOOL/data/tools/heudiconv_1.1.0.sif \
 -d /sourcedata/Smith-SRA-{subject}/*/scans/*/*/DICOM/files/*.dcm \
--o /out/bids-testing/ \
+-o /out/bids/ \
 -f /out/code/heuristics.py \
 -s $sub \
 -c dcm2niix \
@@ -52,7 +52,7 @@ singularity run --cleanenv \
 
 ## PART 2: Defacing anatomicals and date shifting to ensure compatibility with data sharing.
 # note that you may need to install pydeface via pip or conda
-bidsroot=$dsroot/bids-testing
+bidsroot=$dsroot/bids
 echo "defacing subject $sub"
 pydeface ${bidsroot}/sub-${sub}/anat/sub-${sub}_T1w.nii.gz
 mv -f ${bidsroot}/sub-${sub}/anat/sub-${sub}_T1w_defaced.nii.gz ${bidsroot}/sub-${sub}/anat/sub-${sub}_T1w.nii.gz
