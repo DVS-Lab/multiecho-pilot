@@ -1,0 +1,5 @@
+filename	acq_time	operator	randstr
+anat/sub-10006_T1w.nii.gz	1922-02-22T17:02:55.297500	tubric	b429697e
+fmap/sub-10006_acq-bold_run-1_magnitude1.nii.gz	1922-02-22T17:08:22.927500	tubric	a62b2cf4
+fmap/sub-10006_acq-bold_run-1_magnitude2.nii.gz	1922-02-22T17:08:22.927500	tubric	a62b2cf4
+fmap/sub-10006_acq-bold_run-1_phasediff.nii.gz	1922-02-22T17:08:22.927500	tubric	27aebf24
