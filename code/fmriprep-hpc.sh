@@ -57,7 +57,6 @@ for sub in ${subjects[@]}; do
 		--me-output-echos \
 		--output-spaces MNI152NLin6Asym \
 		--bids-filter-file /base/code/fmriprep_config.json \
-		--ignore fieldmaps \
 		--use-syn-sdc \
 		--fs-no-reconall --fs-license-file /opts/fs_license.txt -w /scratch >> $logdir/cmd_fmriprep_${PBS_JOBID}.txt
 	else
