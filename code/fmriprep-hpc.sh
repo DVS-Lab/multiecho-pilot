@@ -40,42 +40,22 @@ export SINGULARITYENV_TEMPLATEFLOW_HOME=/opt/templateflow
 export SINGULARITYENV_MPLCONFIGDIR=/opt/mplconfigdir
 
 for sub in ${subjects[@]}; do
-	# check this list and update intendedfor to make fmaps match
-	#if [ $sub -eq 10317 ] || [ $sub -eq 10369 ] || [ $sub -eq 10402 ] || [ $sub -eq 10486 ] || [ $sub -eq 10541 ] || [ $sub -eq 10572 ] || [ $sub -eq 10584 ] || [ $sub -eq 10589 ] || [ $sub -eq 10691 ] || [ $sub -eq 10701 ]; then
-	if [ $sub -eq 10416 ]; then	
-		echo singularity run --cleanenv \
-		-B ${TEMPLATEFLOW_DIR}:/opt/templateflow \
-		-B ${MPLCONFIGDIR_DIR}:/opt/mplconfigdir \
-		-B $maindir:/base \
-		-B ~/work/tools/licenses:/opts \
-		-B $scratchdir:/scratch \
-		~/work/tools/fmriprep-23.2.1.simg \
-		/base/bids /base/derivatives/fmriprep \
-		participant --participant_label $sub \
-		--stop-on-first-crash \
-		--nthreads 12 \
-		--me-output-echos \
-		--output-spaces MNI152NLin6Asym \
-		--bids-filter-file /base/code/fmriprep_config.json \
-		--use-syn-sdc \
-		--fs-no-reconall --fs-license-file /opts/fs_license.txt -w /scratch >> $logdir/cmd_fmriprep_${PBS_JOBID}.txt
-	else
-		echo singularity run --cleanenv \
-		-B ${TEMPLATEFLOW_DIR}:/opt/templateflow \
-		-B ${MPLCONFIGDIR_DIR}:/opt/mplconfigdir \
-		-B $maindir:/base \
-		-B ~/work/tools/licenses:/opts \
-		-B $scratchdir:/scratch \
-		~/work/tools/fmriprep-23.2.1.simg \
-		/base/bids /base/derivatives/fmriprep \
-		participant --participant_label $sub \
-		--stop-on-first-crash \
-		--nthreads 12 \
-		--me-output-echos \
-		--output-spaces MNI152NLin6Asym \
-		--bids-filter-file /base/code/fmriprep_config.json \
-		--fs-no-reconall --fs-license-file /opts/fs_license.txt -w /scratch >> $logdir/cmd_fmriprep_${PBS_JOBID}.txt
-	fi
+	echo singularity run --cleanenv \
+	-B ${TEMPLATEFLOW_DIR}:/opt/templateflow \
+	-B ${MPLCONFIGDIR_DIR}:/opt/mplconfigdir \
+	-B $maindir:/base \
+	-B ~/work/tools/licenses:/opts \
+	-B $scratchdir:/scratch \
+	~/work/tools/fmriprep-23.2.1.simg \
+	/base/bids /base/derivatives/fmriprep \
+	participant --participant_label $sub \
+	--stop-on-first-crash \
+	--nthreads 12 \
+	--me-output-echos \
+	--output-spaces MNI152NLin6Asym \
+	--bids-filter-file /base/code/fmriprep_config.json \
+	--use-syn-sdc \
+	--fs-no-reconall --fs-license-file /opts/fs_license.txt -w /scratch >> $logdir/cmd_fmriprep_${PBS_JOBID}.txt
 done
 torque-launch -p $logdir/chk_fmriprep_${PBS_JOBID}.txt $logdir/cmd_fmriprep_${PBS_JOBID}.txt
 
