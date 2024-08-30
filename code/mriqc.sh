@@ -20,5 +20,5 @@ singularity run --cleanenv \
 /ZPOOL/data/tools/mriqc-24.0.2.simg \
 /base/bids /base/derivatives/mriqc \
 participant --participant_label $sub \
---notrack --nosub \
+--notrack --no-sub \
 -w /scratch
