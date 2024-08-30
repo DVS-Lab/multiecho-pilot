@@ -17,7 +17,7 @@ singularity run --cleanenv \
 -B ${TEMPLATEFLOW_DIR}:/opt/templateflow \
 -B $maindir:/base \
 -B $scratchdir:/scratch \
-/ZPOOL/data/tools/mriqc-24.0.0.simg \
+/ZPOOL/data/tools/mriqc-24.0.2.simg \
 /base/bids /base/derivatives/mriqc \
 participant --participant_label $sub \
 -w /scratch
