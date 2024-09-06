@@ -7,5 +7,5 @@ for sub in `ls -d ${basedir}/bids/sub-*/`; do
 
           sub=${sub#*sub-}
           sub=${sub%/}
-	bash /ZPOOL/data/projects/rf1-mbme-pilot/code/gen3colfiles.sh $sub
+	bash /ZPOOL/data/projects/multiecho-pilot/code/gen3colfiles.sh $sub
 done
