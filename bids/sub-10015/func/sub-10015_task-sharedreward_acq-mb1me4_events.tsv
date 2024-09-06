@@ -1,0 +1,5 @@
+onset	duration	trial_type	response_time
+4.004970	0.625313	guess_rightButton_computer	0.625313
+9.057100	1.006590	outcome_computer_reward	n/a
+11.248320	0.932145	guess_leftButton_face	0.932145
+15.450540	1.005020	outcome_stranger_reward	n/a
