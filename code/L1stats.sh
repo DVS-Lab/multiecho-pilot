@@ -28,7 +28,7 @@ denoise=$5
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 mkdir -p $MAINOUTPUT
 
-DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
 
 #Handling different inputs for multi vs single echos
 #if [ $me -gt 1 ];then
@@ -50,7 +50,7 @@ if [ ${denoise} == "tedana" ]; then
 fi
 
 if [ ${denoise} == "base" ]; then
-	CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds_base/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_desc-confounds_desc-fslConfounds.tsv
+	CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_desc-confounds_desc-fslConfounds.tsv
 	echo ${denoise}
 	echo ${CONFOUNDEVS}
 fi
@@ -77,7 +77,6 @@ if [ -e $EV_MISSED_DEC ]; then
 else
 	SHAPE_MISSED_DEC=10
 fi
-
 
 EV_MISSED_OUTCOME=${EVDIR}/_miss_outcome.txt
 if [ -e $EV_MISSED_OUTCOME ]; then
