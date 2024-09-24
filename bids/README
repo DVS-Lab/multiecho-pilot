@@ -1,1 +1,7 @@
-TODO: Provide description for the dataset -- basic details about the study, possibly pointing to pre-registration (if public or embargoed)
+# Sequence pilot: multiecho and multiband fMRI
+
+Data release for a sequence pilot examining the effects of multiecho and multiband fMRI on task-related responses to receiving reward, viewing faces, and left/right button presses (motor contrast).
+
+Caveat: Subjects 10716 and 10738 received incorrect imaging protocols, leading to corrupted behavioral data. Their functional data has been included in this dataset. They should be excluded from any analyses that include behavioral data. 
+
+All related code can be found at the GitHub repository for this project: https://github.com/DVS-Lab/multiecho-pilot/tree/main/code
