@@ -28,7 +28,16 @@ denoise=$5
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 mkdir -p $MAINOUTPUT
 
-DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" ]; then
+	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+else
+	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+fi
+
+if [ ! -e $DATA ]; then
+	echo ${sub} ${acq} "No data"
+	exit
+fi
 
 #Handling different inputs for multi vs single echos
 #if [ $me -gt 1 ];then
@@ -50,7 +59,11 @@ if [ ${denoise} == "tedana" ]; then
 fi
 
 if [ ${denoise} == "base" ]; then
-	CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_desc-confounds_desc-fslConfounds.tsv
+	if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" ]; then
+		CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_desc-confounds_acq-${acq}_desc-confounds_desc-fslConfounds.tsv
+	else
+		CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_desc-confounds_acq-${acq}_part-mag_desc-confounds_desc-fslConfounds.tsv
+	fi	
 	echo ${denoise}
 	echo ${CONFOUNDEVS}
 fi
@@ -116,6 +129,7 @@ if [ "$ppi" == "ecn" -o  "$ppi" == "dmn" ]; then
 	# check for output and skip existing
 	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-nppi-${ppi}_acq-${acq}_sm-${sm}_denoising-${denoise}
 	if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
+		echo "${OUTPUT} already exists, skipping to next sub"		
 		exit
 	else
 		echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log
