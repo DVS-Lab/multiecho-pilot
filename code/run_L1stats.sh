@@ -6,7 +6,7 @@ basedir="$(dirname "$scriptdir")"
 
 task=sharedreward # edit if necessary
 
-for denoise in "base";do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
+for denoise in "tedana";do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
 	for ppi in 0; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
 		for model in 1; do
 
