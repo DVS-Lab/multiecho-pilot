@@ -17,15 +17,18 @@ subs = set([re.search("tedana/(.*)/sub-", file).group(1) for file in metric_file
 for file in metric_files:
      # Read in the directory, sub-num, and run-num
      base = re.search("(.*)tedana_metrics", file).group(1)
-     run = re.search("run-(.*)_desc-tedana", file).group(1)
+     #run = re.search("run-(.*)_desc-tedana", file).group(1)
+     acq = re.search("acq-(.*)_desc-tedana", file).group(1)
      sub = re.search("tedana/(.*)/sub-", file).group(1)
      task = re.search(r"_task-(.*?)_", file).group(1)
 
      # Import the data as dataframes
-     fmriprep_fname = f"{fmriprep_dir}{sub}/func/{sub}_task-{task}_run-{run}_part-mag_desc-confounds_timeseries.tsv"
+     #fmriprep_fname = f"{fmriprep_dir}{sub}/func/{sub}_task-{task}_run-{run}_part-mag_desc-confounds_timeseries.tsv"
+     fmriprep_fname = f"{fmriprep_dir}{sub}/func/{sub}_task-{task}_acq-{acq}_part-mag_desc-confounds_timeseries.tsv"
 
      if os.path.exists(fmriprep_fname):
-         print(f"Making Confounds: {sub} {run}")
+         #print(f"Making Confounds: {sub} {run}")
+         print(f"Making Confounds: {sub} {acq}")
          fmriprep_confounds = pd.read_csv(fmriprep_fname, sep='\t')
          ICA_mixing = pd.read_csv(f'{base}ICA_mixing.tsv', sep='\t')
          metrics = pd.read_csv(f'{base}tedana_metrics.tsv', sep='\t')
@@ -47,8 +50,10 @@ for file in metric_files:
          confounds_df = pd.concat([fmriprep_confounds, tedana_confounds], axis=1)
 
          # Output in FSL-friendly format
-         outfname = f"{tedana_dir}../fsl/confounds_tedana_test/{sub}/{sub}_task-{task}_run-{run}_desc-TedanaPlusConfounds.tsv"
-         os.makedirs(f"{tedana_dir}../fsl/confounds_tedana_test/{sub}", exist_ok=True)
+         #outfname = f"{tedana_dir}../fsl/confounds_tedana_test/{sub}/{sub}_task-{task}_run-{run}_desc-TedanaPlusConfounds.tsv"
+         outfname = f"{tedana_dir}../fsl/confounds_tedana/{sub}/{sub}_task-{task}_acq-{acq}_desc-TedanaPlusConfounds.tsv"
+         os.makedirs(f"{tedana_dir}../fsl/confounds_tedana/{sub}", exist_ok=True)
          confounds_df.to_csv(outfname, index=False, header=False, sep='\t')
      else:
-         print(f"fmriprep failed for {sub} {run} {task}")
+         print(f"fmriprep failed for {sub} {acq} {task}")
+         #print(f"fmriprep failed for {sub} {run} {task}")
