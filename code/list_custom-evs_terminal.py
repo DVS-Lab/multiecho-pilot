@@ -1,5 +1,4 @@
 import os
-import pandas as pd
 
 # Define the base directory where the subject folders are located
 base_dir = "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/"
@@ -8,11 +7,8 @@ base_dir = "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/"
 standard_acqs = ["mb1me1", "mb1me4", "mb3me1", "mb3me4", "mb6me1", "mb6me4"]
 sp_acqs = ["mb3me4", "mb2me4", "mb3me1fa50", "mb3me3", "mb3me3ip0", "mb3me4fa50"]
 
-# Initialize a list to store rows for the spreadsheet
-rows = []
-
 # Loop through each item in the base directory
-for sub in sorted(os.listdir(base_dir)):
+for sub in os.listdir(base_dir):
     sub_path = os.path.join(base_dir, sub)
     
     # Check if the item is a directory and starts with 'sub-'
@@ -29,8 +25,9 @@ for sub in sorted(os.listdir(base_dir)):
                 "custom_timing_files"
             )
             
-            # Prepare a row starting with sub and acq identifier
-            row = [f"{sub}_{acq}"]
+            # Print the subject ID and acquisition ID
+            print(f"Subject: {sub}, Acquisition: {acq}")
+            print("Files:")
             
             # Check if the custom_timing_files directory exists
             if os.path.isdir(timing_files_path):
@@ -43,22 +40,13 @@ for sub in sorted(os.listdir(base_dir)):
                     if os.path.isfile(file_path):
                         with open(file_path, 'r') as f:
                             row_count = sum(1 for line in f)
-                        row.append(row_count)
+                        print(f"  - {filename}: {row_count} rows")
                     else:
-                        # If file doesn't exist, append NA
-                        row.append("NA")
+                        # If file doesn't exist, print NA
+                        print(f"  - {filename}: NA")
             else:
-                # If the custom_timing_files directory does not exist, append NA for each expected file
-                row.extend(["NA"] * 12)
+                # If the custom_timing_files directory does not exist, print NA for each expected file
+                for i in range(1, 13):
+                    print(f"  - ev{i}.txt: NA")
                 
-            # Add the completed row to the list of rows
-            rows.append(row)
-
-# Define column headers for the spreadsheet
-columns = ["sub_acq"] + [f"ev{i}" for i in range(1, 13)]
-
-# Create a DataFrame and save it to a CSV file
-output_df = pd.DataFrame(rows, columns=columns)
-output_df.to_csv("/ZPOOL/data/projects/multiecho-pilot/code/ev_files_summary.csv", index=False)
-
-print("Spreadsheet saved successfully as 'ev_files_summary.csv'.")
+            print("-" * 50)  # Separator for readability
