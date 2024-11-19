@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the base directory
-BASE_DIR="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVfiles"
+BASE_DIR="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles"
 
 # Define the list of files to be created
 FILES=(
@@ -9,6 +9,7 @@ FILES=(
 
 # Iterate through each subject directory with numeric IDs
 for SUB_DIR in "$BASE_DIR"/sub-*; do
+	echo "$SUB_DIR"
 	# Check for sp subs
 	sub_id=$(basename "$SUB_DIR")
 	if [[ "$sub_id" == *sp ]]; then
