@@ -19,7 +19,7 @@ for SUB_DIR in "$BASE_DIR"/sub-*; do
 		echo "$sub_id does not contain the 'sp' suffix."
 		acq=("mb1me1" "mb1me4" "mb3me1" "me3me4" "mb6me1" "mb6me4")
 	fi
-	for EV_DIR in "${SUB_DIR}/sharedreward/${acq[@]}"; do
+	for EV_DIR in "${SUB_DIR}/sharedreward/acq-${acq[@]}"; do
 		# Check if the directory exists
     		if [ -d "$EV_DIR" ]; then
         		# Iterate through each file
