@@ -8,9 +8,11 @@ task=sharedreward # edit if necessary
 
 for denoise in "base";do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
 	for ppi in "0"; do #"VS_thr5"; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
-		for model in 1; do
+		for model in 2 3; do
 
-			for sub in 10094 10137 10150 10221 10223 10234 10296 10438; do
+			for sub in 10094; do
+			#for sub in 10137 10150 10221 10223 10234 10296 10438; do
+			#for sub in 10094 10137 10150 10221 10223 10234 10296 10438; do
 			#for sub in `cat ${scriptdir}/sublist-complete.txt`; do # `ls -d ${basedir}/derivatives/fmriprep/sub-*/`
 
 			  sub=${sub#*sub-}
