@@ -8,7 +8,7 @@ maindir="$(dirname "$scriptdir")"
 for type in act; do # act ppi_seed-VS_thr5 nppi-ecn nppi-dmn
 	for model in 1; do
 		for denoising in base tedana; do
-			for sub in `cat ${scriptdir}/sublist-complete.txt; do
+			for sub in `cat ${scriptdir}/sublist-complete.txt`; do
 			#for sub in `cat ${scriptdir}/sublist-all.txt`; do #`ls -d ${maindir}/derivatives/fmriprep/sub-*/`; do
 			#for sub in 10303 10185 10198; do
 			#for sub in 10150; do			
