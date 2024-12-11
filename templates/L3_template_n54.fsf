@@ -273,166 +273,166 @@ set fmri(totalVoxels) 414348
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10017/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(1) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (2)
-set feat_files(2) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10024/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(2) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (3)
-set feat_files(3) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10035/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(3) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (4)
-set feat_files(4) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10041/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(4) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (5)
-set feat_files(5) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10043/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(5) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (6)
-set feat_files(6) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10054/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(6) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (7)
-set feat_files(7) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10059/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(7) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (8)
-set feat_files(8) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10069/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(8) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (9)
-set feat_files(9) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10074/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(9) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (10)
-set feat_files(10) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10078/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(10) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (11)
-set feat_files(11) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10080/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(11) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (12)
-set feat_files(12) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10085/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(12) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (13)
-set feat_files(13) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10094/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(13) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (14)
-set feat_files(14) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10108/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(14) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (15)
-set feat_files(15) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10125/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(15) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (16)
-set feat_files(16) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10130/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(16) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (17)
-set feat_files(17) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10136/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(17) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (18)
-set feat_files(18) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10137/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(18) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (19)
-set feat_files(19) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10142/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(19) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (20)
-set feat_files(20) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10150/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(20) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (21)
-set feat_files(21) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10154/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(21) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (22)
-set feat_files(22) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10166/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(22) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (23)
-set feat_files(23) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10185/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(23) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (24)
-set feat_files(24) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10186/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(24) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (25)
-set feat_files(25) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10188/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(25) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (26)
-set feat_files(26) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10203/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(26) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (27)
-set feat_files(27) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10221/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(27) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (28)
-set feat_files(28) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10223/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(28) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (29)
-set feat_files(29) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10234/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(29) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (30)
-set feat_files(30) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10296/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(30) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (31)
-set feat_files(31) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10318/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(31) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (32)
-set feat_files(32) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10319/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(32) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (33)
-set feat_files(33) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10320/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(33) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (34)
-set feat_files(34) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10321/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(34) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (35)
-set feat_files(35) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10363/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(35) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (36)
-set feat_files(36) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10382/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(36) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (37)
-set feat_files(37) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10391/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(37) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (38)
-set feat_files(38) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10416/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(38) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (39)
-set feat_files(39) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10422/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(39) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (40)
-set feat_files(40) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10438/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(40) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (41)
-set feat_files(41) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-12042/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(41) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (42)
-set feat_files(42) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10589sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(42) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10589sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (43)
-set feat_files(43) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10590sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(43) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10590sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (44)
-set feat_files(44) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10603sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(44) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10603sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (45)
-set feat_files(45) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10606sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(45) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10606sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (46)
-set feat_files(46) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10608sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(46) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10608sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (47)
-set feat_files(47) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10640sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(47) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10640sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (48)
-set feat_files(48) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10644sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(48) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10644sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (49)
-set feat_files(49) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10690sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(49) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10690sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (50)
-set feat_files(50) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10691sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(50) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10691sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (51)
-set feat_files(51) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10723sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(51) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10723sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (52)
-set feat_files(52) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10741sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(52) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10741sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (53)
-set feat_files(53) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10777sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(53) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10777sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # 4D AVW data or FEAT directory (54)
-set feat_files(54) "/ZPOOL/data/projects/rf1-mbme-pilot/derivatives/fsl/sub-10803sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
+set feat_files(54) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10803sp/L2_task-sharedreward_model-1_REPLACEME_sm-4_denoising-DENOISING.gfeat/copeCOPENUM.feat/stats/cope1.nii.gz"
 
 # Add confound EVs text file
 set fmri(confoundevs) 0
