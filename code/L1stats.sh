@@ -59,7 +59,7 @@ if [ ${denoise} == "tedana" ]; then
 fi
 
 if [ ${denoise} == "base" ]; then
-	if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" ]; then
+	if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" -o "${mbme}" == "mb3me1fa50" ]; then
 		CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_desc-confounds_acq-${acq}_desc-confounds_desc-fslConfounds.tsv
 	else
 		CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_desc-confounds_acq-${acq}_part-mag_desc-confounds_desc-fslConfounds.tsv
