@@ -20,7 +20,7 @@ for denoise in "base" "tedana";do # "base" = aCompCor confounds; "tedana" = aCom
 			  sub=${sub#*sub-}
 			  sub=${sub%/}  
 
-			  for mbme in mb1me3fa50; do
+			  for mbme in mb3me1fa50; do
 			  #for mbme in mb1me1 mb1me4 mb3me1 mb3me4 mb6me1 mb6me4 mb2me4 mb3me1fa50 mb3me3 mb3me3ip0 mb3me4fa50; do
 			  #for mbme in mb1me1 mb1me4 mb3me1 mb3me4 mb6me1 mb6me4; do
 			  #for mbme in mb1me4; do
