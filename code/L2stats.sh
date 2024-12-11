@@ -38,12 +38,22 @@ else
 	ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-ppi.fsf
 	let NCOPES=${NCOPES}+1 # add 1 since we tend to only have one extra contrast for PPI
 fi
-INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb1me1_sm-${sm}_denoising-${denoising}.feat
-INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb1me4_sm-${sm}_denoising-${denoising}.feat
-INPUT3=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me1_sm-${sm}_denoising-${denoising}.feat
-INPUT4=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me4_sm-${sm}_denoising-${denoising}.feat
-INPUT5=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb6me1_sm-${sm}_denoising-${denoising}.feat
-INPUT6=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb6me4_sm-${sm}_denoising-${denoising}.feat
+
+if [[ $sub == *sp ]]; then
+        INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb2me4_sm-${sm}_denoising-${denoising}.feat
+        INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me1fa50_sm-${sm}_denoising-${denoising}.feat
+        INPUT3=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me3_sm-${sm}_denoising-${denoising}.feat
+        INPUT4=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me3ip0_sm-${sm}_denoising-${denoising}.feat
+        INPUT5=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me4_sm-${sm}_denoising-${denoising}.feat
+        INPUT6=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me4fa50_sm-${sm}_denoising-${denoising}.feat
+else
+	INPUT1=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb1me1_sm-${sm}_denoising-${denoising}.feat
+	INPUT2=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb1me4_sm-${sm}_denoising-${denoising}.feat
+	INPUT3=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me1_sm-${sm}_denoising-${denoising}.feat
+	INPUT4=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb3me4_sm-${sm}_denoising-${denoising}.feat
+	INPUT5=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb6me1_sm-${sm}_denoising-${denoising}.feat
+	INPUT6=${MAINOUTPUT}/L1_task-${task}_model-${model}_type-${type}_acq-mb6me4_sm-${sm}_denoising-${denoising}.feat
+fi
 
 # --- end EDIT HERE end: exceptions and conditionals for the task; need to exclude bad/missing runs
 
