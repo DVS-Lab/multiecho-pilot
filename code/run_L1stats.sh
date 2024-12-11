@@ -6,20 +6,22 @@ basedir="$(dirname "$scriptdir")"
 
 task=sharedreward # edit if necessary
 
-for denoise in "base";do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
-	for ppi in "0"; do #"VS_thr5"; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
-		for model in 2 3; do
+for denoise in "base" "tedana";do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
+	for ppi in "0" "VS_thr5"; do #"VS_thr5"; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
+		for model in 1; do
 
-			for sub in 10094; do
+			#for sub in 10137 10150 10223 10234 10422 10438; do
 			#for sub in 10137 10150 10221 10223 10234 10296 10438; do
 			#for sub in 10094 10137 10150 10221 10223 10234 10296 10438; do
+			#for sub in 10137; do
 			#for sub in `cat ${scriptdir}/sublist-complete.txt`; do # `ls -d ${basedir}/derivatives/fmriprep/sub-*/`
+			for sub in 10589sp 10590sp 10603sp 10606sp 10608sp 10640sp 10644sp 10690sp 10691sp 10723sp 10741sp 10777sp 10803sp; do
 
 			  sub=${sub#*sub-}
 			  sub=${sub%/}  
 
-			  for mbme in mb1me1; do
-			  #for mbme in mb1me1 mb1me4 mb3me1 mb3me4 mb6me1 mb6me4 mb2me4 mb3me1fa50 mb3me3 mb3me3ip0 mb3me4 mb3me4fa50; do
+			  for mbme in mb1me3fa50; do
+			  #for mbme in mb1me1 mb1me4 mb3me1 mb3me4 mb6me1 mb6me4 mb2me4 mb3me1fa50 mb3me3 mb3me3ip0 mb3me4fa50; do
 			  #for mbme in mb1me1 mb1me4 mb3me1 mb3me4 mb6me1 mb6me4; do
 			  #for mbme in mb1me4; do
 			  # for mb in 1 3 6; do
@@ -27,7 +29,7 @@ for denoise in "base";do # "base" = aCompCor confounds; "tedana" = aCompCor + te
 
 			  	# Manages the number of jobs and cores
 			  	SCRIPTNAME=${basedir}/code/L1stats.sh
-			  	NCORES=25
+			  	NCORES=15
 			  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 			    		sleep 5s
 			  	done
