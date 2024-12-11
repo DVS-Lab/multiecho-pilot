@@ -18,13 +18,15 @@ MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 NCOPES=16
 
 # ppi has more contrasts than act (phys), so need a different L2 template
-if [ "${type}" == "act" ] &&  ([ "${model}" == "2" ] || [ "${model}" == "3" ]); then
-	if [ ${sub} -eq 10303 ]; then
-		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10303.fsf
-	elif [ ${sub} -eq 10185 ]; then
-		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10185.fsf
-	elif [ ${sub} -eq 10198 ]; then
-		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10198.fsf
+if [ "${type}" == "act" ]; then
+	if [ ${sub} -eq 10084 ]; then
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10084.fsf
+	elif [ ${sub} -eq 10094 ]; then
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10094.fsf
+	elif [ ${sub} -eq 10438 ]; then
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10438.fsf
+	elif [ ${sub} -eq 10741sp ]; then
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10741sp.fsf
 	else
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act.fsf
 	fi	
@@ -68,30 +70,8 @@ else
 
 
 	# set output template and run template-specific analyses
-	#for sub-10303, run mb3me4 not collected
-	if [ ${sub} -eq 10303 ]; then
-		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
-		sed -e 's@OUTPUT@'$OUTPUT'@g' \
-		-e 's@INPUT1@'$INPUT1'@g' \
-		-e 's@INPUT2@'$INPUT2'@g' \
-		-e 's@INPUT3@'$INPUT3'@g' \
-		-e 's@INPUT5@'$INPUT5'@g' \
-		-e 's@INPUT6@'$INPUT6'@g' \
-		<$ITEMPLATE> $OTEMPLATE
-		feat $OTEMPLATE
-	#for sub-10185, run mb6me4 had no left button responses
-	elif [ ${sub} -eq 10185 ]; then
-		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
-		sed -e 's@OUTPUT@'$OUTPUT'@g' \
-		-e 's@INPUT1@'$INPUT1'@g' \
-		-e 's@INPUT2@'$INPUT2'@g' \
-		-e 's@INPUT3@'$INPUT3'@g' \
-		-e 's@INPUT4@'$INPUT4'@g' \
-		-e 's@INPUT5@'$INPUT5'@g' \
-		<$ITEMPLATE> $OTEMPLATE
-		feat $OTEMPLATE
-	#for sub-10198, run mb1me1 not collected
-	elif [ ${sub} -eq 10198 ]; then
+	#for sub-10085 & 10438, run mb1me1 not motion outlier
+	if [ ${sub} -eq 10085 ] || [ ${sub} -eq 10438 ]; then
 		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
 		sed -e 's@OUTPUT@'$OUTPUT'@g' \
 		-e 's@INPUT2@'$INPUT2'@g' \
@@ -99,6 +79,24 @@ else
 		-e 's@INPUT4@'$INPUT4'@g' \
 		-e 's@INPUT5@'$INPUT5'@g' \
 		-e 's@INPUT6@'$INPUT6'@g' \
+		<$ITEMPLATE> $OTEMPLATE
+		feat $OTEMPLATE
+	#for sub-10094, run mb1me1, mb3me1, mb3me4, mb6me4 motion outliers
+	elif [ ${sub} -eq 10094 ]; then
+		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
+		sed -e 's@OUTPUT@'$OUTPUT'@g' \
+		-e 's@INPUT1@'$INPUT1'@g' \
+		-e 's@INPUT2@'$INPUT2'@g' \
+		<$ITEMPLATE> $OTEMPLATE
+		feat $OTEMPLATE
+	#for sub-10743sp, run mb2me4 & mb3me1fa50 motion outliers
+	elif [ ${sub} -eq 10741sp ]; then
+		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
+		sed -e 's@OUTPUT@'$OUTPUT'@g' \
+		-e 's@INPUT1@'$INPUT1'@g' \
+		-e 's@INPUT2@'$INPUT2'@g' \
+		-e 's@INPUT3@'$INPUT3'@g' \
+		-e 's@INPUT4@'$INPUT4'@g' \
 		<$ITEMPLATE> $OTEMPLATE
 		feat $OTEMPLATE
 	else
