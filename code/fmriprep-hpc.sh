@@ -5,8 +5,6 @@
 #PBS -l nodes=1:ppn=28
 
 # load modules and go to workdir
-module load fsl/6.0.2
-source $FSLDIR/etc/fslconf/fsl.sh
 module load singularity
 cd $PBS_O_WORKDIR
 
@@ -43,10 +41,10 @@ for sub in ${subjects[@]}; do
 	echo singularity run --cleanenv \
 -B ${TEMPLATEFLOW_DIR}:/opt/templateflow \
 -B $maindir:/base \
--B /ZPOOL/data/tools/licenses:/opts \
+-B ~/work/tools/licenses:/opts \
 -B $scratchdir:/scratch \
 -B /mnt \
-/ZPOOL/data/tools/fmriprep-24.1.1.simg \
+~/work/tools/fmriprep-24.1.1.simg \
 /base/bids /base/derivatives/fmriprep \
 participant --participant_label $sub \
 --stop-on-first-crash \
