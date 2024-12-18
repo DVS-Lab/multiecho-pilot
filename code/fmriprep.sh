@@ -25,13 +25,13 @@ fi
 
 TEMPLATEFLOW_DIR=/ZPOOL/data/tools/templateflow
 export APPTAINERENV_TEMPLATEFLOW_HOME=/opt/templateflow
-/ZPOOL/data/tools/apptainer/bin/singularity run --cleanenv \
+singularity run --cleanenv \
 -B ${TEMPLATEFLOW_DIR}:/opt/templateflow \
 -B $maindir:/base \
 -B /ZPOOL/data/tools/licenses:/opts \
 -B $scratchdir:/scratch \
 -B /mnt \
-/ZPOOL/data/tools/fmriprep-23.2.1.simg \
+/ZPOOL/data/tools/fmriprep-24.1.1.simg \
 /base/bids /base/derivatives/fmriprep \
 participant --participant_label $sub \
 --stop-on-first-crash \
