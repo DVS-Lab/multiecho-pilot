@@ -32,16 +32,17 @@ mkdir -p $MAINOUTPUT
 
 # Loop through subjects and acquisitions
 for sub in ${subjects[@]}; do
+
+    if [[ "$mbme" == "mb1me1" || "$mbme" == "mb3me1" || "$mbme" == "mb6me1" || "$mbme" == "mb3me1fa50" ]]; then
+        DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+    else
+        DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+    fi
+
     for mbme in "${acqs[@]}"; do
         # Set inputs and general outputs
         MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
         mkdir -p $MAINOUTPUT
-
-        if [[ "$mbme" == "mb1me1" || "$mbme" == "mb3me1" || "$mbme" == "mb6me1" || "$mbme" == "mb3me1fa50" ]]; then
-            DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
-        else
-            DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
-        fi
 
         # Check if data exists
         if [ ! -e $DATA ]; then
