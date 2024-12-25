@@ -19,13 +19,12 @@ for sub in `cat ${scriptdir}/sublist-complete.txt`; do # `ls -d ${basedir}/deriv
 	for mbme in "${acqs[@]}"; do
 	
 	  	# Manages the number of jobs and cores
-	  	SCRIPTNAME=${basedir}/code/run_smooth-3dBlurToFWHM.sh
+	  	SCRIPTNAME=${basedir}/code/smooth-3dBlurToFWHM.sh
 	  	NCORES=15
 	  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 	    		sleep 5s
 	  	done
 	  	bash $SCRIPTNAME $sub $mbme &
-		echo $SCRIPTNAME $sub $mbme &
 		sleep 1s
 	done
 done

@@ -29,5 +29,6 @@ if [ ! -e $INDATA ]; then
 	exit
 fi
 
+rm -rf $OUTDATA
 3dBlurToFWHM -FWHM $sm -input $INDATA -prefix $OUTDATA -mask $MASK
 
