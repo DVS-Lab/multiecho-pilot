@@ -137,9 +137,10 @@ feat $OTEMPLATE
 # extract smoothness and tSNR
 fslmaths ${OUTPUT}.feat/filtered_func_data.nii.gz -Tmean ${OUTPUT}.feat/func_mean
 fslmaths ${OUTPUT}.feat/filtered_func_data.nii.gz -Tstd ${OUTPUT}.feat/func_std
-fslamths ${OUTPUT}.feat/func_mean -div ${OUTPUT}.feat/func_std ${OUTPUT}.feat/tsnr
- 
-3dFWHMx -geom -mask ${OUTPUT}.feat/mask.nii.gz -input ${OUTPUT}.feat/stats/res4d.nii.gz -ShowMeClassicFWHM -out ${OUTPUT}.feat/smoothness.txt
+fslmaths ${OUTPUT}.feat/func_mean -div ${OUTPUT}.feat/func_std ${OUTPUT}.feat/tsnr
+
+rm -rf ${OUTPUT}.feat/3dFWHMx.1D ${OUTPUT}.feat/3dFWHMx.1D.png
+3dFWHMx -geom -mask ${OUTPUT}.feat/mask.nii.gz -input ${OUTPUT}.feat/stats/res4d.nii.gz -ShowMeClassicFWHM > ${OUTPUT}.feat/smoothness.txt
 
 
 # delete unused files
