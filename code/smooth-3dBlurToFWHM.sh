@@ -29,6 +29,12 @@ if [ ! -e $INDATA ]; then
 	exit
 fi
 
-rm -rf $OUTDATA
-3dBlurToFWHM -FWHM $sm -input $INDATA -prefix $OUTDATA -mask $MASK
+#only run if we're missing output
+if [ -e $OUTDATA ]; then
+	exit
+else
+	3dBlurToFWHM -FWHM $sm -input $INDATA -prefix $OUTDATA -mask $MASK
+fi
 
+# not yet sure how to suppress or control this output, but it conflicts with other processes (no overwrite)
+rm -rf ${scriptdir}/3dFWHMx.1D ${scriptdir}/3dFWHMx.1D.png

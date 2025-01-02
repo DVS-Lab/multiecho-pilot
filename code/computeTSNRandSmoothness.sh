@@ -9,10 +9,12 @@ istartdatadir=/ZPOOL/data/projects/multiecho-pilot #need to fix this upon releas
 # study-specific inputs
 TASK=sharedreward
 sm=0
-model=$1
-sub=$2
-mbme=$3
+model=1 #probably will need to adjust this for some subjects with missing EVs
+sub=$1
+mbme=$2
 acq=${mbme}
+ppi=0
+denoise=base
 
 
 # set inputs and general outputs (should not need to chage across studies in Smith Lab)
@@ -26,27 +28,21 @@ else
 fi
 
 if [ ! -e $DATA ]; then
-	echo ${sub} ${acq} "No data"
+	echo "NO DATA: ${sub} ${acq}"
 	exit
 fi
 
-#Handling different inputs for multi vs single echos
-#if [ $me -gt 1 ];then
-#echo "multiple echos"
-#	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_desc-optcom-dewarped_bold.nii.gz
-#else
-#echo "single echo"
-#	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin2009cAsym_desc-preproc_bold.nii.gz
-#fi
 
 NVOLUMES=`fslnvols $DATA`
 #OUR DATA won't have all the same TR
 TR_INFO=`fslval $DATA pixdim4`
 
-if [ ${denoise} == "tedana" ]; then
-	CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds_tedana/sub-${sub}/sub-${sub}_task-${TASK}_acq-${acq}_desc-TedanaPlusConfounds.tsv
-	echo ${denoise}
-	echo ${CONFOUNDEVS}
+if [ ${denoise} == "base" ]; then
+	if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" -o "${mbme}" == "mb3me1fa50" ]; then
+	    CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${mbme}_desc-confounds_acq-${mbme}_desc-confounds_desc-fslConfounds.tsv
+	else
+	    CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${mbme}_part-mag_desc-confounds_acq-${mbme}_part-mag_desc-confounds_desc-fslConfounds.tsv
+	fi	
 fi
 
 
@@ -141,6 +137,9 @@ fslmaths ${OUTPUT}.feat/func_mean -div ${OUTPUT}.feat/func_std ${OUTPUT}.feat/ts
 
 rm -rf ${OUTPUT}.feat/3dFWHMx.1D ${OUTPUT}.feat/3dFWHMx.1D.png
 3dFWHMx -geom -mask ${OUTPUT}.feat/mask.nii.gz -input ${OUTPUT}.feat/stats/res4d.nii.gz -ShowMeClassicFWHM > ${OUTPUT}.feat/smoothness.txt
+
+# not yet sure how to suppress or control this output, but it conflicts with other processes (no overwrite)
+rm -rf ${scriptdir}/3dFWHMx.1D ${scriptdir}/3dFWHMx.1D.png
 
 
 # delete unused files

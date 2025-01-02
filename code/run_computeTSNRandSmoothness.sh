@@ -19,7 +19,7 @@ for sub in `cat ${scriptdir}/sublist-all.txt`; do # `ls -d ${basedir}/derivative
 	for mbme in "${acqs[@]}"; do
 	
 	  	# Manages the number of jobs and cores
-	  	SCRIPTNAME=${basedir}/code/smooth-3dBlurToFWHM.sh
+	  	SCRIPTNAME=${basedir}/code/computeTSNRandSmoothness.sh
 	  	NCORES=15
 	  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 	    		sleep 5s
