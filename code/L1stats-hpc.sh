@@ -16,6 +16,8 @@ bidsdir=$istartdatadir/bids
 logdir=$istartdatadir/logs
 mkdir -p $logdir
 
+rm $scriptdir/L1stats-trust-all.*
+
 rm -f $logdir/cmd_feat_${PBS_JOBID}.txt
 touch $logdir/cmd_feat_${PBS_JOBID}.txt
 
@@ -23,8 +25,8 @@ touch $logdir/cmd_feat_${PBS_JOBID}.txt
 TASK=sharedreward
 sm=4
 model=1
-ppi=0 # 0 for activation, otherwise seed region or network
-denoise=base
+ppi="0" # 0 for activation, otherwise seed region or network
+denoise="base"
 
 # set inputs and general outputs (should not need to chage across studies in Smith Lab)
 MAINOUTPUT=${istartdatadir}/derivatives/fsl/sub-${sub}
@@ -32,27 +34,35 @@ mkdir -p $MAINOUTPUT
 
 # Loop through subjects and acquisitions
 for sub in ${subjects[@]}; do
-
-    if [[ "$mbme" == "mb1me1" || "$mbme" == "mb3me1" || "$mbme" == "mb6me1" || "$mbme" == "mb3me1fa50" ]]; then
-        DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+    if [[ $sub == *sp ]]; then
+        acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3fa50" "mb3me4" "mb3me4fa50" "mb3me3ip0")
     else
-        DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+        acqs=("mb1me1" "mb1me4" "mb3me1" "mb3me4" "mb6me1" "mb6me4")
     fi
 
     for mbme in "${acqs[@]}"; do
         # Set inputs and general outputs
-        MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
+        MAINOUTPUT=${istartdatadir}/derivatives/fsl/sub-${sub}
         mkdir -p $MAINOUTPUT
+
+        if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" -o "$mbme" == "mb3me1fa50" ]; then
+            DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+        else
+            DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${mbme}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
+        fi
 
         # Check if data exists
         if [ ! -e $DATA ]; then
             echo "${sub} ${mbme} No data"
-            exit
+            continue
         fi
 
-        NVOLUMES=`fslnvols $DATA`
+        NVOLUMES=$(fslnvols $DATA)
         #OUR DATA won't have all the same TR
-        TR_INFO=`fslval $DATA pixdim4`
+        TR_INFO=$(fslval $DATA pixdim4)
+
+        #NVOLUMES=274
+        #TR_INFO=1.615000
 
         if [ ${denoise} == "tedana" ]; then
             CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds_tedana/sub-${sub}/sub-${sub}_task-${TASK}_acq-${mbme}_desc-TedanaPlusConfounds.tsv
@@ -65,22 +75,22 @@ for sub in ${subjects[@]}; do
                 CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${mbme}_desc-confounds_acq-${mbme}_desc-confounds_desc-fslConfounds.tsv
             else
                 CONFOUNDEVS=${istartdatadir}/derivatives/fsl/confounds/sub-${sub}/sub-${sub}_task-${TASK}_acq-${mbme}_part-mag_desc-confounds_acq-${mbme}_part-mag_desc-confounds_desc-fslConfounds.tsv
-            fi	
+            fi
             echo ${denoise}
             echo ${CONFOUNDEVS}
         fi
 
         if [ ! -e $CONFOUNDEVS ]; then
             echo ${sub} ${mbme} "missing confounds"
-            echo "missing confounds: $CONFOUNDEVS " >> ${istartdatadir}/re-runL1.log
-            exit # exiting to ensure nothing gets run without confounds
+            echo "missing confounds: $CONFOUNDEVS $NVOLUMES $TR_INFO" >> ${istartdatadir}/re-runL1.log
+            continue # exiting to ensure nothing gets run without confounds
         fi
 
         EVDIR=${istartdatadir}/derivatives/fsl/EVFiles/sub-${sub}/${TASK}/acq-${mbme} #
         if [ ! -e $EVDIR ]; then
             echo ${sub} ${mbme} "EVDIR missing"
             echo "missing events files: $EVDIR " >> ${istartdatadir}/re-runL1.log
-            exit # exiting to ensure nothing gets run without confounds
+            continue # exiting to ensure nothing gets run without confounds
         fi
 
         # empty EVs (specific to this study)
@@ -97,24 +107,28 @@ for sub in ${subjects[@]}; do
         else
             SHAPE_MISSED_OUTCOME=10
         fi
+
         LB_comp=${EVDIR}/_guess_leftButton_computer.txt
         if [ -e $LB_comp ]; then
             SHAPE_LB_comp=3
         else
             SHAPE_LB_comp=10
         fi
+
         RB_comp=${EVDIR}/_guess_rightButton_computer.txt
         if [ -e $RB_comp ]; then
             SHAPE_RB_comp=3
         else
             SHAPE_RB_comp=10
         fi
+
         LB_face=${EVDIR}/_guess_leftButton_face.txt
         if [ -e $LB_face ]; then
             SHAPE_LB_face=3
         else
             SHAPE_LB_face=10
         fi
+
         RB_face=${EVDIR}/_guess_rightButton_face.txt
         if [ -e $RB_face ]; then
             SHAPE_RB_face=3
@@ -127,7 +141,7 @@ for sub in ${subjects[@]}; do
             # check for output and skip existing
             OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-nppi-${ppi}_acq-${mbme}_sm-${sm}_denoising-${denoise}
             if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
-                echo "${OUTPUT} already exists, skipping to next sub"		
+                echo "${OUTPUT} already exists, skipping to next sub"
                 exit
             else
                 echo "missing feat output: $OUTPUT " >> ${istartdatadir}/re-runL1.log
@@ -140,6 +154,7 @@ for sub in ${subjects[@]}; do
                 echo "cannot run nPPI because you're missing $MASK"
                 exit
             fi
+
             for net in `seq 0 9`; do
                 NET=${istartdatadir}/masks/nan_rPNAS_2mm_net000${net}.nii.gz
                 TSFILE=${MAINOUTPUT}/ts_task-${TASK}_net000${net}_nppi-${ppi}_acq-${mbme}.txt
@@ -162,26 +177,25 @@ for sub in ${subjects[@]}; do
             ITEMPLATE=${istartdatadir}/templates/L1_task-${TASK}_model-${model}_type-nppi.fsf
             OTEMPLATE=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_seed-${ppi}_acq-${mbme}.fsf
             sed -e 's@OUTPUT@'$OUTPUT'@g' \
-            -e 's@DATA@'$DATA'@g' \
-            -e 's@EVDIR@'$EVDIR'@g' \
-            -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
-            -e 's@SHAPE_MISSED_OUTCOME@'$SHAPE_MISSED_OUTCOME'@g' \
-            -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
-            -e 's@MAINNET@'$MAINNET'@g' \
-            -e 's@OTHERNET@'$OTHERNET'@g' \
-            -e 's@INPUT0@'$INPUT0'@g' \
-            -e 's@INPUT1@'$INPUT1'@g' \
-            -e 's@INPUT2@'$INPUT2'@g' \
-            -e 's@INPUT4@'$INPUT4'@g' \
-            -e 's@INPUT5@'$INPUT5'@g' \
-            -e 's@INPUT6@'$INPUT6'@g' \
-            -e 's@INPUT8@'$INPUT8'@g' \
-            -e 's@INPUT9@'$INPUT9'@g' \
-            -e 's@NVOLUMES@'$NVOLUMES'@g' \
-            -e 's@TR_INFO@'"$TR_INFO"'@g' \
-            <$ITEMPLATE> $OTEMPLATE
+                -e 's@DATA@'$DATA'@g' \
+                -e 's@EVDIR@'$EVDIR'@g' \
+                -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
+                -e 's@SHAPE_MISSED_OUTCOME@'$SHAPE_MISSED_OUTCOME'@g' \
+                -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
+                -e 's@MAINNET@'$MAINNET'@g' \
+                -e 's@OTHERNET@'$OTHERNET'@g' \
+                -e 's@INPUT0@'$INPUT0'@g' \
+                -e 's@INPUT1@'$INPUT1'@g' \
+                -e 's@INPUT2@'$INPUT2'@g' \
+                -e 's@INPUT4@'$INPUT4'@g' \
+                -e 's@INPUT5@'$INPUT5'@g' \
+                -e 's@INPUT6@'$INPUT6'@g' \
+                -e 's@INPUT8@'$INPUT8'@g' \
+                -e 's@INPUT9@'$INPUT9'@g' \
+                -e 's@NVOLUMES@'$NVOLUMES'@g' \
+                -e 's@TR_INFO@'"$TR_INFO"'@g' \
+                <$ITEMPLATE> $OTEMPLATE
             feat $OTEMPLATE
-
         else # otherwise, do activation and seed-based ppi
             # set output based in whether it is activation or ppi
             if [ "$ppi" == "0" ]; then
@@ -197,41 +211,39 @@ for sub in ${subjects[@]}; do
             # create template and run analyses
             ITEMPLATE=${istartdatadir}/templates/L1_task-${TASK}_model-${model}_type-${TYPE}.fsf
             if [ "$ppi" == "0" ]; then
-                echo $OUTPUT
                 sed -e 's@OUTPUT@'$OUTPUT'@g' \
-                -e 's@DATA@'$DATA'@g' \
-                -e 's@EVDIR@'$EVDIR'@g' \
-                -e 's@SMOOTH@'$sm'@g' \
-                -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
-                -e 's@NVOLUMES@'$NVOLUMES'@g' \
-                -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
-                -e 's@SHAPE_MISSED_OUTCOME@'$SHAPE_MISSED_OUTCOME'@g' \
-                -e 's@TR_INFO@'"$TR_INFO"'@g' \
-                <$ITEMPLATE> $OTEMPLATE
+                    -e 's@DATA@'$DATA'@g' \
+                    -e 's@EVDIR@'$EVDIR'@g' \
+                    -e 's@SMOOTH@'$sm'@g' \
+                    -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
+                    -e 's@NVOLUMES@'$NVOLUMES'@g' \
+                    -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
+                    -e 's@SHAPE_MISSED_OUTCOME@'$SHAPE_MISSED_OUTCOME'@g' \
+                    -e 's@TR_INFO@'"$TR_INFO"'@g' \
+                    <$ITEMPLATE> $OTEMPLATE
             else
                 PHYS=${MAINOUTPUT}/ts_task-${TASK}_mask-${ppi}_acq-${mbme}.txt
                 MASK=${istartdatadir}/masks/seed-${ppi}.nii.gz
                 fslmeants -i $DATA -o $PHYS -m $MASK
                 sed -e 's@OUTPUT@'$OUTPUT'@g' \
-                -e 's@DATA@'$DATA'@g' \
-                -e 's@EVDIR@'$EVDIR'@g' \
-                -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
-                -e 's@SHAPE_MISSED_OUTCOME@'"$SHAPE_MISSED_OUTCOME"'@g' \
-                -e 's@SHAPE_LB_comp@'$SHAPE_LB_comp'@g' \
-                -e 's@SHAPE_RB_comp@'$SHAPE_RB_comp'@g' \
-                -e 's@SHAPE_LB_face@'$SHAPE_LB_face'@g' \
-                -e 's@SHAPE_RB_face@'$SHAPE_RB_face'@g' \
-                -e 's@PHYS@'$PHYS'@g' \
-                -e 's@_SMOOTH_@'$sm'@g' \
-                -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
-                -e 's@NVOLUMES@'$NVOLUMES'@g' \
-                -e 's@TR_INFO@'"$TR_INFO"'@g' \
-                <$ITEMPLATE> $OTEMPLATE
+                    -e 's@DATA@'$DATA'@g' \
+                    -e 's@EVDIR@'$EVDIR'@g' \
+                    -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
+                    -e 's@SHAPE_MISSED_OUTCOME@'"$SHAPE_MISSED_OUTCOME"'@g' \
+                    -e 's@SHAPE_LB_comp@'$SHAPE_LB_comp'@g' \
+                    -e 's@SHAPE_RB_comp@'$SHAPE_RB_comp'@g' \
+                    -e 's@SHAPE_LB_face@'$SHAPE_LB_face'@g' \
+                    -e 's@SHAPE_RB_face@'$SHAPE_RB_face'@g' \
+                    -e 's@PHYS@'$PHYS'@g' \
+                    -e 's@_SMOOTH_@'$sm'@g' \
+                    -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
+                    -e 's@NVOLUMES@'$NVOLUMES'@g' \
+                    -e 's@TR_INFO@'"$TR_INFO"'@g' \
+                    <$ITEMPLATE> $OTEMPLATE
             fi
         fi
 
         echo "feat $OTEMPLATE" >> $logdir/cmd_feat_${PBS_JOBID}.txt
-
     done
 done
 
