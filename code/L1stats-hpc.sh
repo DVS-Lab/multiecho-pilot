@@ -10,7 +10,7 @@
 cd $PBS_O_WORKDIR
 
 # ensure paths are correct
-istartdatadir=/home/tun31934/work/multiecho-pilot # Adjust this path as needed
+istartdatadir=/gpfs/scratch/tug87422/smithlab-shared/multiecho-pilot # Adjust this path as needed
 scriptdir=$istartdatadir/code
 bidsdir=$istartdatadir/bids
 logdir=$istartdatadir/logs
