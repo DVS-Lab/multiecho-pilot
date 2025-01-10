@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ensure paths are correct
-maindir=~/work/multiecho-pilot # This should be the only line that has to change if the rest of the script is set up correctly
+maindir=/gpfs/scratch/tug87422/smithlab-shared/multiecho-pilot # This should be the only line that has to change if the rest of the script is set up correctly
 scriptdir=$maindir/code
 # Load the array from sublist-all.txt
 mapfile -t myArray < ${scriptdir}/sublist-final.txt
