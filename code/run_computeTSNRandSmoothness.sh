@@ -20,7 +20,7 @@ for sub in `cat ${scriptdir}/sublist-all.txt`; do # `ls -d ${basedir}/derivative
 	
 	  	# Manages the number of jobs and cores
 	  	SCRIPTNAME=${basedir}/code/computeTSNRandSmoothness.sh
-	  	NCORES=15
+	  	NCORES=25
 	  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 	    		sleep 5s
 	  	done
