@@ -8,7 +8,7 @@ istartdatadir=/ZPOOL/data/projects/multiecho-pilot #need to fix this upon releas
 
 # study-specific inputs
 TASK=sharedreward
-sm=4
+sm=5
 sub=$1
 mbme=$2
 acq=${mbme}
