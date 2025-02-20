@@ -21,7 +21,7 @@ denoise=base
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 mkdir -p $MAINOUTPUT
 
-if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" -o "$mbme" == "mb3me1fa50" ]; then
+if [ "$mbme" == "mb1me1" -o "$mbme" == "mb1me4" -o "$mbme" == "mb3me1" -o "$mbme" == "mb3me4" -o "$mbme" == "mb6me1" -o "$mbme" == "mb6me4" -o "$mbme" == "mb3me1fa50" -o "$mbme" == "mb3me3ip0" -o "$mbme" == "mb3me3fa50" -o "$mbme" == "mb3me4fa50" ]; then
 	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin6Asym_desc-preproc_bold_4mm.nii.gz
 else
 	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold_4mm.nii.gz
