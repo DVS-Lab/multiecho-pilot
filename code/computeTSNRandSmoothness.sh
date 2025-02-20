@@ -28,7 +28,7 @@ else
 fi
 
 if [ ! -e $DATA ]; then
-	echo "NO DATA: ${sub} ${acq}"
+	echo "NO DATA: ${DATA}"
 	exit
 fi
 
