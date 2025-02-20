@@ -25,7 +25,7 @@ else
 fi
 
 if [ ! -e $INDATA ]; then
-	echo "NO DATA: ${DATA}"
+	echo "NO DATA: ${INDATA}"
 	exit
 fi
 
