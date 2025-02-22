@@ -106,7 +106,7 @@ fi
 # set output based in whether it is activation or ppi
 if [ "$ppi" == "0" ]; then
 	TYPE=act
-	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}
+	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_EstimateSmoothing
 	OTEMPLATE=${MAINOUTPUT}/tSNRandSmoothness_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}.fsf
 fi
 
