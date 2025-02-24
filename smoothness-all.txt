@@ -1,1700 +1,1654 @@
 ::::::::::::::
-sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.02634  4.1579  3.24046     3.44191
- 0.968024  1.82894  15.187    4.17068
+ 6.25638  6.45824  6.22789     6.31334
+ 0.751547  3.52694  9.39662    8.8224
 ::::::::::::::
-sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.00399  4.13751  3.05976     3.36286
- 0.965926  1.97866  18.7983    4.58296
+ 6.43477  6.59581  6.24093     6.4222
+ 0.791129  3.67306  11.9576    9.25681
 ::::::::::::::
-sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.95521  4.09369  3.02824     3.32122
- 0.964879  1.97542  18.8305    4.5778
+ 6.50392  6.53979  6.30987     6.4504
+ 0.785134  3.72624  11.8933    9.39193
 ::::::::::::::
-sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.07066  2.81424  3.18901     3.02053
- 0.954353  1.8214  13.4385    4.19007
+ 6.95675  7.07564  6.74264     6.92363
+ 0.700188  3.83829  11.3205    9.87312
 ::::::::::::::
-sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.36299  3.6265  3.44254     3.4756
- 0.952785  2.05673  18.7528    4.85492
+ 7.26993  7.20556  6.53595     6.99577
+ 0.726961  3.76031  10.0935    9.47101
 ::::::::::::::
-sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94009  2.64472  3.04622     2.87188
- 0.977304  1.77056  12.3014    3.99259
+ 6.57916  6.68543  6.38048     6.54713
+ 0.802993  3.78835  11.4763    9.44548
 ::::::::::::::
-sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.19975  3.44269  3.33069     3.32289
- 0.966737  1.97665  16.879    4.57004
+ 6.74646  6.64317  6.33761     6.57343
+ 0.770042  3.74737  10.8609    9.40326
 ::::::::::::::
-sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.80043  2.51044  2.94493     2.74589
- 0.924954  1.77467  0.124199    3.80331
+ 6.38054  6.47049  6.21671     6.35504
+ 0.872583  3.76685  11.584    9.202
 ::::::::::::::
-sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.97774  3.25104  3.1396     3.12077
- 0.993084  1.89937  15.0606    4.27086
+ 6.42495  6.38137  6.16162     6.32159
+ 0.882785  3.72824  11.2391    9.0725
 ::::::::::::::
-sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.79508  2.83008  3.19827     2.93564
- 0.970631  1.78525  12.2264    4.04733
+ 6.63955  6.63725  6.49695     6.59091
+ 0.731881  3.80274  12.2253    9.77769
 ::::::::::::::
-sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.99615  3.52202  3.35822     3.28464
- 0.970569  1.96497  16.072    4.52272
+ 6.61693  6.34086  6.24353     6.3985
+ 0.76573  3.67836  11.6382    9.32967
 ::::::::::::::
-sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.682  2.73545  3.12878     2.84198
- 0.984574  1.76576  11.5872    3.95921
+ 6.48869  6.47726  6.36169     6.44229
+ 0.793468  3.82748  11.3484    9.55202
 ::::::::::::::
-sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.85813  3.41461  3.26831     3.17138
- 0.981401  1.91516  15.0139    4.34997
+ 6.41739  6.27367  6.16269     6.28372
+ 0.804703  3.70996  10.7514    9.21363
 ::::::::::::::
-sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.56996  2.65568  3.04498     2.74934
- 0.92064  1.78634  0.117566    3.81979
+ 6.36204  6.29012  6.15197     6.26743
+ 0.869327  3.76805  12.1072    9.23517
 ::::::::::::::
-sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.73064  3.32199  3.20907     3.0762
- 0.993981  1.88478  0.828095    4.1983
+ 6.35442  6.23665  6.12691     6.23864
+ 0.89076  3.75583  11.4698    9.12308
 ::::::::::::::
-sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.01634  2.59282  3.27678     2.94826
- 0.958678  1.76747  12.0267    4.0388
+ 6.99055  6.94623  6.56154     6.83002
+ 0.720241  3.70595  12.22    9.60479
 ::::::::::::::
-sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.20149  3.38989  3.48494     3.35669
- 0.962488  2.01518  16.6719    4.6932
+ 6.99643  6.90634  6.34258     6.74212
+ 0.763066  3.7618  12.8139    9.61676
 ::::::::::::::
-sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.11385  3.27685  3.43743     3.27338
- 0.977454  1.97901  15.685    4.53727
+ 6.67869  6.61545  6.24857     6.51144
+ 0.816186  3.71626  12.7234    9.31599
 ::::::::::::::
-sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.90213  3.11139  3.41417     3.13559
- 0.993993  1.9481  0.310932    4.36154
+ 6.39964  6.37705  6.10466     6.29234
+ 0.89614  3.74837  13.3122    9.14587
 ::::::::::::::
-sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0464  2.85981  3.05155     2.98457
- 0.987499  1.81852  13.3269    4.08099
+ 6.63131  6.47313  6.33225     6.47775
+ 0.787427  3.6946  9.7911    9.14438
 ::::::::::::::
-sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.37726  3.68273  3.30849     3.4524
- 0.971787  2.0413  18.697    4.73819
+ 6.94714  6.23712  6.39845     6.52061
+ 0.747247  3.61892  9.83409    9.08258
 ::::::::::::::
-sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94244  2.75054  2.94416     2.87759
- 0.976073  1.79413  0.14571    3.93852
+ 6.43156  6.33179  6.20367     6.32165
+ 0.866843  3.72312  11.5473    9.11661
 ::::::::::::::
-sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.14624  3.49927  3.07511     3.23502
- 0.990984  1.93472  16.7207    4.37208
+ 6.46956  6.22428  6.13742     6.27552
+ 0.835708  3.67416  10.6866    9.04595
 ::::::::::::::
-sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.82715  2.69055  2.87427     2.79623
- 0.989543  1.73853  0.135607    3.83516
+ 6.34909  6.25839  6.16767     6.25794
+ 0.888187  3.73025  11.6618    9.07806
 ::::::::::::::
-sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94574  3.36515  2.97352     3.08904
- 0.993982  1.88022  1.02038    4.188
+ 6.24481  6.07812  6.05091     6.12402
+ 0.92067  3.68568  13.2065    8.92027
 ::::::::::::::
-sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.9807  2.85442  3.29485     3.03778
- 0.959022  1.83627  13.1645    4.21208
+ 6.93552  6.71662  6.66989     6.77303
+ 0.692384  3.81326  11.6399    9.88556
 ::::::::::::::
-sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.3319  3.70581  3.62458     3.5504
- 0.929759  2.09052  18.9332    5.04706
+ 7.2503  6.8335  6.81198     6.96238
+ 0.651711  3.85741  11.6332    10.1377
 ::::::::::::::
-sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88607  2.78005  3.17898     2.94363
- 0.973166  1.80233  12.5395    4.08241
+ 6.71517  6.55372  6.427     6.56424
+ 0.758164  3.78489  10.83    9.51739
 ::::::::::::::
-sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08088  3.6007  3.56099     3.40573
- 0.954154  2.0371  17.1249    4.78783
+ 6.77382  6.60508  6.43918     6.60462
+ 0.744172  3.77438  11.6328    9.61447
 ::::::::::::::
-sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.76714  2.68849  3.07157     2.8377
- 0.986906  1.75824  11.6778    3.93498
+ 6.51148  6.38827  6.21881     6.37172
+ 0.836348  3.74326  11.3597    9.23923
 ::::::::::::::
-sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.77142  3.33564  3.21138     3.09641
- 0.993996  1.90164  14.4589    4.27365
+ 6.26427  6.17104  5.99907     6.14381
+ 0.886936  3.67127  12.3739    8.96923
 ::::::::::::::
-sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08752  2.8521  3.35703     3.09203
- 0.966852  1.88482  13.61    4.31395
+ 6.82932  6.35271  6.45018     6.54088
+ 0.733247  3.6952  10.6104    9.37261
 ::::::::::::::
-sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.32093  3.61575  3.55671     3.49544
- 0.94975  2.10675  18.8094    5.01577
+ 6.88082  6.44352  6.29299     6.53442
+ 0.712354  3.71365  10.8621    9.50572
 ::::::::::::::
-sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94195  2.76681  3.18969     2.96111
- 0.980286  1.82176  12.691    4.10968
+ 6.67137  6.40689  6.29321     6.45522
+ 0.778915  3.70609  9.60526    9.17135
 ::::::::::::::
-sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.19483  3.53159  3.41859     3.37874
- 0.975534  2.05002  17.5058    4.74779
+ 6.67507  6.20419  6.17854     6.34856
+ 0.774789  3.6811  8.91066    9.05226
 ::::::::::::::
-sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.7692  2.66531  3.06562     2.8284
- 0.993989  1.76657  10.6468    3.93441
+ 6.38154  6.24867  6.08554     6.23741
+ 0.876239  3.71318  10.3703    9.01756
 ::::::::::::::
-sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.98839  3.39415  3.26196     3.21032
- 0.988481  1.95506  15.7644    4.43467
+ 6.46756  6.22379  6.09496     6.26021
+ 0.843939  3.73401  9.42352    9.07994
 ::::::::::::::
-sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.99931  2.87044  3.23696     3.03181
- 0.953399  1.80832  13.1073    4.15903
+ 6.91731  6.91214  6.5204     6.7807
+ 0.691508  3.82529  10.7612    9.80087
 ::::::::::::::
-sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.35989  3.79902  3.55341     3.56627
- 0.902645  2.071  14.0946    5.06146
+ 7.21267  7.25433  6.71946     7.05791
+ 0.635474  3.99909  11.4904    10.485
 ::::::::::::::
-sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.889  2.78962  3.14398     2.93714
- 0.969441  1.76577  12.261    4.00387
+ 6.68788  6.64478  6.39103     6.57325
+ 0.757906  3.84409  10.5219    9.61657
 ::::::::::::::
-sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.12396  3.51305  3.34731     3.32426
- 0.950166  1.97849  16.9825    4.63483
+ 6.9058  6.82129  6.50353     6.7413
+ 0.715858  3.9341  10.9864    9.98958
 ::::::::::::::
-sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.79339  2.75202  3.0589     2.86494
- 0.981519  1.75261  11.9472    3.93718
+ 6.52598  6.53303  6.26697     6.4408
+ 0.81852  3.82233  10.2067    9.3876
 ::::::::::::::
-sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.91097  3.34928  3.24348     3.16228
- 0.981395  1.91414  15.0964    4.3474
+ 6.46694  6.44325  6.1972     6.36795
+ 0.842362  3.79605  11.6406    9.3566
 ::::::::::::::
-sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.80718  2.88018  3.04247     2.9083
- 0.985773  1.79205  12.6552    4.02041
+ 6.56865  6.38906  6.297     6.41725
+ 0.78599  3.72534  11.4556    9.3552
 ::::::::::::::
-sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.04609  3.76865  3.31763     3.36449
- 0.958052  2.00291  17.7942    4.67721
+ 6.83236  6.55983  6.53727     6.64181
+ 0.737744  3.76439  12.5718    9.69998
 ::::::::::::::
-sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.75225  2.81713  2.96339     2.8429
- 0.993933  1.7698  12.2917    3.94318
+ 6.4395  6.23679  6.19535     6.28965
+ 0.840037  3.69427  10.5153    9.06994
 ::::::::::::::
-sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.8843  3.67153  3.26202     3.2568
- 0.982702  1.96458  16.4676    4.48069
+ 6.43438  6.21163  6.14145     6.26125
+ 0.835361  3.67423  11.8066    9.10949
 ::::::::::::::
-sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.62926  2.77326  2.92535     2.77332
- 0.989327  1.75119  0.147498    3.86369
+ 6.31686  6.21872  6.1205     6.21818
+ 0.903547  3.72185  11.9014    9.02377
 ::::::::::::::
-sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.74875  3.54502  3.09721     3.11345
- 0.993988  1.90384  1.0751    4.24898
+ 6.24389  6.08646  6.06475     6.13118
+ 0.922226  3.68894  13.5534    8.92949
 ::::::::::::::
-sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.71879  2.63336  2.96262     2.76813
- 0.966608  1.60583  10.3246    3.64738
+ 6.58211  6.48804  6.39212     6.48696
+ 0.683765  3.57852  9.67588    9.14613
 ::::::::::::::
-sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.14473  3.65433  3.15029     3.30812
- 0.933483  1.92083  17.4614    4.53771
+ 6.93889  6.51414  6.52399     6.6561
+ 0.659013  3.74192  11.8874    9.89136
 ::::::::::::::
-sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.66765  2.68711  2.93531     2.76072
- 0.971286  1.56828  10.0829    3.55794
+ 6.55817  6.43857  6.37319     6.45619
+ 0.707167  3.5746  9.44284    9.04174
 ::::::::::::::
-sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88835  3.46977  3.1327     3.15469
- 0.959742  1.88981  15.5098    4.35545
+ 6.64046  6.26404  6.37053     6.42307
+ 0.729261  3.75149  11.0729    9.55734
 ::::::::::::::
-sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.51118  2.5512  2.77684     2.6105
- 0.981528  1.56954  9.7476    3.53408
+ 6.53755  6.37764  6.33832     6.41726
+ 0.778908  3.70378  9.7513    9.18074
 ::::::::::::::
-sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.67106  3.29006  2.9211     2.94993
- 0.983098  1.80017  13.8166    4.04953
+ 6.42499  6.14621  6.20805     6.25862
+ 0.817557  3.74658  10.0281    9.20846
 ::::::::::::::
-sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.80706  2.46416  2.88978     2.71391
- 0.967907  1.63717  10.6751    3.71134
+ 6.79965  6.68694  6.48703     6.65662
+ 0.719884  3.76909  12.9386    9.81601
 ::::::::::::::
-sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.98686  3.0888  2.89949     2.99072
- 0.966119  1.78541  14.2814    4.06638
+ 6.82364  6.49702  6.33489     6.54872
+ 0.704529  3.73072  11.5213    9.64489
 ::::::::::::::
-sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.70648  2.34638  2.73118     2.58852
- 0.830481  1.71217  0.118017    3.54124
+ 6.43904  6.34453  6.10301     6.29392
+ 0.841725  3.72085  10.767    9.14038
 ::::::::::::::
-sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88672  3.04029  2.88008     2.93478
- 0.978955  1.76966  13.5589    3.9877
+ 6.55233  6.28653  6.11788     6.31639
+ 0.800358  3.71263  11.1669    9.26204
 ::::::::::::::
-sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.5626  2.28247  2.66357     2.49756
- 0.847449  1.66332  0.103891    3.48296
 ::::::::::::::
-sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.69888  2.90926  2.77994     2.79469
- 0.993967  1.71423  11.8844    3.81348
+ 6.29085  6.15535  6.00707     6.15
+ 0.891089  3.7118  11.7085    9.02922
 ::::::::::::::
-sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.7579  2.59005  3.05772     2.7953
- 0.96625  1.70741  11.1724    3.87312
+ 6.7958  6.78004  6.53272     6.70176
+ 0.707439  3.78712  11.3155    9.73482
 ::::::::::::::
-sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.9448  3.36388  3.24363     3.17913
- 0.954931  1.90365  15.3316    4.40794
+ 6.73267  6.82452  6.48527     6.67927
+ 0.676102  3.80968  11.0114    9.85335
 ::::::::::::::
-sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64648  2.50623  2.96292     2.69859
- 0.982677  1.66583  10.3706    3.73392
+ 6.44826  6.46171  6.23498     6.3808
+ 0.756723  3.66719  10.0976    9.19108
 ::::::::::::::
-sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.75931  3.22774  3.15145     3.03904
- 0.972641  1.84526  13.9318    4.19442
+ 6.54271  6.57113  6.27012     6.45988
+ 0.775692  3.7653  11.8227    9.50535
 ::::::::::::::
-sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.51613  2.44346  2.88628     2.60831
- 0.99001  1.64373  9.94492    3.66672
 ::::::::::::::
-sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.6433  3.09323  3.04878     2.9212
- 0.99372  1.79799  12.8407    4.01193
+ 6.29903  6.28329  6.06232     6.21393
+ 0.880627  3.72282  12.4431    9.10965
 ::::::::::::::
-sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.90858  2.52088  3.21267     2.8666
- 0.97283  1.75133  11.2324    3.9571
+ 6.6887  6.6537  6.44346     6.59439
+ 0.760275  3.71957  13.3565    9.57081
 ::::::::::::::
-sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.04089  3.22975  3.33013     3.19799
- 0.975809  1.93314  15.097    4.41651
+ 6.61007  6.54147  6.22331     6.45606
+ 0.767896  3.70834  11.2725    9.35918
 ::::::::::::::
-sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.80021  2.47612  3.12911     2.78908
- 0.926249  1.805  0.142796    3.86886
+ 6.47141  6.5344  6.20355     6.4015
+ 0.85329  3.74712  13.8959    9.30742
 ::::::::::::::
-sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.95381  3.17479  3.38735     3.16703
- 0.989828  1.92372  14.3138    4.34495
+ 6.33851  6.31425  6.12167     6.25738
+ 0.842145  3.67153  10.8309    9.03139
 ::::::::::::::
-sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.69464  2.42857  3.09346     2.72541
- 0.977351  1.73161  0.112106    3.79947
 ::::::::::::::
-sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.8561  3.09942  3.27987     3.07353
- 0.993993  1.88585  0.157904    4.19951
+ 6.27478  6.28341  6.05431     6.20326
+ 0.912907  3.71161  11.58    8.96588
 ::::::::::::::
-sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.12317  2.74308  3.26847     3.03664
- 0.939398  1.79936  13.0249    4.18024
+ 7.2854  7.12172  6.75803     7.05158
+ 0.693585  3.78348  15.9704    10.237
 ::::::::::::::
-sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.37548  3.50383  3.44182     3.43998
- 0.93893  2.03177  17.914    4.83241
+ 7.37609  7.20419  6.50888     7.01949
+ 0.723393  3.83514  12.2766    9.88778
 ::::::::::::::
-sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.90378  2.48903  3.12638     2.82712
- 0.958083  1.72552  11.3125    3.93836
+ 6.98808  6.97627  6.65784     6.87234
+ 0.712399  3.81799  15.4747    10.1763
 ::::::::::::::
-sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.04301  3.20655  3.288     3.17754
- 0.960445  1.92204  15.1811    4.43813
+ 6.92811  6.83103  6.46109     6.73703
+ 0.750405  3.83229  13.4956    9.87948
 ::::::::::::::
-sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64065  2.25447  3.00404     2.61509
- 0.828163  1.78573  0.125342    3.66123
 ::::::::::::::
-sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88372  3.09131  3.21803     3.06123
- 0.983372  1.87298  13.7976    4.23175
+ 6.62296  6.63192  6.30634     6.51863
+ 0.820869  3.81899  13.3417    9.56571
 ::::::::::::::
-sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.23718  3.08835  3.19769     3.17378
- 0.955623  1.83242  14.4766    4.21739
+ 6.99352  6.57272  6.40725     6.65331
+ 0.712856  3.54532  9.42212    8.96177
 ::::::::::::::
-sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.42965  3.90066  3.39905     3.56929
- 0.93628  2.04779  20.0718    4.89744
+ 7.18171  7.12733  6.45113     6.91189
+ 0.673826  3.76714  11.2882    9.80753
 ::::::::::::::
-sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89839  2.90548  3.01577     2.93939
- 0.973268  1.7206  12.3527    3.88673
+ 6.99336  6.66083  6.38175     6.67397
+ 0.73734  3.69591  9.80691    9.27123
 ::::::::::::::
-sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.10567  3.61656  3.40444     3.36898
- 0.955256  1.98932  17.0598    4.64703
+ 6.73021  6.68378  6.48178     6.63104
+ 0.738209  3.74849  10.7664    9.49045
 ::::::::::::::
-sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.74253  2.77152  3.07403     2.85885
- 0.983487  1.74532  11.7364    3.91417
 ::::::::::::::
-sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.91814  3.4868  3.32114     3.23301
- 0.977037  1.94308  15.6843    4.44025
 ::::::::::::::
-sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89271  2.68633  3.06481     2.87711
- 0.986229  1.77151  12.0391    3.96888
+ 6.51913  6.56005  6.3154     6.46397
+ 0.793171  3.67979  11.5842    9.23979
 ::::::::::::::
-sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.04527  3.51164  3.23884     3.25968
- 0.981409  1.96943  16.5748    4.49855
+ 6.53216  6.41856  6.2556     6.4011
+ 0.813294  3.66378  11.3807    9.12819
 ::::::::::::::
-sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.8089  2.5933  2.96443     2.78469
- 0.930567  1.79202  0.148942    3.84943
+ 6.30812  6.33247  6.15446     6.26452
+ 0.859553  3.69396  10.4337    9.01656
 ::::::::::::::
-sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.97005  3.42686  3.23113     3.20385
- 0.99399  1.94335  15.6786    4.38484
+ 6.35858  6.27947  6.1354     6.25713
+ 0.871818  3.67137  10.9441    8.95883
 ::::::::::::::
-sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.71221  2.52084  2.94394     2.72019
- 0.971325  1.73105  0.127909    3.78844
 ::::::::::::::
-sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89237  3.33248  3.23598     3.14781
- 0.993969  1.93066  0.980555    4.31814
 ::::::::::::::
-sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.05432  2.70759  3.39805     3.04025
- 0.966773  1.8577  12.799    4.24161
+ 6.71408  6.71683  6.4852     6.63781
+ 0.703448  3.65952  11.1217    9.44815
 ::::::::::::::
-sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.32795  3.68775  3.69681     3.56661
- 0.940756  2.11244  18.9685    5.06929
+ 6.89561  6.78975  6.57019     6.75048
+ 0.649914  3.69423  10.6835    9.6478
 ::::::::::::::
-sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.9102  2.56905  3.2208     2.88771
- 0.987706  1.80578  11.8184    4.04739
 ::::::::::::::
-sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.1226  3.521  3.51754     3.38174
- 0.971184  2.03433  17.0365    4.71751
+ 6.60019  6.55669  6.2471     6.46606
+ 0.764992  3.71184  11.0797    9.35928
 ::::::::::::::
-sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.7896  2.52865  3.17441     2.81859
- 0.939725  1.82661  0.125304    3.94122
 ::::::::::::::
-sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.93869  3.37071  3.40647     3.23142
- 0.993919  1.97765  15.3891    4.47817
 ::::::::::::::
-sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64306  2.80961  3.04237     2.82698
- 0.935454  1.65243  11.372    3.83748
+ 7.3546  7.23837  6.94847     7.17843
+ 0.608919  3.78824  12.5385    10.3164
 ::::::::::::::
-sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.93827  3.63597  3.21993     3.25227
- 0.926795  1.89142  16.3266    4.47748
+ 7.63695  7.38624  7.04066     7.35053
+ 0.605556  3.96893  12.2527    10.68
 ::::::::::::::
-sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.49902  2.65238  2.88988     2.67565
- 0.968946  1.59645  10.033    3.621
 ::::::::::::::
-sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.59908  3.35549  3.11492     3.00613
- 0.963166  1.81016  13.6222    4.13494
+ 6.74618  6.57847  6.41132     6.57724
+ 0.743598  3.78614  11.8486    9.66239
 ::::::::::::::
-sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.44356  2.53218  2.83608     2.59864
- 0.978001  1.60437  9.76416    3.61369
 ::::::::::::::
-sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.49382  3.25091  3.1132     2.93332
- 0.982556  1.80024  12.7735    4.04995
 ::::::::::::::
-sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.79224  2.91572  3.25342     2.98089
- 0.962795  1.80883  12.5987    4.1297
+ 6.84892  6.98372  6.50321     6.77557
+ 0.743361  3.77801  11.5343    9.61592
 ::::::::::::::
-sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.26582  3.93311  3.5565     3.57479
- 0.927589  2.08523  19.5132    5.04237
+ 7.33614  7.35948  6.70764     7.1279
+ 0.663847  3.88693  12.0565    10.2136
 ::::::::::::::
-sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.68738  2.78614  3.16762     2.87313
- 0.976491  1.77634  11.8154    4.00782
 ::::::::::::::
-sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0467  3.76434  3.42877     3.40058
- 0.95057  2.00234  17.4447    4.70222
 ::::::::::::::
-sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.57689  2.68275  3.06775     2.76799
- 0.989369  1.73667  11.0124    3.87692
 ::::::::::::::
-sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.70479  3.46369  3.34555     3.15292
- 0.993991  1.94343  0.986614    4.35192
 ::::::::::::::
-sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0657  2.6148  3.01362     2.8908
- 0.967963  1.75309  12.5019    3.97857
+ 6.81972  6.85794  6.52061     6.73105
+ 0.708036  3.79878  10.8938    9.70718
 ::::::::::::::
-sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.25399  3.35174  3.1524     3.25169
- 0.963288  1.94538  16.9485    4.4961
+ 6.90683  6.78237  6.46844     6.71666
+ 0.710104  3.75144  10.5181    9.5524
 ::::::::::::::
-sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94172  2.50279  2.89633     2.77305
- 0.988363  1.72177  11.7189    3.84599
 ::::::::::::::
-sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.13958  3.28263  3.10226     3.17388
- 0.974276  1.90866  15.9856    4.35762
 ::::::::::::::
-sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.80366  2.43298  2.81188     2.67683
- 0.947589  1.7182  0.140167    3.72362
 ::::::::::::::
-sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.96279  3.1596  3.00678     3.0419
- 0.993996  1.86954  0.863348    4.15986
 ::::::::::::::
-sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.97131  2.58283  3.13253     2.88611
- 0.969679  1.752  11.8313    3.96922
 ::::::::::::::
-sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.25336  3.55548  3.46783     3.42318
- 0.955965  2.05413  17.8829    4.83282
+ 6.90868  6.65934  6.48626     6.68252
+ 0.75383  3.69772  11.4067    9.39233
 ::::::::::::::
-sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.85785  2.51168  3.13375     2.82286
- 0.981987  1.75626  11.3156    3.94345
+ 6.48305  6.54211  6.23375     6.41823
+ 0.796699  3.66295  11.2411    9.16687
 ::::::::::::::
-sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08716  3.39118  3.36433     3.27795
- 0.969715  1.97711  16.1718    4.55943
+ 6.6931  6.52128  6.3241     6.51108
+ 0.777844  3.70637  10.5906    9.26676
 ::::::::::::::
-sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.6783  2.39213  3.02384     2.68576
- 0.900009  1.76148  0.137667    3.73477
+ 6.31827  6.33945  6.0706     6.24157
+ 0.908229  3.71704  10.6326    8.96231
 ::::::::::::::
-sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88799  3.25492  3.2637     3.13051
- 0.989479  1.91762  14.6325    4.3301
+ 6.41949  6.29546  6.15598     6.28939
+ 0.856982  3.73216  11.0918    9.14322
 ::::::::::::::
-sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.69362  2.64211  3.14801     2.81908
- 0.976601  1.75162  11.1382    3.94705
+ 6.81084  6.79535  6.39977     6.6659
+ 0.767974  3.7843  10.2204    9.42946
 ::::::::::::::
-sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.06222  3.59774  3.48698     3.3742
- 0.937139  1.98781  16.7601    4.70813
+ 7.31192  7.28843  6.82836     7.13938
+ 0.675489  3.90999  12.5819    10.2842
 ::::::::::::::
-sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.60732  2.5716  3.0708     2.74083
- 0.986895  1.72871  10.699    3.86478
+ 6.64389  6.62639  6.27696     6.51353
+ 0.8159  3.74317  11.2428    9.2905
 ::::::::::::::
-sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.83177  3.42841  3.31013     3.17931
- 0.965014  1.90927  14.9186    4.38794
+ 6.82239  6.75399  6.49275     6.68819
+ 0.773315  3.84244  12.2955    9.7225
 ::::::::::::::
-sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.50105  2.4914  3.01532     2.65848
- 0.81902  1.82078  0.125114    3.70553
+ 6.50314  6.46332  6.17571     6.37904
+ 0.869594  3.75881  12.4028    9.22462
 ::::::::::::::
-sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.61401  3.21408  3.13184     2.97432
- 0.993973  1.84418  0.813878    4.09606
+ 6.36063  6.2457  6.09904     6.2342
+ 0.918733  3.74822  12.6168    9.05937
 ::::::::::::::
-sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.799  2.65621  2.85899     2.77008
- 0.953298  1.67473  11.6505    3.83736
+ 7.05559  7.15918  6.88169     7.03122
+ 0.681012  3.82892  10.9478    9.86922
 ::::::::::::::
-sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.18516  3.4904  3.29579     3.32141
- 0.939314  1.96353  17.0172    4.63268
+ 7.33608  7.106  6.91066     7.11546
+ 0.670815  3.93562  10.9316    10.131
 ::::::::::::::
-sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.65045  2.51393  2.72146     2.62719
- 0.973899  1.62563  10.6359    3.6708
+ 6.80282  6.71824  6.50539     6.6743
+ 0.774315  3.78328  10.5535    9.44238
 ::::::::::::::
-sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.87713  3.20815  2.90346     2.99256
- 0.9758  1.81013  14.3274    4.09716
+ 6.76002  6.56182  6.42421     6.58058
+ 0.790474  3.78027  10.3915    9.37868
 ::::::::::::::
-sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.52913  2.4082  2.60306     2.51217
- 0.724568  1.76817  0.132506    3.47523
+ 6.58601  6.46565  6.38086     6.47696
+ 0.842093  3.80096  10.0663    9.27623
 ::::::::::::::
-sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.67678  3.05423  2.73833     2.81839
- 0.990564  1.72995  12.8359    3.85959
+ 6.45769  6.32931  6.26401     6.34983
+ 0.876391  3.77206  12.1247    9.22416
 ::::::::::::::
-sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94611  2.58928  3.1351     2.88111
- 0.981948  1.75613  11.6204    3.94377
+ 6.55878  6.53295  6.37588     6.4887
+ 0.767468  3.73001  10.0649    9.29691
 ::::::::::::::
-sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.18129  3.37353  3.31174     3.28787
- 0.968259  1.95443  16.2403    4.50205
+ 6.71721  6.43989  6.33057     6.49387
+ 0.739952  3.72155  10.7773    9.42765
 ::::::::::::::
-sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.8242  2.50958  2.9875     2.76653
- 0.91396  1.77781  0.1434    3.79068
+ 6.34268  6.39915  6.16053     6.29996
+ 0.85766  3.74435  9.9293    9.10685
 ::::::::::::::
-sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.9965  3.28353  3.23365     3.16871
- 0.993984  1.91866  14.9775    4.31868
+ 6.40544  6.2515  6.08937     6.24743
+ 0.850867  3.67706  11.4719    9.05328
 ::::::::::::::
-sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.74475  2.45606  2.97077     2.71563
- 0.931827  1.74075  0.128861    3.74516
+ 6.29625  6.30884  6.12153     6.24162
+ 0.902821  3.75091  11.0563    9.06677
 ::::::::::::::
-sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.86679  3.16132  3.11155     3.04378
- 0.993972  1.87779  0.88798    4.18086
+ 6.27506  6.13101  5.97182     6.12471
+ 0.926555  3.74825  11.6805    9.01718
 ::::::::::::::
-sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.92417  2.54222  2.92289     2.79046
- 0.962867  1.68023  11.4266    3.82188
+ 7.12427  7.01871  6.71833     6.95163
+ 0.690426  3.89365  10.4696    9.91012
 ::::::::::::::
-sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.00836  3.1775  3.00695     3.06324
- 0.970406  1.8331  14.5978    4.172
+ 7.0337  6.82531  6.46741     6.77141
+ 0.727159  3.87399  9.28409    9.60429
 ::::::::::::::
-sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.75907  2.35893  2.79735     2.63072
- 0.98672  1.63649  10.3105    3.66002
+ 6.59942  6.6311  6.39696     6.54166
+ 0.811096  3.83882  10.2242    9.44298
 ::::::::::::::
-sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.84078  3.06998  2.97339     2.95988
- 0.992915  1.80451  13.3914    4.03046
+ 6.53908  6.46709  6.23748     6.41325
+ 0.853119  3.77234  10.254    9.19872
 ::::::::::::::
-sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.63403  2.26979  2.74107     2.54005
- 0.842818  1.69378  0.125227    3.52755
+ 6.39641  6.48463  6.24689     6.37522
+ 0.89654  3.81986  11.5118    9.25582
 ::::::::::::::
-sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.72734  2.93174  2.77249     2.80917
- 0.993994  1.73104  0.81326    3.82674
+ 6.24002  6.21758  6.11914     6.19203
+ 0.939427  3.78197  11.9526    9.06687
 ::::::::::::::
-sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.72557  2.54996  3.16864     2.80299
- 0.964812  1.65581  10.202    3.75833
+ 6.78902  6.74067  6.5228     6.68315
+ 0.682856  3.748  10.8162    9.66955
 ::::::::::::::
-sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.03095  3.36575  3.35481     3.24671
- 0.945756  1.93295  15.6901    4.51995
+ 6.97304  6.90983  6.55585     6.8104
+ 0.656303  3.93387  10.7742    10.1507
 ::::::::::::::
-sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.63379  2.4768  3.0683     2.71513
- 0.981896  1.64926  9.84376    3.69891
+ 6.48159  6.53676  6.27271     6.42934
+ 0.770668  3.68266  10.4254    9.21943
 ::::::::::::::
-sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.86242  3.1966  3.27602     3.10639
- 0.968011  1.8749  14.1232    4.28571
+ 6.71861  6.61693  6.29401     6.54065
+ 0.747203  3.81167  10.9757    9.62281
 ::::::::::::::
-sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.54958  2.4673  3.00229     2.66306
- 0.829767  1.74903  0.110855    3.60156
+ 6.33208  6.38282  6.09285     6.26796
+ 0.860135  3.70341  10.1142    9.01949
 ::::::::::::::
-sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64172  3.05851  3.20227     2.95769
- 0.993984  1.82024  10.4014    4.06428
+ 6.33657  6.28903  6.05233     6.22472
+ 0.887496  3.70988  11.488    9.02704
 ::::::::::::::
-sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.87355  2.6024  3.03829     2.83231
- 0.986621  1.73831  11.5371    3.88882
+ 6.62696  6.33734  6.20881     6.38866
+ 0.739118  3.58301  9.90159    9.0334
 ::::::::::::::
-sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.16455  3.34489  3.24913     3.25202
- 0.950971  1.92311  16.2    4.47668
+ 6.85162  6.48207  6.33782     6.55364
+ 0.678195  3.69931  12.0367    9.73696
 ::::::::::::::
-sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.78778  2.49964  2.95503     2.74094
- 0.990573  1.70799  11.0032    3.80788
+ 6.52583  6.28587  6.1454     6.31709
+ 0.808345  3.6352  9.95823    8.9773
 ::::::::::::::
-sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.06043  3.24659  3.16906     3.15776
- 0.972185  1.89779  15.3638    4.33474
+ 6.60708  6.23984  6.10269     6.31299
+ 0.753796  3.6517  10.5281    9.20867
 ::::::::::::::
-sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64068  2.4394  2.90249     2.65414
- 0.885324  1.74344  0.123676    3.67683
+ 6.40308  6.4038  6.1314     6.31144
+ 0.857384  3.71224  9.86036    9.03118
 ::::::::::::::
-sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.93059  3.1604  3.17889     3.08786
- 0.990328  1.88782  14.4534    4.24911
+ 6.37361  6.09796  6.04053     6.169
+ 0.849447  3.62496  10.9116    8.91029
 ::::::::::::::
-sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.04513  3.50784  3.32737     3.28787
- 0.940776  1.94593  16.4417    4.5762
+ 6.98191  6.8883  6.74514     6.87109
+ 0.636087  3.88406  11.0062    10.1543
 ::::::::::::::
-sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64397  2.55336  2.97817     2.71919
- 0.85365  1.80083  0.139969    3.73059
+ 6.46301  6.45671  6.27083     6.39623
+ 0.831705  3.78719  10.452    9.29513
 ::::::::::::::
-sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.77037  3.28593  3.17791     3.06982
- 0.977199  1.85088  13.9827    4.19458
+ 6.50556  6.40933  6.33096     6.41489
+ 0.791147  3.74986  11.2064    9.37529
 ::::::::::::::
-sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.53411  2.49124  2.93014     2.6447
- 0.895826  1.72959  0.126277    3.66693
+ 6.31805  6.32665  6.114     6.25212
+ 0.901209  3.75321  11.4774    9.08965
 ::::::::::::::
-sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.65929  3.19659  3.0537     2.96092
- 0.993986  1.83015  0.663921    4.06072
+ 6.33725  6.20139  6.09137     6.20919
+ 0.912813  3.75655  13.2245    9.10986
 ::::::::::::::
-sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.63613  2.39417  2.85447     2.62149
- 0.976886  1.5785  9.48128    3.56292
+ 6.69353  6.81507  6.47077     6.65826
+ 0.760666  3.77515  11.6679    9.5643
 ::::::::::::::
-sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.84912  3.17815  3.033     3.01707
- 0.949988  1.79462  13.9627    4.13892
+ 7.13665  7.15587  6.80194     7.02959
+ 0.679606  4.00083  13.1043    10.5336
 ::::::::::::::
-sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.56421  2.263  2.75127     2.51801
- 0.699467  1.77465  0.105898    3.44766
+ 6.4427  6.57282  6.27325     6.42842
+ 0.851775  3.79429  11.6326    9.32514
 ::::::::::::::
-sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.65475  2.97145  2.85724     2.82475
- 0.988248  1.72618  12.2453    3.85696
+ 6.53177  6.52916  6.28575     6.44785
+ 0.837473  3.81939  12.5429    9.47033
 ::::::::::::::
-sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.46091  2.22765  2.69793     2.45466
- 0.728832  1.71124  0.095661    3.40418
+ 6.37153  6.44608  6.15778     6.32394
+ 0.898655  3.80738  10.6447    9.19161
 ::::::::::::::
-sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.51728  2.84265  2.84102     2.72925
- 0.990969  1.70453  0.149017    3.76116
+ 6.3192  6.24249  6.08086     6.21339
+ 0.94223  3.80592  12.7911    9.12841
 ::::::::::::::
-sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.10639  2.7316  3.06914     2.96412
- 0.963212  1.75867  12.7343    4.00658
+ 6.87022  6.31176  6.59267     6.5876
+ 0.698843  3.71428  10.0028    9.43791
 ::::::::::::::
-sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.57549  3.73074  3.28637     3.526
- 0.932572  2.03663  19.5814    4.87773
+ 7.22628  6.79693  6.66241     6.89106
+ 0.678192  3.7959  11.5628    9.89082
 ::::::::::::::
-sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.02768  2.66598  3.07044     2.91557
- 0.968157  1.73924  12.2498    3.94463
+ 6.7391  6.32579  6.63122     6.56301
+ 0.739365  3.78433  9.39872    9.4047
 ::::::::::::::
-sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.36439  3.52686  3.3421     3.41013
- 0.952716  2.02152  18.0954    4.75102
+ 7.02512  6.53052  6.53174     6.69181
+ 0.756953  3.78202  11.3713    9.56541
 ::::::::::::::
-sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.81548  2.5669  2.8717     2.74811
- 0.982939  1.68584  11.2579    3.77888
+ 6.52776  6.37374  6.46874     6.45644
+ 0.806987  3.79833  9.94278    9.34035
 ::::::::::::::
-sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.09325  3.33526  3.22298     3.21564
- 0.980206  1.94051  15.7916    4.42282
+ 6.58845  6.31096  6.27153     6.38877
+ 0.841148  3.73921  10.6601    9.177
 ::::::::::::::
-sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.03161  2.73463  3.23351     2.99283
- 0.96215  1.78507  12.3413    4.0723
+ 7.0207  6.95929  6.63105     6.86819
+ 0.716396  3.65329  9.33298    9.17083
 ::::::::::::::
-sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.3524  3.68881  3.46     3.49762
- 0.940067  2.05076  18.6737    4.88641
+ 7.27077  7.22953  6.5986     7.0261
+ 0.681054  3.84066  10.2867    9.79749
 ::::::::::::::
-sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89167  2.5569  3.05221     2.82591
- 0.989647  1.7538  11.5073    3.91671
+ 6.59707  6.59542  6.2802     6.48917
+ 0.822332  3.69937  9.64274    9.06353
 ::::::::::::::
-sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.09399  3.44194  3.30951     3.27865
- 0.977246  1.97066  16.2814    4.5158
+ 6.66189  6.61595  6.2749     6.51527
+ 0.805632  3.73887  11.109    9.30136
 ::::::::::::::
-sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.77443  2.48415  2.99656     2.74362
- 0.897983  1.79843  0.13489    3.80391
+ 6.41726  6.47206  6.17601     6.3538
+ 0.90595  3.73058  11.2159    9.01726
 ::::::::::::::
-sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88996  3.2414  3.13115     3.08396
- 0.993994  1.89976  0.952366    4.23756
+ 6.28088  6.19293  6.0351     6.1688
+ 0.935293  3.70997  11.9581    8.9109
 ::::::::::::::
-sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.82235  2.53905  3.01264     2.78447
- 0.982331  1.63852  10.2534    3.6755
+ 6.27503  6.57601  6.32843     6.39182
+ 0.731618  3.56638  9.74938    8.99968
 ::::::::::::::
-sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.07171  3.43049  3.14544     3.21222
- 0.958271  1.90679  16.1968    4.40738
+ 6.69779  6.67023  6.4116     6.59193
+ 0.728285  3.74148  11.9489    9.62743
 ::::::::::::::
-sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.76673  2.45008  2.89749     2.69809
- 0.828686  1.77232  0.126685    3.63924
+ 6.27698  6.45675  6.23466     6.32207
+ 0.813445  3.65629  10.2636    9.03495
 ::::::::::::::
-sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.90403  3.26171  3.26823     3.13993
- 0.988531  1.91821  14.6591    4.33473
+ 6.45026  6.40162  6.25528     6.36851
+ 0.849836  3.77066  13.0557    9.34121
 ::::::::::::::
-sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.65319  2.41825  2.82496     2.6268
- 0.860206  1.71236  0.121636    3.58326
+ 6.24525  6.39424  6.16479     6.26737
+ 0.870845  3.70504  9.34522    8.95822
 ::::::::::::::
-sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.77737  3.0926  3.09869     2.98569
- 0.993975  1.84168  0.866711    4.09017
+ 6.27867  6.18426  6.04885     6.16987
+ 0.932807  3.75456  13.6    9.04982
 ::::::::::::::
-sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.07669  2.87671  3.24137     3.06128
- 0.958931  1.84389  13.5627    4.2331
+ 6.85879  7.05233  6.78149     6.8966
+ 0.71733  3.89503  12.9967    10.1182
 ::::::::::::::
-sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.23973  3.61342  3.44481     3.42924
- 0.961688  2.03775  17.7855    4.7636
+ 6.87195  6.85121  6.53059     6.74942
+ 0.725352  3.76652  12.6001    9.75646
 ::::::::::::::
-sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.92403  2.68952  3.11795     2.90519
- 0.987466  1.80663  12.3356    4.05074
+ 6.42218  6.54438  6.34105     6.43533
+ 0.827215  3.79316  12.5462    9.44438
 ::::::::::::::
-sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.05549  3.44464  3.36571     3.28423
- 0.988414  1.99288  16.1205    4.53906
+ 6.50311  6.4797  6.26237     6.41414
+ 0.841292  3.75562  12.3254    9.3023
 ::::::::::::::
-sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.76791  2.59742  3.00674     2.78567
- 0.981902  1.76175  0.154085    3.87486
+ 6.25136  6.31093  6.10578     6.22209
+ 0.928708  3.76735  13.9636    9.09845
 ::::::::::::::
-sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94649  3.30289  3.33741     3.19058
- 0.993998  1.96847  0.977371    4.41872
+ 6.28806  6.24515  6.05768     6.19615
+ 0.919571  3.75502  12.6136    9.0726
 ::::::::::::::
-sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.8634  2.59599  3.01592     2.81969
- 0.981356  1.71706  11.3224    3.8539
+ 6.62116  6.74855  6.38394     6.58281
+ 0.761976  3.67424  10.9602    9.2747
 ::::::::::::::
-sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.06169  3.38222  3.21164     3.21586
- 0.96254  1.93355  16.0631    4.46441
+ 6.96887  6.84512  6.46787     6.75722
+ 0.717672  3.78736  11.1683    9.6834
 ::::::::::::::
-sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.78097  2.49503  2.93523     2.73089
- 0.832486  1.81544  0.141934    3.71984
+ 6.45925  6.58713  6.30081     6.448
+ 0.831327  3.69378  10.732    9.10449
 ::::::::::::::
-sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.68279  2.42827  2.85717     2.65016
- 0.894683  1.73654  0.117604    3.67835
+ 6.3657  6.42056  6.16348     6.31561
+ 0.904327  3.75436  11.3126    9.07905
 ::::::::::::::
-sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.76342  3.02039  3.0053     2.92729
- 0.994  1.80145  0.842277    3.99186
+ 6.24883  6.15354  6.04293     6.14786
+ 0.948361  3.72507  12.91    8.92438
 ::::::::::::::
-sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.81268  2.69742  2.97306     2.82547
- 0.979869  1.71682  11.5892    3.85792
+ 6.76649  6.63905  6.47497     6.62576
+ 0.757695  3.77908  9.8343    9.40319
 ::::::::::::::
-sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0198  3.47333  3.22514     3.23413
- 0.962371  1.9229  15.9839    4.43601
+ 6.99054  6.72611  6.53467     6.74786
+ 0.733254  3.93511  10.2445    9.84913
 ::::::::::::::
-sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.67808  2.604  2.85449     2.71018
- 0.928163  1.73334  0.115463    3.72429
+ 6.4293  6.3388  6.24144     6.33605
+ 0.862015  3.74272  9.982    9.09673
 ::::::::::::::
-sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.81175  3.29209  3.04645     3.04379
- 0.993989  1.84287  14.1069    4.12272
+ 6.50794  6.33089  6.22474     6.35345
+ 0.86162  3.78741  10.8471    9.24421
 ::::::::::::::
-sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.55196  2.54525  2.79366     2.6278
- 0.979728  1.65737  0.0935334    3.64353
+ 6.32522  6.27325  6.15668     6.25132
+ 0.918218  3.78141  10.4318    9.08134
 ::::::::::::::
-sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.66958  3.19232  2.93797     2.92549
- 0.993995  1.78956  0.885679    3.96361
+ 6.24053  6.14192  6.09326     6.15827
+ 0.948973  3.75194  12.5024    8.97985
 ::::::::::::::
-sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.07732  2.65351  3.05991     2.92348
- 0.973182  1.76804  12.4663    3.99887
+ 6.64487  6.58306  6.50343     6.57687
+ 0.739969  3.791  10.8153    9.58285
 ::::::::::::::
-sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.3073  3.43723  3.32882     3.35731
- 0.957791  1.98479  17.2159    4.62556
+ 6.8059  6.60021  6.48904     6.63042
+ 0.729794  3.76433  11.2941    9.60695
 ::::::::::::::
-sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.94223  2.49072  2.9513     2.78615
- 0.993248  1.73014  11.446    3.85167
+ 6.36157  6.43493  6.30207     6.36596
+ 0.83511  3.78045  10.3178    9.26301
 ::::::::::::::
-sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.07845  3.27737  3.143     3.16519
- 0.984708  1.89908  15.3211    4.29716
+ 6.49717  6.38539  6.38348     6.42179
+ 0.803512  3.75757  10.6196    9.31301
 ::::::::::::::
-sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.79357  2.38525  2.81749     2.65778
- 0.938821  1.69684  0.125416    3.66701
+ 6.23473  6.28572  6.1621     6.22731
+ 0.920194  3.77386  12.1932    9.10507
 ::::::::::::::
-sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.93551  3.11774  2.97662     3.00895
- 0.993995  1.84987  0.794894    4.11014
+ 6.23302  6.12159  6.11203     6.15531
+ 0.929613  3.73878  11.8114    8.99001
 ::::::::::::::
-sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.84045  2.71388  3.07306     2.87199
- 0.968066  1.74292  11.7744    3.95222
+ 6.80769  6.87278  6.44676     6.70643
+ 0.7159  3.73235  10.913    9.54072
 ::::::::::::::
-sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0989  3.53667  3.33465     3.31857
- 0.959075  1.96866  16.6017    4.57429
+ 6.93448  6.80334  6.37469     6.69985
+ 0.710844  3.7105  10.8573    9.50317
 ::::::::::::::
-sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.74998  2.59852  3.00557     2.77967
- 0.988874  1.7092  10.9131    3.81508
+ 6.53671  6.53174  6.27839     6.44781
+ 0.807875  3.71968  9.92037    9.16297
 ::::::::::::::
-sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.90211  3.34201  3.19666     3.14152
- 0.98217  1.88491  14.7041    4.26759
+ 6.54784  6.45907  6.23773     6.41355
+ 0.818382  3.7105  11.3911    9.21916
 ::::::::::::::
-sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.60319  2.47878  2.94198     2.66764
- 0.875966  1.75319  0.14027    3.68025
+ 6.33449  6.33627  6.14864     6.27251
+ 0.88713  3.73328  9.97367    9.02114
 ::::::::::::::
-sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.70779  3.10423  3.10638     2.96671
- 0.994  1.83077  0.822944    4.06306
+ 6.33916  6.19846  6.02224     6.18526
+ 0.931491  3.77152  11.1792    9.04743
 ::::::::::::::
-sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.62599  2.34995  2.80049     2.5854
- 0.741439  1.78016  0.132027    3.51671
+ 6.53731  6.50127  6.32428     6.45361
+ 0.801381  3.77073  10.7331    9.35657
 ::::::::::::::
-sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.75687  3.12157  2.92166     2.92959
- 0.98228  1.76202  13.069    3.95894
+ 6.63594  6.5086  6.34     6.49371
+ 0.782594  3.74468  12.4339    9.48
 ::::::::::::::
-sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.56068  2.27708  2.75814     2.52416
- 0.776362  1.72564  0.12045    3.48766
+ 6.38894  6.35425  6.20511     6.31559
+ 0.87881  3.76819  11.2731    9.17554
 ::::::::::::::
-sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.64584  3.05113  2.88582     2.85604
- 0.980728  1.76157  0.134543    3.87238
+ 6.36753  6.25728  6.1519     6.25828
+ 0.880964  3.74241  11.5139    9.12035
 ::::::::::::::
-sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.45445  2.23959  2.67689     2.45048
- 0.824825  1.64238  0.107334    3.42203
+ 6.27396  6.29395  6.08924     6.21836
+ 0.94374  3.79398  11.7993    9.08083
 ::::::::::::::
-sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.5422  2.9484  2.7938     2.75633
- 0.993987  1.71147  0.162831    3.78131
+ 6.26645  6.13979  6.08132     6.16204
+ 0.939754  3.76528  12.6315    9.03863
 ::::::::::::::
-sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.87985  2.69933  2.92049     2.83157
- 0.973592  1.71741  11.9829    3.87763
+ 6.69693  6.61613  6.47767     6.59629
+ 0.734637  3.74206  11.1519    9.52779
 ::::::::::::::
-sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08971  3.51451  3.15284     3.24709
- 0.955635  1.92043  16.6747    4.45447
+ 6.83561  6.73397  6.47659     6.68034
+ 0.685161  3.85868  10.9066    9.91392
 ::::::::::::::
-sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.75283  2.58254  2.79968     2.71006
- 0.992259  1.6745  11.0983    3.7287
+ 6.39793  6.39993  6.28096     6.35937
+ 0.829825  3.74157  10.6414    9.21009
 ::::::::::::::
-sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.85732  3.26517  2.93709     3.01481
- 0.990247  1.82229  14.3501    4.08286
+ 6.43483  6.30958  6.18653     6.3095
+ 0.82911  3.71664  11.2813    9.19522
 ::::::::::::::
-sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.61588  2.50649  2.71099     2.60978
- 0.943142  1.66115  0.108181    3.60223
+ 6.27372  6.27874  6.1737     6.24187
+ 0.91065  3.76743  11.5485    9.09969
 ::::::::::::::
-sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.70512  3.12894  2.82069     2.87947
- 0.993994  1.76668  0.868973    3.90942
+ 6.20259  6.14152  6.09768     6.14711
+ 0.936669  3.73916  13.3319    8.99788
 ::::::::::::::
-sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.80272  2.66882  2.99485     2.81898
- 0.988356  1.72299  11.3939    3.84847
+ 6.46543  6.50528  6.33892     6.43615
+ 0.801686  3.66555  11.0899    9.14717
 ::::::::::::::
-sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.16168  3.67746  3.37116     3.39689
- 0.955912  1.98337  17.3864    4.62883
+ 6.93388  6.9619  6.47646     6.78704
+ 0.745707  3.80118  12.2441    9.72416
 ::::::::::::::
-sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.76955  2.5906  2.93853     2.76257
- 0.93412  1.76135  0.149639    3.79141
+ 6.34224  6.39929  6.25557     6.33209
+ 0.861948  3.69535  11.4985    9.06479
 ::::::::::::::
-sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.93177  3.43314  3.21284     3.18594
- 0.984061  1.91665  15.4705    4.3458
+ 6.56022  6.50227  6.22038     6.42589
+ 0.831358  3.73708  12.7243    9.31171
 ::::::::::::::
-sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.67123  2.66067  2.9322     2.7519
- 0.993983  1.71708  0.147508    3.7939
+ 6.32817  6.3268  6.18808     6.28067
+ 0.903608  3.76129  11.9713    9.11655
 ::::::::::::::
-sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.01198  3.28316  3.00346     3.09686
- 0.99399  1.89702  1.01081    4.23092
+ 6.12335  6.0774  6.02744     6.07594
+ 0.970568  3.70247  18.944    8.83926
 ::::::::::::::
-sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.6173  2.82125  3.13307     2.84941
- 0.968691  1.64922  10.3202    3.73417
+ 6.6735  6.53919  6.46948     6.56018
+ 0.62693  3.56904  8.8316    9.12753
 ::::::::::::::
-sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.71405  3.51218  3.2769     3.14934
- 0.95882  1.86956  14.4458    4.30242
+ 6.90072  6.75706  6.47425     6.70832
+ 0.725829  3.86746  11.9674    9.91974
 ::::::::::::::
-sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.43911  2.64519  2.94675     2.66897
- 0.778804  1.78877  0.121047    3.58692
+ 6.51329  6.4783  6.26519     6.41798
+ 0.80269  3.74392  10.1858    9.25054
 ::::::::::::::
-sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.57149  3.38796  3.16562     3.0213
- 0.977475  1.82155  13.391    4.11878
+ 6.65807  6.52499  6.34293     6.50738
+ 0.803044  3.81141  11.879    9.52439
 ::::::::::::::
-sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.30424  2.57665  2.87179     2.57382
- 0.829352  1.72129  0.117419    3.5547
+ 6.39766  6.28276  6.12284     6.26674
+ 0.874464  3.74912  10.0118    9.08582
 ::::::::::::::
-sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.351  3.14818  3.03063     2.82021
- 0.993991  1.75103  0.146258    3.87141
+ 6.34182  6.1269  5.97009     6.14439
+ 0.942961  3.73847  12.7144    8.96842
 ::::::::::::::
-sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.04544  2.77614  3.05625     2.95638
- 0.982477  1.69676  11.6802    3.80527
+ 6.4322  6.54738  6.45003     6.47634
+ 0.740836  3.65643  10.2059    9.22223
 ::::::::::::::
-sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.18211  3.36489  3.07253     3.20426
- 0.968761  1.91193  16.3659    4.38562
+ 6.59834  6.75475  6.39293     6.58034
+ 0.762066  3.80488  12.7175    9.71062
 ::::::::::::::
-sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88167  2.63148  2.82811     2.77831
- 0.993978  1.66705  0.105118    3.68362
+ 6.17439  6.33602  6.19418     6.23445
+ 0.90268  3.74957  11.1007    9.0655
 ::::::::::::::
-sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.057  3.24893  2.97215     3.09055
- 0.989365  1.8702  15.3083    4.20721
+ 6.33093  6.42996  6.19741     6.31872
+ 0.846423  3.75473  11.7213    9.25517
 ::::::::::::::
-sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.81197  2.59589  2.82214     2.74131
- 0.99398  1.69836  0.408342    3.75213
+ 6.17305  6.30146  6.09617     6.18965
+ 0.936961  3.7788  13.2284    9.08763
 ::::::::::::::
-sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89659  3.12113  2.85673     2.9559
- 0.993966  1.80822  0.849111    4.00817
+ 6.14449  6.14796  6.09372     6.12867
+ 0.956176  3.74626  14.7325    8.96922
 ::::::::::::::
-sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89284  2.49591  2.80536     2.72593
- 0.975521  1.65603  11.2066    3.7331
+ 6.77901  6.71439  6.51296     6.66782
+ 0.749882  3.82107  10.96    9.63371
 ::::::::::::::
-sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.28577  3.407  3.06812     3.25058
- 0.946369  1.9042  17.0685    4.44459
+ 7.14851  6.92665  6.67158     6.91283
+ 0.67781  3.8942  11.3001    10.0712
 ::::::::::::::
-sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.77115  2.3938  2.71531     2.62133
- 0.990088  1.62859  10.5215    3.6349
+ 6.50763  6.49009  6.31649     6.43749
+ 0.814111  3.79525  10.6874    9.37388
 ::::::::::::::
-sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.93327  3.0844  2.88964     2.96794
- 0.983069  1.79201  13.9717    4.02988
+ 6.51262  6.4784  6.30714     6.43209
+ 0.808291  3.79461  11.5398    9.4479
 ::::::::::::::
-sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.70957  2.39211  2.6557     2.58198
- 0.875784  1.69132  0.128059    3.5679
+ 6.42361  6.43351  6.22558     6.36017
+ 0.866414  3.81664  11.0277    9.30703
 ::::::::::::::
-sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.84358  2.98713  2.77341     2.86667
- 0.993985  1.77346  0.78073    3.92486
+ 6.39354  6.30265  6.18538     6.29328
+ 0.896374  3.83602  10.807    9.26819
 ::::::::::::::
-sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.12448  2.73552  3.03157     2.95911
- 0.967119  1.77492  13.0174    4.03475
+ 6.73043  6.69456  6.51497     6.64598
+ 0.738237  3.66097  11.061    9.32923
 ::::::::::::::
-sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.29433  3.56476  3.31536     3.3893
- 0.961423  2.02168  17.947    4.71869
+ 6.68645  6.80158  6.39983     6.62712
+ 0.724635  3.83528  10.0834    9.6359
 ::::::::::::::
-sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.95845  2.52065  2.97204     2.80895
- 0.902368  1.82586  0.158161    3.86707
+ 6.38364  6.5091  6.26511     6.38517
+ 0.838067  3.705  10.5872    9.10347
 ::::::::::::::
-sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.15304  3.38195  3.25978     3.26359
- 0.981572  1.97394  16.3693    4.51017
+ 6.53128  6.57749  6.34511     6.48385
+ 0.818555  3.78273  11.5588    9.39176
 ::::::::::::::
-sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.8362  2.42793  2.9274     2.72156
- 0.966596  1.73078  0.113214    3.78022
+ 6.2117  6.3876  6.1251     6.24052
+ 0.916796  3.72765  11.4676    8.98981
 ::::::::::::::
-sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.01568  3.14883  3.05366     3.07222
- 0.993996  1.88997  0.902375    4.21207
+ 6.26139  6.27134  6.18871     6.24037
+ 0.902647  3.75332  11.3181    9.08114
 ::::::::::::::
-sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.39557  3.70311  3.10944     3.39407
- 0.969278  2.0016  18.6475    4.63407
+ 6.95165  7.03149  5.93566     6.62016
+ 0.768086  3.68256  9.34642    9.11738
 ::::::::::::::
-sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.86398  2.53977  2.95405     2.7801
- 0.75257  1.82033  0.138953    3.59224
+ 6.70843  6.6897  6.24018     6.54247
+ 0.77798  3.58964  8.31646    8.78061
 ::::::::::::::
-sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.11391  3.4076  3.07424     3.1952
- 0.981646  1.90843  16.0303    4.33256
+ 6.78511  6.78224  6.10517     6.54952
+ 0.818856  3.76037  9.87125    9.22403
 ::::::::::::::
-sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.21003  3.45975  3.16917     3.27717
- 0.978463  1.94657  16.5567    4.44613
+ 6.76015  6.81187  6.00655     6.51552
+ 0.826295  3.73603  10.7739    9.21539
 ::::::::::::::
-sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89803  3.14504  3.0182     3.01874
- 0.994  1.84065  0.890927    4.08781
+ 6.23724  6.21215  6.06352     6.17049
+ 0.873273  3.68513  9.86483    8.93603
 ::::::::::::::
-sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.55263  3.65809  3.16952     3.45355
- 0.954335  2.02599  13.6692    4.74239
+ 7.31265  6.85074  6.07698     6.72719
+ 0.830986  3.794  14.5359    9.52403
 ::::::::::::::
-sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.99586  2.45753  3.07617     2.82929
- 0.966907  1.58023  10.4778    3.59444
+ 7.15442  6.78782  6.58893     6.83974
+ 0.702766  3.71161  9.54438    9.3569
 ::::::::::::::
-sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.29334  3.39164  3.11774     3.26559
- 0.979076  1.94658  16.8137    4.4444
+ 6.96478  6.74781  6.19989     6.62956
+ 0.927328  3.88587  25.3211    9.49634
 ::::::::::::::
-sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.39813  3.45684  3.03122     3.28987
- 0.982039  1.96133  17.5986    4.47525
+ 7.01045  6.76942  5.83962     6.51969
+ 0.893274  3.80672  11.1066    9.21995
 ::::::::::::::
-sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.97514  3.18049  3.23037     3.12669
- 0.993949  1.90739  14.4986    4.28889
+ 6.36721  6.2504  6.0936     6.23606
+ 0.850777  3.69329  10.4665    9.03819
 ::::::::::::::
-sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.49638  3.81525  3.77818     3.69381
- 0.929237  2.13474  17.7112    5.17834
+ 7.41828  7.24369  6.6569     7.09869
+ 0.65954  4.00255  10.5635    10.2505
 ::::::::::::::
-sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.95041  2.66023  3.28623     2.95461
- 0.966054  1.75728  11.4361    3.99095
+ 6.92104  6.89438  6.56281     6.79077
+ 0.759038  3.86635  11.2762    9.73676
 ::::::::::::::
-sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.3535  3.70026  3.858     3.63104
- 0.949443  2.1114  17.9405    5.02823
+ 7.16816  7.01741  6.52565     6.89821
+ 0.747733  3.89845  12.7314    9.97954
 ::::::::::::::
-sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.35357  3.64032  3.69147     3.55862
- 0.945839  2.07032  17.7177    4.91845
+ 7.27554  7.03006  6.56145     6.9493
+ 0.719357  3.91909  11.6741    10.0262
 ::::::::::::::
-sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08494  3.33446  3.51143     3.30561
- 0.979355  1.99115  15.485    4.56422
+ 6.74012  6.56358  6.31148     6.53601
+ 0.797887  3.79632  10.9066    9.4363
 ::::::::::::::
-sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.60313  3.74416  3.27701     3.53593
- 0.955327  2.03368  19.8782    4.78067
+ 7.23729  7.10763  6.32615     6.87828
+ 0.744265  3.79436  11.6964    9.6642
 ::::::::::::::
-sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.00368  2.61086  2.93733     2.84531
- 0.980139  1.70816  11.8737    3.83785
+ 6.79342  6.74892  6.35866     6.63075
+ 0.817835  3.85  10.7256    9.48877
 ::::::::::::::
-sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.26825  3.48127  3.16673     3.30285
- 0.97518  1.95718  17.1157    4.48714
+ 6.87723  6.74156  6.22655     6.60907
+ 0.806145  3.82884  11.0889    9.49925
 ::::::::::::::
-sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.38548  3.60841  3.25238     3.41229
- 0.955417  1.98196  18.142    4.62861
+ 7.03101  7.02872  6.4184     6.81983
+ 0.759693  3.88014  12.0177    9.83284
 ::::::::::::::
-sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08452  3.29023  3.10844     3.15974
- 0.989225  1.90499  15.5009    4.29822
+ 6.44438  6.38721  6.21298     6.34742
+ 0.844097  3.74691  10.8977    9.20044
 ::::::::::::::
-sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.81836  4.0533  3.6544     3.83855
- 0.942317  2.21629  17.2989    5.3789
+ 7.33281  7.13526  6.43495     6.95678
+ 0.734826  3.85221  10.8936    9.74058
 ::::::::::::::
-sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.30706  2.78406  3.17468     3.0804
- 0.974012  1.8465  13.8545    4.19315
+ 6.9163  6.75702  6.45496     6.70668
+ 0.799751  3.85599  11.1264    9.58042
 ::::::::::::::
-sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.65094  3.843  3.63785     3.70942
- 0.958595  2.17406  21.079    5.19226
+ 6.96343  6.85558  6.48394     6.7645
+ 0.79009  3.88091  11.2361    9.67188
 ::::::::::::::
-sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.58224  3.81368  3.59322     3.66152
- 0.963034  2.14402  20.3568    5.08009
+ 7.01012  6.89839  6.34824     6.74594
+ 0.79492  3.80445  10.9561    9.46647
 ::::::::::::::
-sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.29112  3.50596  3.37944     3.39103
- 0.993984  2.03681  17.2503    4.64404
+ 6.42259  6.32268  6.26123     6.33515
+ 0.875711  3.74853  11.4573    9.14643
 ::::::::::::::
-sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.60862  3.86822  3.41632     3.62636
- 0.865478  2.06779  7.52851    5.03065
+ 7.72845  7.45029  6.38776     7.16481
+ 0.768408  3.89974  12.2701    9.86794
 ::::::::::::::
-sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0395  2.7022  3.06476     2.93071
- 0.950194  1.69613  11.5526    3.89416
+ 7.20968  7.1826  6.72938     7.03705
+ 0.663205  3.84217  8.02658    9.4267
 ::::::::::::::
-sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.2638  3.4965  3.14584     3.29887
- 0.965238  1.94994  17.1364    4.50212
+ 7.3213  7.08293  6.32437     6.89614
+ 0.834612  3.82289  11.7776    9.44741
 ::::::::::::::
-sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.32319  3.5864  3.25057     3.3837
- 0.948654  1.98889  13.8031    4.65698
+ 7.44114  7.13889  6.22063     6.91355
+ 0.817707  3.86572  10.7619    9.52668
 ::::::::::::::
-sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.86533  3.16507  3.04125     3.02137
- 0.989337  1.82773  13.8996    4.09882
+ 6.48755  6.36719  6.20885     6.35351
+ 0.837744  3.73914  10.8496    9.19684
 ::::::::::::::
-sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.68411  3.82598  3.37557     3.62361
- 0.93945  2.11179  16.6171    5.06268
+ 7.24408  7.2147  6.40564     6.94365
+ 0.742919  3.9603  10.5214    9.91166
 ::::::::::::::
-sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.05717  2.57578  2.95043     2.85346
- 0.992454  1.73387  12.0067    3.86281
+ 6.51064  6.64997  6.32121     6.49254
+ 0.849135  3.72652  10.6405    9.12709
 ::::::::::::::
-sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.4094  3.54538  3.19468     3.38005
- 0.97432  2.00656  18.3246    4.62923
+ 6.80991  6.86528  6.26125     6.63978
+ 0.842374  3.84789  9.97319    9.37405
 ::::::::::::::
-sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.44333  3.53836  3.15983     3.37662
- 0.971737  2.00485  18.4434    4.63395
+ 6.93623  6.87534  6.13827     6.63979
+ 0.830146  3.85543  10.8056    9.47469
 ::::::::::::::
-sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.0636  3.18133  3.06239     3.10194
- 0.993982  1.89738  0.80655    4.23043
+ 6.22418  6.20578  6.0478     6.15874
+ 0.890237  3.68403  10.7788    8.93462
 ::::::::::::::
-sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.20605  3.10381  3.456     3.25197
- 0.965059  1.94341  15.0908    4.4802
+ 6.73308  6.57945  6.49987     6.60342
+ 0.776582  3.7292  12.0279    9.4371
 ::::::::::::::
-sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.01149  2.94637  3.2944     3.08046
- 0.986713  1.87747  13.6938    4.23289
+ 6.50869  6.49952  6.32927     6.4453
+ 0.814862  3.74474  11.3863    9.30633
 ::::::::::::::
-sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.89425  2.87485  3.21686     2.99131
- 0.993971  1.84615  0.817158    4.10096
+ 6.37905  6.38334  6.24362     6.335
+ 0.871688  3.75202  10.6421    9.12926
 ::::::::::::::
-sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.69245  4.04  3.48755     3.73312
- 0.937565  2.13555  14.3872    5.12958
+ 7.09273  6.91361  6.43639     6.80853
+ 0.763354  3.76919  11.1328    9.49563
 ::::::::::::::
-sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.20249  2.93253  3.1621     3.09672
- 0.958868  1.75774  13.3108    4.01919
+ 7.27963  6.83148  6.86248     6.98825
+ 0.674967  3.68942  9.27043    9.33651
 ::::::::::::::
-sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.73821  4.05554  3.62191     3.80087
- 0.936976  2.17186  16.4126    5.2558
+ 7.11872  7.0381  6.55128     6.89808
+ 0.77965  3.8638  11.4604    9.68322
 ::::::::::::::
-sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.55562  3.79692  3.33419     3.55723
- 0.959077  2.04119  19.7061    4.78765
+ 6.85805  6.78431  6.31643     6.64853
+ 0.789568  3.74555  11.8714    9.41923
 ::::::::::::::
-sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.76372  3.95562  3.74788     3.82125
- 0.893351  2.1993  9.5794    5.40823
+ 7.27613  7.11506  6.47933     6.94816
+ 0.688387  3.86997  8.61145    9.56067
 ::::::::::::::
-sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.19891  2.79353  3.36864     3.11078
- 0.968679  1.81228  12.7923    4.12107
+ 6.96096  6.99305  6.66439     6.87119
+ 0.746667  3.69527  9.46704    9.20668
 ::::::::::::::
-sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.36984  3.66531  3.64807     3.55846
- 0.958065  2.1  18.6118    4.9625
+ 7.03659  6.87401  6.49887     6.7994
+ 0.762054  3.92977  9.0576    9.62416
 ::::::::::::::
-sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.46101  3.71278  3.60399     3.59111
- 0.957516  2.11037  19.2436    4.99737
+ 7.09279  6.8742  6.38944     6.77903
+ 0.765926  3.87646  8.62172    9.44918
 ::::::::::::::
-sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.08029  3.36545  3.42607     3.28708
- 0.993986  1.98721  15.7354    4.50439
+ 6.2936  6.25576  6.02397     6.18995
+ 0.863708  3.64564  8.93717    8.81318
 ::::::::::::::
-sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.36816  3.7036  3.68129     3.58101
- 0.952236  2.09002  18.2985    4.95432
+ 7.13954  6.95536  6.4444     6.84002
+ 0.759184  3.90332  12.304    9.91155
 ::::::::::::::
-sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.83924  2.67966  3.26065     2.9165
- 0.963233  1.74839  11.3775    3.97766
+ 7.15087  6.95934  6.59518     6.89792
+ 0.777122  3.95135  13.1387    10.0198
 ::::::::::::::
-sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.3072  3.56238  3.63678     3.49923
- 0.970119  2.08194  17.6726    4.86108
+ 6.91721  6.7533  6.35931     6.67246
+ 0.848267  3.90418  15.2268    9.73732
 ::::::::::::::
-sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.10595  3.46229  3.51591     3.35633
- 0.971842  1.99441  16.0884    4.60016
+ 6.87771  6.69863  6.27886     6.61358
+ 0.815938  3.84193  13.2617    9.63167
 ::::::::::::::
-sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.99984  3.34267  3.57608     3.29761
- 0.986667  1.99281  15.2598    4.54399
+ 6.60905  6.56436  6.21594     6.4607
+ 0.852765  3.78415  13.2035    9.36824
 ::::::::::::::
-sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.03501  3.00551  3.15362     3.06405
- 0.966699  1.76682  13.082    4.01664
+ 6.98604  6.44575  6.38358     6.59968
+ 0.737867  3.69729  9.38801    9.22154
 ::::::::::::::
-sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.7544  2.87837  3.08594     2.90304
- 0.979618  1.68572  11.3784    3.78782
+ 6.76002  6.48294  6.45791     6.56554
+ 0.770413  3.78157  9.35454    9.32695
 ::::::::::::::
-sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.57104  2.78735  2.937     2.76101
- 0.993835  1.64965  10.6984    3.67027
+ 6.59199  6.37983  6.34841     6.43917
+ 0.84565  3.78263  10.027    9.22487
 ::::::::::::::
-sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.74427  3.76048  3.46006     3.65229
- 0.864701  2.13278  5.57112    5.11003
+ 7.52986  6.90912  6.08004     6.81353
+ 0.828675  3.98161  7.95072    9.51753
 ::::::::::::::
-sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.88193  2.55234  2.98845     2.80127
- 0.944609  1.66744  7.04249    3.81222
+ 7.12855  6.91801  6.56334     6.86598
+ 0.759609  4.08512  7.37044    9.6984
 ::::::::::::::
-sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.39875  3.60184  3.18519     3.39099
- 0.958445  1.99606  17.6576    4.65604
+ 7.37856  6.98553  6.27776     6.86529
+ 0.80318  3.94896  9.76468    9.6629
 ::::::::::::::
-sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.24654  3.45379  3.37766     3.35823
- 0.963313  2.01234  17.1514    4.68329
+ 7.06674  6.70577  5.95958     6.56086
+ 0.775878  3.8283  8.01604    9.25421
 ::::::::::::::
-sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.81355  3.04769  2.99646     2.95083
- 0.99032  1.80433  13.2865    4.03762
+ 6.33703  6.17353  6.08297     6.19696
+ 0.84236  3.69851  10.3881    9.06609
 ::::::::::::::
-sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.85792  2.55563  2.9367     2.77845
- 0.987736  1.71774  11.3502    3.83808
+ 6.53377  6.6358  6.46545     6.54463
+ 0.821256  3.84719  11.4448    9.52152
 ::::::::::::::
-sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.73542  2.45129  2.89246     2.68676
- 0.882546  1.76039  0.13429    3.7042
+ 6.35248  6.42357  6.24891     6.34125
+ 0.902689  3.80865  12.4026    9.24035
 ::::::::::::::
-sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.63301  3.89811  3.51243     3.6777
- 0.903827  2.07727  17.3659    5.10358
+ 7.63728  7.45301  6.67861     7.24412
+ 0.634146  4.0191  12.3083    10.668
 ::::::::::::::
-sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.03586  2.76246  2.98623     2.92573
- 0.955535  1.67191  12.1768    3.82663
+ 7.3021  7.20236  6.64843     7.045
+ 0.707278  3.8872  10.3194    9.82614
 ::::::::::::::
-sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.173  3.50274  3.29883     3.3221
- 0.964693  1.96236  16.8058    4.53749
+ 6.99968  6.88354  6.45521     6.77538
+ 0.776346  3.90204  10.5109    9.69307
 ::::::::::::::
-sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.20731  3.51418  3.34002     3.35149
- 0.949807  1.95122  16.8359    4.55971
+ 7.06767  7.01603  6.59714     6.89035
+ 0.726345  3.97582  11.8314    10.1451
 ::::::::::::::
-sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.02054  3.30217  3.21034     3.1755
- 0.982193  1.90778  15.2668    4.32815
+ 6.59313  6.57283  6.243     6.46764
+ 0.817841  3.82695  11.6648    9.49994
 ::::::::::::::
-sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.27312  3.55609  3.17432     3.33064
- 0.949702  1.9157  17.0204    4.4636
+ 7.22045  7.12393  6.31901     6.87561
+ 0.732119  3.68144  12.0795    9.49255
 ::::::::::::::
-sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.82976  2.56825  2.96941     2.7841
- 0.958021  1.58697  10.2926    3.63074
+ 7.03666  7.05288  6.72816     6.93761
+ 0.680326  3.67323  10.0419    9.40976
 ::::::::::::::
-sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.00336  3.36038  3.05153     3.13452
- 0.969324  1.84029  15.0267    4.19455
+ 7.03007  6.92331  6.33751     6.75664
+ 0.778653  3.7278  10.2503    9.28125
 ::::::::::::::
-sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.05209  3.38389  3.12966     3.18544
- 0.961069  1.85294  15.2242    4.2542
+ 6.95915  6.82074  6.25272     6.6704
+ 0.763659  3.76677  11.3223    9.50618
 ::::::::::::::
-sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.76244  3.09582  2.92415     2.92431
- 0.989089  1.76482  13.0725    3.94574
+ 6.4075  6.36121  6.23737     6.33495
+ 0.824643  3.70132  11.8288    9.20527
 ::::::::::::::
-sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.49976  4.20361  3.44952     3.70231
- 0.896408  2.07829  15.0998    5.11736
+ 7.43149  7.41429  6.74757     7.19059
+ 0.617636  3.92966  11.3708    10.3861
 ::::::::::::::
-sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.00563  3.06563  3.04644     3.03913
- 0.951177  1.73029  13.3078    3.97745
+ 6.92774  6.99258  6.56931     6.82731
+ 0.706123  3.77557  11.2865    9.71031
 ::::::::::::::
-sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.22254  3.91194  3.20672     3.43203
- 0.946409  1.99597  19.0599    4.70443
+ 7.08791  6.92699  6.52151     6.84127
+ 0.742914  3.93907  13.0205    10.1158
 ::::::::::::::
-sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 3.25114  3.93772  3.2367     3.46041
- 0.942381  1.99461  19.164    4.71628
+ 7.12681  6.97306  6.37867     6.81841
+ 0.709111  3.84768  11.7924    9.9179
 ::::::::::::::
-sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.90026  3.55957  2.98639     3.13565
- 0.982544  1.88187  15.9237    4.25985
+ 6.48494  6.36617  6.29904     6.38292
+ 0.821776  3.74035  13.0006    9.36578
 ::::::::::::::
-sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.81756  2.95874  3.38782     3.04532
- 0.952776  1.81215  12.3744    4.16754
+ 7.03332  6.88997  6.64355     6.85371
+ 0.658098  3.77235  10.985    9.83238
 ::::::::::::::
-sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.98004  3.67955  3.49055     3.37005
- 0.955649  2.00867  16.7126    4.69943
+ 6.99963  6.75509  6.31025     6.68217
+ 0.698409  3.80032  10.4007    9.67598
 ::::::::::::::
-sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.60462  2.82901  3.2155     2.87216
- 0.979876  1.75045  11.2058    3.93537
+ 6.6023  6.52926  6.25041     6.45886
+ 0.804056  3.72058  11.2254    9.27311
 ::::::::::::::
-sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.77122  3.52167  3.40534     3.21509
- 0.97473  1.93616  14.9213    4.4279
+ 6.63659  6.39255  6.15531     6.3918
+ 0.796007  3.7355  11.2227    9.33006
 ::::::::::::::
-sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.49717  2.67658  3.12237     2.7532
- 0.885916  1.79486  0.117612    3.77555
+ 6.41498  6.32601  6.09342     6.27666
+ 0.862444  3.70402  10.0989    9.01482
 ::::::::::::::
-sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-base.feat/smoothness.txt
+/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base.feat/smoothness.txt
 ::::::::::::::
- 2.52798  3.32475  3.2693     3.01761
- 0.993998  1.86972  0.923823    4.16072
+ 6.3178  6.13097  5.95256     6.13196
+ 0.915312  3.7044  12.0904    8.95554

@@ -8,7 +8,7 @@ istartdatadir=/ZPOOL/data/projects/multiecho-pilot #need to fix this upon releas
 
 # study-specific inputs
 TASK=sharedreward
-sm=4
+sm=5
 model=1 #probably will need to adjust this for some subjects with missing EVs
 sub=$1
 mbme=$2
@@ -21,14 +21,16 @@ denoise=base
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 mkdir -p $MAINOUTPUT
 
-if [ "$mbme" == "mb1me1" -o  "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" -o "$mbme" == "mb3me1fa50" ]; then
-	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin6Asym_desc-preproc_bold_4mm.nii.gz
+if [ "$mbme" == "mb1me1" -o "$mbme" == "mb3me1" -o "$mbme" == "mb6me1" -o "$mbme" == "mb3me1fa50" ]; then
+	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin6Asym_desc-preproc_bold_${sm}mm.nii.gz
+	RAWDATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
 else
-	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold_4mm.nii.gz
+	DATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold_${sm}mm.nii.gz
+	RAWDATA=${istartdatadir}/derivatives/fmriprep/sub-${sub}/func/sub-${sub}_task-${TASK}_acq-${acq}_part-mag_space-MNI152NLin6Asym_desc-preproc_bold.nii.gz
 fi
 
 if [ ! -e $DATA ]; then
-	echo "NO DATA: ${sub} ${acq}"
+	echo "NO DATA: ${DATA}"
 	exit
 fi
 
@@ -104,12 +106,12 @@ fi
 # set output based in whether it is activation or ppi
 if [ "$ppi" == "0" ]; then
 	TYPE=act
-	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}
+	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_EstimateSmoothing
 	OTEMPLATE=${MAINOUTPUT}/tSNRandSmoothness_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}.fsf
 fi
 
 # check for output and skip existing
-if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
+if [ -e ${OUTPUT}.feat/smoothness.txt ]; then
 	exit
 else
 	echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log
@@ -135,11 +137,16 @@ fslmaths ${OUTPUT}.feat/filtered_func_data.nii.gz -Tmean ${OUTPUT}.feat/func_mea
 fslmaths ${OUTPUT}.feat/filtered_func_data.nii.gz -Tstd ${OUTPUT}.feat/func_std
 fslmaths ${OUTPUT}.feat/func_mean -div ${OUTPUT}.feat/func_std ${OUTPUT}.feat/tsnr
 
+# extract from smoothed data
 rm -rf ${OUTPUT}.feat/3dFWHMx.1D ${OUTPUT}.feat/3dFWHMx.1D.png
-3dFWHMx -geom -mask ${OUTPUT}.feat/mask.nii.gz -input ${OUTPUT}.feat/stats/res4d.nii.gz -ShowMeClassicFWHM > ${OUTPUT}.feat/smoothness.txt
-
-# not yet sure how to suppress or control this output, but it conflicts with other processes (no overwrite)
+3dFWHMx -detrend -ACF -mask ${OUTPUT}.feat/mask.nii.gz -input ${DATA} > ${OUTPUT}.feat/smoothness-5mm.txt
 rm -rf ${scriptdir}/3dFWHMx.1D ${scriptdir}/3dFWHMx.1D.png
+
+# extract from raw data
+rm -rf ${OUTPUT}.feat/3dFWHMx.1D ${OUTPUT}.feat/3dFWHMx.1D.png
+3dFWHMx -detrend -ACF -mask ${OUTPUT}.feat/mask.nii.gz -input ${RAWDATA} > ${OUTPUT}.feat/smoothness-0mm.txt
+rm -rf ${scriptdir}/3dFWHMx.1D ${scriptdir}/3dFWHMx.1D.png
+
 
 
 # delete unused files
