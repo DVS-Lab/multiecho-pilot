@@ -10,7 +10,7 @@ type=$2
 model=$3
 denoising=$4
 task=sharedreward # edit if necessary
-sm=4 # edit if necessary
+sm=0 # edit if necessary
 MAINOUTPUT=${maindir}/derivatives/fsl/sub-${sub}
 
 
@@ -25,7 +25,7 @@ if [ "${type}" == "act" ]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10094.fsf
 	elif [ ${sub} -eq 10438 ]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10438.fsf
-	elif [ ${sub} -eq 10741sp ]; then
+	elif [ "${sub}" == "10741sp" ]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10741sp.fsf
 	else
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act.fsf
@@ -72,6 +72,7 @@ else
 	# set output template and run template-specific analyses
 	#for sub-10085 & 10438, run mb1me1 not motion outlier
 	if [ ${sub} -eq 10085 ] || [ ${sub} -eq 10438 ]; then
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10085.fsf
 		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
 		sed -e 's@OUTPUT@'$OUTPUT'@g' \
 		-e 's@INPUT2@'$INPUT2'@g' \
@@ -83,6 +84,7 @@ else
 		feat $OTEMPLATE
 	#for sub-10094, run mb1me1, mb3me1, mb3me4, mb6me4 motion outliers
 	elif [ ${sub} -eq 10094 ]; then
+		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10094.fsf
 		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
 		sed -e 's@OUTPUT@'$OUTPUT'@g' \
 		-e 's@INPUT1@'$INPUT1'@g' \
