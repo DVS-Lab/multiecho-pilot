@@ -30,13 +30,13 @@ set fmri(featwatcher_yn) 0
 set fmri(sscleanup_yn) 0
 
 # Output directory
-set fmri(outputdir) "OUTPUT"
+set fmri(outputdir) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-10136/L1_task-sharedreward_model-2_type-act_acq-mb1me1_sm-0_denoising-base_test"
 
 # TR(s)
-set fmri(tr) TR_INFO
+set fmri(tr) 3.390000 
 
 # Total volumes
-set fmri(npts) NVOLUMES
+set fmri(npts) 131
 
 # Delete volumes
 set fmri(ndelete) 0
@@ -109,7 +109,7 @@ set fmri(st_file) ""
 set fmri(bet_yn) 1
 
 # Spatial smoothing FWHM (mm)
-set fmri(smooth) 0
+set fmri(smooth) 4.0
 
 # Intensity normalization
 set fmri(norm_yn) 0
@@ -158,8 +158,8 @@ set fmri(evs_real) 10
 set fmri(evs_vox) 0
 
 # Number of contrasts
-set fmri(ncon_orig) 3
-set fmri(ncon_real) 3
+set fmri(ncon_orig) 4
+set fmri(ncon_real) 4
 
 # Number of F-tests
 set fmri(nftests_orig) 0
@@ -266,20 +266,23 @@ set fmri(regstandard_nonlinear_warpres) 10
 set fmri(paradigm_hp) 100
 
 # Total voxels
-set fmri(totalVoxels) 208831392
+set fmri(totalVoxels) 28225260
+
+
+set fmri(fnirt_config) "T1_2_MNI152_2mm"
 
 
 # Number of lower-level copes feeding into higher-level analysis
 set fmri(ncopeinputs) 0
 
 # 4D AVW data or FEAT directory (1)
-set feat_files(1) "DATA"
+set feat_files(1) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fmriprep/sub-10136/func/sub-10136_task-sharedreward_acq-mb1me1_space-MNI152NLin6Asym_desc-preproc_bold_5mm"
 
 # Add confound EVs text file
 set fmri(confoundevs) 1
 
 # Confound EVs text file for analysis 1
-set confoundev_files(1) "CONFOUNDEVS"
+set confoundev_files(1) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/confounds/sub-10136/sub-10136_task-sharedreward_acq-mb1me1_desc-confounds_acq-mb1me1_desc-confounds_desc-fslConfounds.tsv"
 
 # EV 1 title
 set fmri(evtitle1) "Left"
@@ -314,7 +317,7 @@ set fmri(tempfilt_yn1) 0
 set fmri(deriv_yn1) 0
 
 # Custom EV file (EV 1)
-set fmri(custom1) "EVDIR/_guess_allLeftButton.txt"
+set fmri(custom1) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_guess_allLeftButton.txt"
 
 # Orthogonalise EV 1 wrt EV 0
 set fmri(ortho1.0) 0
@@ -382,7 +385,7 @@ set fmri(tempfilt_yn2) 0
 set fmri(deriv_yn2) 0
 
 # Custom EV file (EV 2)
-set fmri(custom2) "EVDIR/_guess_allRightButton.txt"
+set fmri(custom2) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_guess_allRightButton.txt"
 
 # Orthogonalise EV 2 wrt EV 0
 set fmri(ortho2.0) 0
@@ -450,7 +453,7 @@ set fmri(tempfilt_yn3) 0
 set fmri(deriv_yn3) 0
 
 # Custom EV file (EV 3)
-set fmri(custom3) "EVDIR/_outcome_computer_punish.txt"
+set fmri(custom3) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_outcome_computer_punish.txt"
 
 # Orthogonalise EV 3 wrt EV 0
 set fmri(ortho3.0) 0
@@ -518,7 +521,7 @@ set fmri(tempfilt_yn4) 0
 set fmri(deriv_yn4) 0
 
 # Custom EV file (EV 4)
-set fmri(custom4) "EVDIR/_outcome_computer_neutral.txt"
+set fmri(custom4) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_outcome_computer_neutral.txt"
 
 # Orthogonalise EV 4 wrt EV 0
 set fmri(ortho4.0) 0
@@ -586,7 +589,7 @@ set fmri(tempfilt_yn5) 0
 set fmri(deriv_yn5) 0
 
 # Custom EV file (EV 5)
-set fmri(custom5) "EVDIR/_outcome_computer_reward.txt"
+set fmri(custom5) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_outcome_computer_reward.txt"
 
 # Orthogonalise EV 5 wrt EV 0
 set fmri(ortho5.0) 0
@@ -654,7 +657,7 @@ set fmri(tempfilt_yn6) 0
 set fmri(deriv_yn6) 0
 
 # Custom EV file (EV 6)
-set fmri(custom6) "EVDIR/_outcome_stranger_punish.txt"
+set fmri(custom6) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_outcome_stranger_punish.txt"
 
 # Orthogonalise EV 6 wrt EV 0
 set fmri(ortho6.0) 0
@@ -722,7 +725,7 @@ set fmri(tempfilt_yn7) 0
 set fmri(deriv_yn7) 0
 
 # Custom EV file (EV 7)
-set fmri(custom7) "EVDIR/_outcome_stranger_neutral.txt"
+set fmri(custom7) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_outcome_stranger_neutral.txt"
 
 # Orthogonalise EV 7 wrt EV 0
 set fmri(ortho7.0) 0
@@ -790,7 +793,7 @@ set fmri(tempfilt_yn8) 0
 set fmri(deriv_yn8) 0
 
 # Custom EV file (EV 8)
-set fmri(custom8) "EVDIR/_outcome_stranger_reward.txt"
+set fmri(custom8) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_outcome_stranger_reward.txt"
 
 # Orthogonalise EV 8 wrt EV 0
 set fmri(ortho8.0) 0
@@ -835,7 +838,7 @@ set fmri(evtitle9) "Miss_dec"
 # 3 : Custom (3 column format)
 # 4 : Interaction
 # 10 : Empty (all zeros)
-set fmri(shape9) SHAPE_MISSED_DEC
+set fmri(shape9) 3
 
 # Convolution (EV 9)
 # 0 : None
@@ -858,7 +861,7 @@ set fmri(tempfilt_yn9) 0
 set fmri(deriv_yn9) 0
 
 # Custom EV file (EV 9)
-set fmri(custom9) "EVDIR/_miss_decision.txt"
+set fmri(custom9) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_miss_decision.txt"
 
 # Orthogonalise EV 9 wrt EV 0
 set fmri(ortho9.0) 0
@@ -903,7 +906,7 @@ set fmri(evtitle10) "Miss_FB"
 # 3 : Custom (3 column format)
 # 4 : Interaction
 # 10 : Empty (all zeros)
-set fmri(shape10) SHAPE_MISSED_OUTCOME
+set fmri(shape10) 3
 
 # Convolution (EV 10)
 # 0 : None
@@ -926,7 +929,7 @@ set fmri(tempfilt_yn10) 0
 set fmri(deriv_yn10) 0
 
 # Custom EV file (EV 10)
-set fmri(custom10) "EVDIR/_miss_outcome.txt"
+set fmri(custom10) "/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/EVFiles/sub-10136/sharedreward/acq-mb1me1/_miss_outcome.txt"
 
 # Orthogonalise EV 10 wrt EV 0
 set fmri(ortho10.0) 0
@@ -1075,6 +1078,42 @@ set fmri(con_real3.9) 0
 # Real contrast_real vector 3 element 10
 set fmri(con_real3.10) 0
 
+# Display images for contrast_real 4
+set fmri(conpic_real.4) 1
+
+# Title for contrast_real 4
+set fmri(conname_real.4) "right>left"
+
+# Real contrast_real vector 4 element 1
+set fmri(con_real4.1) -1.0
+
+# Real contrast_real vector 4 element 2
+set fmri(con_real4.2) 1.0
+
+# Real contrast_real vector 4 element 3
+set fmri(con_real4.3) 0
+
+# Real contrast_real vector 4 element 4
+set fmri(con_real4.4) 0
+
+# Real contrast_real vector 4 element 5
+set fmri(con_real4.5) 0
+
+# Real contrast_real vector 4 element 6
+set fmri(con_real4.6) 0
+
+# Real contrast_real vector 4 element 7
+set fmri(con_real4.7) 0
+
+# Real contrast_real vector 4 element 8
+set fmri(con_real4.8) 0
+
+# Real contrast_real vector 4 element 9
+set fmri(con_real4.9) 0
+
+# Real contrast_real vector 4 element 10
+set fmri(con_real4.10) 0
+
 # Display images for contrast_orig 1
 set fmri(conpic_orig.1) 1
 
@@ -1183,6 +1222,42 @@ set fmri(con_orig3.9) 0
 # Real contrast_orig vector 3 element 10
 set fmri(con_orig3.10) 0
 
+# Display images for contrast_orig 4
+set fmri(conpic_orig.4) 1
+
+# Title for contrast_orig 4
+set fmri(conname_orig.4) "right>left"
+
+# Real contrast_orig vector 4 element 1
+set fmri(con_orig4.1) -1.0
+
+# Real contrast_orig vector 4 element 2
+set fmri(con_orig4.2) 1.0
+
+# Real contrast_orig vector 4 element 3
+set fmri(con_orig4.3) 0
+
+# Real contrast_orig vector 4 element 4
+set fmri(con_orig4.4) 0
+
+# Real contrast_orig vector 4 element 5
+set fmri(con_orig4.5) 0
+
+# Real contrast_orig vector 4 element 6
+set fmri(con_orig4.6) 0
+
+# Real contrast_orig vector 4 element 7
+set fmri(con_orig4.7) 0
+
+# Real contrast_orig vector 4 element 8
+set fmri(con_orig4.8) 0
+
+# Real contrast_orig vector 4 element 9
+set fmri(con_orig4.9) 0
+
+# Real contrast_orig vector 4 element 10
+set fmri(con_orig4.10) 0
+
 # Contrast masking - use >0 instead of thresholding?
 set fmri(conmask_zerothresh_yn) 0
 
@@ -1192,17 +1267,35 @@ set fmri(conmask1_2) 0
 # Mask real contrast/F-test 1 with real contrast/F-test 3?
 set fmri(conmask1_3) 0
 
+# Mask real contrast/F-test 1 with real contrast/F-test 4?
+set fmri(conmask1_4) 0
+
 # Mask real contrast/F-test 2 with real contrast/F-test 1?
 set fmri(conmask2_1) 0
 
 # Mask real contrast/F-test 2 with real contrast/F-test 3?
 set fmri(conmask2_3) 0
 
+# Mask real contrast/F-test 2 with real contrast/F-test 4?
+set fmri(conmask2_4) 0
+
 # Mask real contrast/F-test 3 with real contrast/F-test 1?
 set fmri(conmask3_1) 0
 
 # Mask real contrast/F-test 3 with real contrast/F-test 2?
 set fmri(conmask3_2) 0
+
+# Mask real contrast/F-test 3 with real contrast/F-test 4?
+set fmri(conmask3_4) 0
+
+# Mask real contrast/F-test 4 with real contrast/F-test 1?
+set fmri(conmask4_1) 0
+
+# Mask real contrast/F-test 4 with real contrast/F-test 2?
+set fmri(conmask4_2) 0
+
+# Mask real contrast/F-test 4 with real contrast/F-test 3?
+set fmri(conmask4_3) 0
 
 # Do contrast masking at all?
 set fmri(conmask1_1) 0
