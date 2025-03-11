@@ -199,12 +199,12 @@ else # otherwise, do activation and seed-based ppi
 	fi
 	
 	# check for output and skip existing
-	#if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
-	#	exit
-	#else
-	#	echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log
-	#	rm -rf ${OUTPUT}.feat
-	#fi
+	if [ -e ${OUTPUT}.feat/cluster_mask_zstat1.nii.gz ]; then
+		exit
+	else
+		echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log
+		rm -rf ${OUTPUT}.feat
+	fi
        
 	# create template and run analyses
 	ITEMPLATE=${maindir}/templates/L1_task-${TASK}_model-${model}_type-${TYPE}.fsf

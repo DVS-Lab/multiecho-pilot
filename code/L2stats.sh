@@ -25,7 +25,7 @@ if [ "${type}" == "act" ]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10094.fsf
 	elif [ ${sub} -eq 10438 ]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10438.fsf
-	elif [ "${sub}" == "10741sp" ]; then
+	elif [[ ${sub} == 10741sp ]]; then
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act_10741sp.fsf
 	else
 		ITEMPLATE=${maindir}/templates/L2_task-${task}_model-${model}_type-act.fsf
@@ -92,7 +92,7 @@ else
 		<$ITEMPLATE> $OTEMPLATE
 		feat $OTEMPLATE
 	#for sub-10743sp, run mb2me4 & mb3me1fa50 motion outliers
-	elif [ ${sub} -eq 10741sp ]; then
+	elif [[ ${sub} == 10741sp ]]; then
 		OTEMPLATE=${MAINOUTPUT}/L2_task-${task}_model-${model}_type-${type}_denoising-${denoising}.fsf
 		sed -e 's@OUTPUT@'$OUTPUT'@g' \
 		-e 's@INPUT1@'$INPUT1'@g' \
