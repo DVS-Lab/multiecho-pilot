@@ -6,8 +6,8 @@ basedir="$(dirname "$scriptdir")"
 
 input=beta # tsnr, beta, or zstat
 
-for denoise in "tedana"; do # "base" "tedana" 
-  for mask in "VS_constrained" "VMPFC" "rightMotor" "leftMotor" "rightCerebellum" "leftCerebellum"; do # "rFFA"; do
+for denoise in "base"; do # "base" "tedana" 
+  for mask in "VS_constrained" "VMPFC" "rightMotor" "leftMotor" "rightCerebellum" "leftCerebellum" "rFFA"; do
     for ppi in "act"; do
       for sub in $(cat ${scriptdir}/sublist-included.txt); do 
         sub=${sub#*sub-}
