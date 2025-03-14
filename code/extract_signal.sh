@@ -31,8 +31,8 @@ for denoise in "tedana"; do # "base" "tedana"
             zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           elif [[ "$mask" == "leftMotor" ]] || [[ "$mask" == "rightCerebellum" ]]; then
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl-archive-2/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-5_denoising-${denoise}_EstimateSmoothing.feat/tsnr.nii.gz"
-            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope3.nii.gz"
-            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat3.nii.gz"
+            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-4_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope3.nii.gz"
+            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-4_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           elif [[ "$mask" == "rFFA" ]]; then
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl-archive-2/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-5_denoising-${denoise}_EstimateSmoothing.feat/tsnr.nii.gz"
             beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope3.nii.gz"
