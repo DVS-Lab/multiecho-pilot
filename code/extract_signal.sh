@@ -23,20 +23,20 @@ for denoise in "base"; do # "base" "tedana"
           # Define tsnr, beta, & zstat images
           if [[ "$mask" == "VS_constrained" ]] || [[ "$mask" == "VMPFC" ]]; then
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl-archive-2/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-5_denoising-${denoise}_EstimateSmoothing.feat/tsnr.nii.gz"
-            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope13.nii.gz"
-            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat13.nii.gz"
+            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope13.nii.gz"
+            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat13.nii.gz"
           elif [[ "$mask" == "rightMotor" ]] || [[ "$mask" == "leftCerebellum" ]]; then
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl-archive-2/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-5_denoising-${denoise}_EstimateSmoothing.feat/tsnr.nii.gz"
-            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope3.nii.gz"
-            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat3.nii.gz"
+            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope3.nii.gz"
+            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           elif [[ "$mask" == "leftMotor" ]] || [[ "$mask" == "rightCerebellum" ]]; then
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl-archive-2/sub-${sub}/L1_task-sharedreward_model-2_type-${ppi}_acq-${mbme}_sm-5_denoising-${denoise}_EstimateSmoothing.feat/tsnr.nii.gz"
-            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-4_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope3.nii.gz"
-            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-4_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat3.nii.gz"
+            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-4_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope3.nii.gz"
+            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-4_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           elif [[ "$mask" == "rFFA" ]]; then
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl-archive-2/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-5_denoising-${denoise}_EstimateSmoothing.feat/tsnr.nii.gz"
-            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/cope3.nii.gz"
-            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-4_denoising-${denoise}.feat/stats/zstat3.nii.gz"
+            beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope3.nii.gz"
+            zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           else
             echo "Invalid mask: $mask"
             continue
