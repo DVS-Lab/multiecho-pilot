@@ -11,7 +11,7 @@ for sub in `cat ${scriptdir}/sublist-all.txt`; do # `ls -d ${basedir}/derivative
 	sub=${sub%/}
 
 	if [[ $sub == *sp ]]; then
-		acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3fa50" "mb3me4" "mb3me4fa50")
+		acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3ip0" "mb3me4" "mb3me4fa50")
 	else
 		acqs=("mb1me1" "mb1me4" "mb3me1" "mb3me4" "mb6me1" "mb6me4")
 	fi
