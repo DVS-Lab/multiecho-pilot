@@ -111,7 +111,7 @@ if [ "$ppi" == "0" ]; then
 fi
 
 # check for output and skip existing
-if [ -e ${OUTPUT}.feat/smoothness.txt ]; then
+if [ -e ${OUTPUT}.feat/smoothness-5mm.txt ]; then
 	exit
 else
 	echo "missing feat output: $OUTPUT " >> ${maindir}/re-runL1.log
