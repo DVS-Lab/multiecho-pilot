@@ -1,0 +1,172 @@
+---
+title: "tSNR and Smoothness Analysis"
+author: "Cooper J. Sharp -- Temple University Neuroeconomics Lab"
+date: "January 9th, 2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Install additional packages if needed
+# install.packages("lme4")
+# install.packages("lmerTest")
+# install.packages("ez")
+library(lme4)
+library(lmerTest)
+library(ggplot2)
+library(nlme)
+library(ez)
+```
+
+```{r}
+# Load the original data
+data <- read.csv('/Users/tun31934/Documents/GitHub/multiecho-pilot/code/combined_tsnr_coil_output.csv')
+colnames(data) <- c("sub", "coil", "acq", "tsnrMean", "tsnrMedian")
+```
+
+```{r}
+# Split the dataframe into those with 'sp' in sub and without
+data_with_sp <- data[grepl("sp", data$sub), ]
+data_without_sp <- data[!grepl("sp", data$sub), ]
+```
+
+```{r}
+# Process Smoothness data since it comes in as a wonky matrix
+smooth <- read.csv('/Users/tun31934/Documents/GitHub/multiecho-pilot/smoothness-all.csv', header = TRUE)
+smooth <- smooth[!grepl("sp", smooth$sub), ]
+
+
+sub_ids <- c()
+acq_ids <- c()
+vals <- c()
+
+# Extract relevant smoothness data
+for (i in 1:nrow(smooth)) {
+  if (grepl("^sub-", smooth$sub[i])) {
+    sub_id <- sub("^(sub-[^/]+)/.*", "\\1", smooth$sub[i])
+    acq_id <- sub("^.*acq-([^_]+).*", "\\1", smooth$sub[i])
+    j <- i + 1
+    if (j <= nrow(smooth) && !is.na(smooth$X[j])) {
+      last_val <- smooth$X[j]
+      sub_ids <- c(sub_ids, sub_id)
+      acq_ids <- c(acq_ids, acq_id)
+      vals <- c(vals, last_val)
+    }
+  }
+}
+
+# Add it to a dataframe and remove the sub- prefix
+smooth <- data.frame(sub = sub_ids, acq = acq_ids, smoothness = vals)
+smooth$sub <- sub("^sub-", "", smooth$sub)
+```
+
+```{r}
+# Merge original data with smooth values
+data_merged <- merge(data, smooth, by = c("sub", "acq"), all.x = TRUE)
+data_merged_without_sp <- data_merged[!grepl("sp", data_merged$sub), ]
+
+# Add mb and me columns
+data_merged_without_sp$mb <- sub("me[0-9]+", "", data_merged_without_sp$acq)
+data_merged_without_sp$me <- sub(".*me", "me", data_merged_without_sp$acq)
+
+# Convert columns to factors
+data_merged_without_sp$coil <- as.factor(data_merged_without_sp$coil)
+data_merged_without_sp$mb <- as.factor(data_merged_without_sp$mb)
+data_merged_without_sp$me <- as.factor(data_merged_without_sp$me)
+```
+
+```{r}
+process_data <- function(data, value_column) {
+  avg_by_mb_me_coil <- aggregate(data[[value_column]] ~ mb + me + coil, data = data, mean)
+  std_error_by_mb_me_coil <- aggregate(data[[value_column]] ~ mb + me + coil, data = data, function(x) sd(x) / sqrt(length(x)))
+  merged_data <- merge(avg_by_mb_me_coil, std_error_by_mb_me_coil, by = c("mb", "me", "coil"))
+  colnames(merged_data) <- c("mb", "me", "coil", value_column, "se")
+  return(merged_data)
+}
+
+create_plot <- function(data, y_label, title) {
+  unique_me_values <- unique(data$me)
+  me_colors <- setNames(c("steelblue", "coral", "lightgreen"), unique_me_values)
+  ggplot(data, aes(x = mb, y = data[[4]], fill = me)) +
+    geom_bar(stat = "identity", position = position_dodge(), width = 0.7) +
+    geom_errorbar(aes(ymin = data[[4]] - se, ymax = data[[4]] + se), width = 0.2, position = position_dodge(0.7)) +
+    theme_minimal() +
+    labs(x = "Acquisition", y = y_label, title = title) +
+    theme(
+      axis.text = element_text(size = 14, face = "bold"),
+      axis.title = element_text(size = 16, face = "bold"),
+      plot.title = element_text(size = 18, face = "bold"),
+      axis.text.x = element_text(angle = 45, hjust = 1)
+    ) +
+    scale_fill_manual(values = me_colors, name = "ME") +
+    facet_wrap(~ coil, labeller = labeller(coil = c(`20` = "20-Channel", `64` = "64-Channel")))
+}
+```
+
+```{r}
+tsnr_data_no_sp <- process_data(data_merged_without_sp, "tsnrMedian")
+plot_tsnr_no_sp <- create_plot(tsnr_data_no_sp, "Median tSNR", "tSNR by Acquisition")
+print(plot_tsnr_no_sp)
+
+smoothness_data_no_sp <- process_data(data_merged_without_sp, "smoothness")
+plot_smoothness_no_sp <- create_plot(smoothness_data_no_sp, "Smoothness", "Smoothness by Acquisition")
+print(plot_smoothness_no_sp)
+
+## Print these separately
+```
+
+```{r}
+anova_tsnr_results <- aov(tsnrMedian ~ coil * mb * me, data = data_merged_without_sp)
+summary(anova_tsnr_results)
+
+anova_smoothness_results <- aov(smoothness ~ coil * mb * me, data = data_merged_without_sp)
+summary(anova_smoothness_results)
+```
+
+```{r}
+# Mixed effects model for tsnr since coil is between subs and acq is within subs
+mixed_tsnr <- lme(tsnrMedian ~ coil * mb * me, random = ~1 | sub, data = data_merged_without_sp)
+#summary(mixed_tsnr)
+anova(mixed_tsnr)
+```
+
+```{r}
+# Mixed effects model for smoothness since coil is between subs and acq is within subs
+mixed_smoothness <- lme(smoothness ~ coil * mb * me, random = ~1 | sub, data = data_merged_without_sp)
+#summary(mixed_smoothness)
+anova(mixed_smoothness)
+```
+
+
+```{r}
+
+## Anyone who doesn't have 6 rows of data should be excluded from this analysis
+
+data_merged_without_sp$sub <- as.factor(data_merged_without_sp$sub)
+
+ez_tsnr <- ezANOVA(
+  data = data_merged_without_sp,
+  dv = tsnrMedian,
+  wid = sub,
+  within = .(mb, me),
+  between = coil,
+  type = 3,
+  detailed = TRUE
+)
+print(ez_tsnr)
+
+ez_smoothness <- ezANOVA(
+  data = data_merged_without_sp,
+  dv = smoothness,
+  wid = sub,
+  within = .(mb, me),
+  between = coil,
+  type = 3,
+  detailed = TRUE
+)
+print(ez_smoothness)
+```
+
