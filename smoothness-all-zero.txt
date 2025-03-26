@@ -1,2380 +1,681 @@
-::::::::::::::
-derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.957374  1.87266  16.154    4.32055
-::::::::::::::
-derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955262  1.97031  18.3978    4.59789
-::::::::::::::
-derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951923  1.96009  18.3774    4.58166
-::::::::::::::
-derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956384  1.70251  11.7937    3.89197
-::::::::::::::
-derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.944562  1.80443  13.9133    4.18051
-::::::::::::::
-derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973764  1.70063  11.2301    3.83709
-::::::::::::::
-derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956516  1.81227  13.629    4.16102
-::::::::::::::
-derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99008  1.6848  10.6685    3.75685
-::::::::::::::
-derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980071  1.79315  13.0459    4.04039
-::::::::::::::
-derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956149  1.75501  12.3023    4.01741
-::::::::::::::
-derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.948077  1.86924  14.8526    4.33846
-::::::::::::::
-derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.96858  1.73882  11.7351    3.94101
-::::::::::::::
-derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.96246  1.85014  14.2097    4.23981
-::::::::::::::
-derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.981024  1.72542  11.2699    3.87396
-::::::::::::::
-derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979601  1.81089  13.2463    4.08566
-::::::::::::::
-derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.954864  1.69964  11.5533    3.88881
-::::::::::::::
-derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959049  1.85391  13.5785    4.25845
-::::::::::::::
-derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.965118  1.8546  13.4856    4.24077
-::::::::::::::
-derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.98676  1.84607  12.8306    4.15159
-::::::::::::::
-derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973817  1.74086  12.3601    3.93233
-::::::::::::::
-derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959091  1.82821  14.7659    4.19634
-::::::::::::::
-derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.986809  1.7261  11.9108    3.86046
-::::::::::::::
-derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980663  1.81465  14.1863    4.09311
-::::::::::::::
-derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993181  1.70662  11.5794    3.79819
-::::::::::::::
-derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.989861  1.82615  14.1906    4.0935
-::::::::::::::
-derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.945251  1.79488  12.7824    4.14959
-::::::::::::::
-derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.925766  1.92023  15.6906    4.55617
-::::::::::::::
-derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.95473  1.75124  12.0544    4.01165
-::::::::::::::
-derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.941531  1.92337  15.2107    4.50666
-::::::::::::::
-derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963468  1.73197  11.8121    3.93983
-::::::::::::::
-derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963329  1.87528  14.3574    4.30239
-::::::::::::::
-derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959995  1.74961  11.7995    3.99138
-::::::::::::::
-derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.933772  1.85929  14.5791    4.35948
-::::::::::::::
-derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.974034  1.71981  11.1027    3.87987
-::::::::::::::
-derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.966715  1.83446  13.5189    4.18457
-::::::::::::::
-derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.98682  1.71553  10.7977    3.83483
-::::::::::::::
-derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.978011  1.82935  13.2562    4.13642
-::::::::::::::
-derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.946862  1.72349  11.9073    3.96869
-::::::::::::::
-derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.928704  1.85456  15.3336    4.36819
-::::::::::::::
-derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.960162  1.68454  11.3504    3.83884
-::::::::::::::
-derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.942951  1.85111  14.8947    4.30861
-::::::::::::::
-derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.965272  1.69173  11.5037    3.84126
-::::::::::::::
-derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963017  1.79062  13.334    4.08631
-::::::::::::::
-derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.974339  1.77915  12.7065    4.02275
-::::::::::::::
-derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.949536  1.86629  15.3    4.32744
-::::::::::::::
-derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.982972  1.75382  12.3535    3.93652
-::::::::::::::
-derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970109  1.8732  14.6792    4.2758
-::::::::::::::
-derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993973  1.74681  11.8194    3.8886
-::::::::::::::
-derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.988407  1.83473  14.0394    4.11926
-::::::::::::::
-derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.944344  1.56859  10.4135    3.63004
-::::::::::::::
-derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.921532  1.65556  13.081    3.8959
-::::::::::::::
-derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.94395  1.55935  10.3478    3.61213
-::::::::::::::
-derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.934204  1.69991  13.6708    3.96049
-::::::::::::::
-derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.964871  1.54182  9.84285    3.52114
-::::::::::::::
-derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956915  1.64708  12.2215    3.76804
-::::::::::::::
-derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951211  1.58168  10.1392    3.63708
-::::::::::::::
-derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.942865  1.69832  12.7364    3.92602
-::::::::::::::
-derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.971665  1.56913  9.85439    3.55805
-::::::::::::::
-derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.954744  1.66891  12.1579    3.82217
-::::::::::::::
-derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979097  1.56617  9.56348    3.53297
-::::::::::::::
-derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969793  1.65612  11.6404    3.74993
-::::::::::::::
-derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.95113  1.66422  10.6886    3.81579
-::::::::::::::
-derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.939884  1.80105  13.6622    4.186
-::::::::::::::
-derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963441  1.63798  10.2167    3.72337
-::::::::::::::
-derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.94871  1.76145  12.8745    4.05758
-::::::::::::::
-derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973005  1.62709  9.98737    3.67452
-::::::::::::::
-derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969943  1.73713  12.2179    3.93444
-::::::::::::::
-derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.95426  1.7568  12.1017    4.02653
-::::::::::::::
-derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.952228  1.88491  14.8389    4.3657
-::::::::::::::
-derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979744  1.72548  11.2358    3.87754
-::::::::::::::
-derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.954367  1.86989  14.458    4.3179
-::::::::::::::
-derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.908475  1.77778  0.144482    3.78118
-::::::::::::::
-derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.984784  1.81912  13.2423    4.09049
-::::::::::::::
-derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.933674  1.65382  11.4653    3.84624
-::::::::::::::
-derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.939533  1.80953  14.0188    4.21002
-::::::::::::::
-derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.946466  1.63255  10.8889    3.76044
-::::::::::::::
-derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955644  1.80791  13.6296    4.15288
-::::::::::::::
-derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.966862  1.66292  10.0908    3.7681
-::::::::::::::
-derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.974015  1.75865  12.691    3.97449
-::::::::::::::
-derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955119  1.73129  12.4467    3.96481
-::::::::::::::
-derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.941657  1.85178  15.1788    4.31586
-::::::::::::::
-derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963442  1.69555  11.9243    3.85637
-::::::::::::::
-derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.950773  1.85428  15.0677    4.29129
-::::::::::::::
-derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983877  1.68901  11.4549    3.78371
-::::::::::::::
-derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.978747  1.80247  13.6673    4.06815
-::::::::::::::
-derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.972368  1.76498  12.0198    3.99288
-::::::::::::::
-derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.96456  1.87612  14.6668    4.30138
-::::::::::::::
-derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983021  1.74064  11.5457    3.90424
-::::::::::::::
-derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980565  1.86144  14.0293    4.21113
-::::::::::::::
-derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.919218  1.79041  0.129848    3.82564
-::::::::::::::
-derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.991331  1.93169  14.7034    4.36167
-::::::::::::::
-derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.948731  1.82257  12.5063    4.20672
-::::::::::::::
-derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.931673  1.92626  15.3927    4.55002
-::::::::::::::
-derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.962144  1.78689  11.8554    4.07508
-::::::::::::::
-derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.953796  1.90289  14.7178    4.40772
-::::::::::::::
-derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.97005  1.77267  11.588    4.01686
-::::::::::::::
-derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969841  1.8968  14.236    4.33743
-::::::::::::::
-derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.929007  1.58077  11.0871    3.70088
-::::::::::::::
-derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.926585  1.724  13.5588    4.04044
-::::::::::::::
-derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.940996  1.59784  10.5971    3.70022
-::::::::::::::
-derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.93616  1.7372  12.946    4.03848
-::::::::::::::
-derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963668  1.58637  10.0258    3.61381
-::::::::::::::
-derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.943295  1.72735  12.5674    3.99147
-::::::::::::::
-derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959397  1.76028  11.9873    4.01927
-::::::::::::::
-derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.939294  1.8575  14.8333    4.33728
-::::::::::::::
-derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.968441  1.72847  11.5567    3.91672
-::::::::::::::
-derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.947288  1.84499  14.6609    4.27745
-::::::::::::::
-derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.981324  1.72254  11.1747    3.86632
-::::::::::::::
-derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983681  1.84433  13.2461    4.15694
-::::::::::::::
-derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959719  1.71136  11.8746    3.903
-::::::::::::::
-derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.950373  1.82457  14.4755    4.21452
-::::::::::::::
-derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.976339  1.68647  11.2397    3.79818
-::::::::::::::
-derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.957554  1.82382  14.3516    4.18902
-::::::::::::::
-derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99009  1.67858  10.7888    3.74315
-::::::::::::::
-derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979178  1.79745  13.4819    4.05424
-::::::::::::::
-derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.950298  1.7086  11.7372    3.92329
-::::::::::::::
-derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.949042  1.82544  13.9749    4.2192
-::::::::::::::
-derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.958566  1.72754  11.5308    3.94254
-::::::::::::::
-derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.957059  1.82033  13.6853    4.1797
-::::::::::::::
-derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.869432  1.81066  0.135168    3.77651
-::::::::::::::
-derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.972498  1.8259  13.4254    4.14493
-::::::::::::::
-derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.968711  1.70441  10.6892    3.85798
-::::::::::::::
-derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.945223  1.78856  13.28    4.13628
-::::::::::::::
-derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.977497  1.68883  10.3482    3.79835
-::::::::::::::
-derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955504  1.783  12.8139    4.08894
-::::::::::::::
-derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.789068  1.83301  0.127652    3.67351
-::::::::::::::
-derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.991549  1.77094  12.0634    3.9525
-::::::::::::::
-derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.952877  1.56917  10.3436    3.60825
-::::::::::::::
-derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.940271  1.68168  12.9378    3.89672
-::::::::::::::
-derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.967448  1.54464  9.64169    3.51952
-::::::::::::::
-derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.965199  1.65642  11.8618    3.76394
-::::::::::::::
-derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.982331  1.53652  9.34468    3.46665
-::::::::::::::
-derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980511  1.65139  11.6871    3.71038
-::::::::::::::
-derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979084  1.75807  11.7419    3.95663
-::::::::::::::
-derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.961791  1.84865  14.1632    4.23799
-::::::::::::::
-derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.922989  1.79906  0.150126    3.8504
-::::::::::::::
-derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.989616  1.85308  13.4803    4.16138
-::::::::::::::
-derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.928389  1.78094  0.14721    3.8223
-::::::::::::::
-derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993981  1.89432  0.217397    4.22115
-::::::::::::::
-derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969591  1.58551  10.2811    3.59765
-::::::::::::::
-derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969003  1.66117  11.6135    3.76311
-::::::::::::::
-derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.985677  1.58034  9.68887    3.54543
-::::::::::::::
-derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.989319  1.67612  11.3115    3.74025
-::::::::::::::
-derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.81603  1.66593  0.101861    3.44822
-::::::::::::::
-derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970483  1.65262  0.177725    3.62137
-::::::::::::::
-derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951138  1.65873  10.6943    3.80366
-::::::::::::::
-derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.937899  1.76495  12.8916    4.09955
-::::::::::::::
-derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.960959  1.62857  10.1412    3.70945
-::::::::::::::
-derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951718  1.77186  12.6188    4.07255
-::::::::::::::
-derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.974043  1.60509  9.50879    3.6244
-::::::::::::::
-derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970613  1.75118  12.1236    3.96535
-::::::::::::::
-derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963711  1.68829  11.0068    3.83621
-::::::::::::::
-derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.936314  1.75566  13.4143    4.08461
-::::::::::::::
-derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.976559  1.6736  10.5778    3.76748
-::::::::::::::
-derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956916  1.76187  13.1151    4.03445
-::::::::::::::
-derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.819476  1.78534  0.122153    3.64643
-::::::::::::::
-derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970364  1.79518  13.0605    4.07444
-::::::::::::::
-derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.94165  1.81786  14.1077    4.22454
-::::::::::::::
-derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.982742  1.67398  10.4134    3.75171
-::::::::::::::
-derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.967021  1.77372  12.789    4.03156
-::::::::::::::
-derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.841841  1.76491  0.12743    3.64733
-::::::::::::::
-derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99153  1.7589  12.3651    3.92418
-::::::::::::::
-derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.9762  1.60292  9.91837    3.61558
-::::::::::::::
-derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959794  1.68112  12.0682    3.83466
-::::::::::::::
-derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.736281  1.77633  0.109532    3.50362
-::::::::::::::
-derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.981222  1.69451  11.7643    3.80379
-::::::::::::::
-derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.750021  1.72225  0.0945443    3.44706
-::::::::::::::
-derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.94987  1.73102  0.122595    3.7539
-::::::::::::::
-derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.947537  1.68447  12.1073    3.87781
-::::::::::::::
-derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.928613  1.79611  15.0259    4.21717
-::::::::::::::
-derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955418  1.64134  11.6183    3.75768
-::::::::::::::
-derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.940365  1.76959  14.2491    4.10927
-::::::::::::::
-derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970062  1.62588  11.1161    3.68272
-::::::::::::::
-derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956973  1.76604  13.7459    4.04632
-::::::::::::::
-derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980143  1.74642  11.5848    3.92587
-::::::::::::::
-derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956106  1.84457  14.3491    4.24643
-::::::::::::::
-derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.895155  1.81382  0.148746    3.82934
-::::::::::::::
-derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979205  1.8465  13.8652    4.17701
-::::::::::::::
-derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.927264  1.76824  0.129875    3.79403
-::::::::::::::
-derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993976  1.82202  0.18312    4.04015
-::::::::::::::
-derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973531  1.66888  10.8256    3.76572
-::::::::::::::
-derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.942736  1.79807  14.1291    4.17139
-::::::::::::::
-derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.981025  1.62912  10.3053    3.65896
-::::::::::::::
-derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980704  1.80202  13.1071    4.0603
-::::::::::::::
-derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.840731  1.73031  0.127587    3.58617
-::::::::::::::
-derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.953243  1.82869  0.156491    3.97282
-::::::::::::::
-derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.964059  1.78888  13.0385    4.07803
-::::::::::::::
-derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.961276  1.8845  14.6698    4.33407
-::::::::::::::
-derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.98277  1.77661  12.1788    3.99115
-::::::::::::::
-derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980869  1.89622  14.417    4.30088
-::::::::::::::
-derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.949403  1.78375  0.142111    3.86582
-::::::::::::::
-derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993955  1.91139  14.1955    4.29924
-::::::::::::::
-derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.976038  1.70715  11.2426    3.84568
-::::::::::::::
-derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.960221  1.83186  14.1441    4.20018
-::::::::::::::
-derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.989839  1.69698  10.8582    3.78486
-::::::::::::::
-derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.890414  1.74251  0.131357    3.68301
-::::::::::::::
-derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993969  1.76575  0.187323    3.90562
-::::::::::::::
-derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983934  1.67391  10.8104    3.74908
-::::::::::::::
-derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.968142  1.75728  13.0162    3.98934
-::::::::::::::
-derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.908696  1.72537  0.143754    3.67842
-::::::::::::::
-derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.992374  1.74652  12.4311    3.89274
-::::::::::::::
-derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.961928  1.66244  0.0922175    3.62996
-::::::::::::::
-derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993965  1.7197  0.650329    3.80031
-::::::::::::::
-derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969545  1.7128  11.9145    3.87837
-::::::::::::::
-derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.958953  1.83185  14.3204    4.20475
-::::::::::::::
-derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.991579  1.70119  11.1766    3.78999
-::::::::::::::
-derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983479  1.78922  13.555    4.02136
-::::::::::::::
-derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.929858  1.71744  0.135551    3.69498
-::::::::::::::
-derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.987736  1.8183  0.152975    4.01838
-::::::::::::::
-derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.968787  1.70613  11.2231    3.86332
-::::::::::::::
-derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959174  1.79782  13.3107    4.11579
-::::::::::::::
-derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.987528  1.69048  10.7158    3.77625
-::::::::::::::
-derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979641  1.78324  12.856    4.01729
-::::::::::::::
-derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.872433  1.75423  0.0958703    3.6766
-::::::::::::::
-derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.976803  1.78513  0.138113    3.91916
-::::::::::::::
-derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.972654  1.61648  10.019    3.65313
-::::::::::::::
-derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.960295  1.6858  11.9073    3.84323
-::::::::::::::
-derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.741842  1.796  0.120256    3.53984
-::::::::::::::
-derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983655  1.68579  11.4956    3.77719
-::::::::::::::
-derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.802679  1.69364  0.0843037    3.4743
-::::::::::::::
-derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.927519  1.71177  0.14904    3.68016
-::::::::::::::
-derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.971167  1.65735  11.0563    3.74738
-::::::::::::::
-derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955912  1.74399  13.2471    3.99521
-::::::::::::::
-derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.987391  1.63892  10.5619    3.66379
-::::::::::::::
-derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.981013  1.71785  12.4924    3.85852
-::::::::::::::
-derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.879661  1.67899  0.11966    3.55126
-::::::::::::::
-derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99396  1.70034  0.216941    3.75644
-::::::::::::::
-derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.967845  1.72996  11.964    3.92303
-::::::::::::::
-derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.948757  1.81739  14.5286    4.20184
-::::::::::::::
-derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.986392  1.71635  11.4721    3.83872
-::::::::::::::
-derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.962597  1.85843  14.7919    4.26223
-::::::::::::::
-derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993998  1.72168  0.150401    3.80431
-::::::::::::::
-derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993997  1.85359  0.962138    4.12047
-::::::::::::::
-derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.969223  1.66093  10.4929    3.75882
-::::::::::::::
-derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959094  1.73981  12.3191    3.97267
-::::::::::::::
-derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983239  1.63609  9.96033    3.6675
-::::::::::::::
-derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973167  1.73443  12.2243    3.91884
-::::::::::::::
-derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.805903  1.73482  0.113686    3.54324
-::::::::::::::
-derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.953202  1.75663  0.13157    3.81379
-::::::::::::::
-derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.978562  1.65376  11.0407    3.71967
-::::::::::::::
-derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.972057  1.77042  13.6711    4.01047
-::::::::::::::
-derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.94334  1.66231  0.124287    3.60478
-::::::::::::::
-derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.984774  1.7563  13.3417    3.93838
-::::::::::::::
-derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99399  1.64809  0.150609    3.6431
-::::::::::::::
-derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993988  1.72862  0.715764    3.82079
-::::::::::::::
-derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973146  1.65434  11.0995    3.73557
-::::::::::::::
-derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955097  1.7446  13.7432    4.00073
-::::::::::::::
-derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.986698  1.63282  10.6095    3.65266
-::::::::::::::
-derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.977575  1.76248  13.3878    3.97437
-::::::::::::::
-derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.990785  1.62789  10.567    3.63168
-::::::::::::::
-derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955045  1.75241  0.328931    3.80791
-::::::::::::::
-derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.972326  1.71524  12.0717    3.87646
-::::::::::::::
-derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.968374  1.847  14.6516    4.21388
-::::::::::::::
-derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99121  1.72119  11.4231    3.83661
-::::::::::::::
-derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983819  1.83385  14.1815    4.13128
-::::::::::::::
-derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.928483  1.75911  0.144445    3.77729
-::::::::::::::
-derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993996  1.83135  0.473045    4.06319
-::::::::::::::
-derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.947237  1.81893  14.4693    4.21047
-::::::::::::::
-derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.977522  1.61445  10.1641    3.63678
-::::::::::::::
-derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973162  1.78967  13.5871    4.05361
-::::::::::::::
-derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.967581  1.8047  13.6578    4.10781
-::::::::::::::
-derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993991  1.78022  12.79    3.96818
-::::::::::::::
-derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.940559  1.76693  13.8721    4.10057
-::::::::::::::
-derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951848  1.56116  10.51    3.59558
-::::::::::::::
-derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.96782  1.78199  13.7519    4.05157
-::::::::::::::
-derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.967744  1.78541  13.808    4.06027
-::::::::::::::
-derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.985049  1.79148  12.8505    4.02137
-::::::::::::::
-derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.925785  1.90513  14.8606    4.51049
-::::::::::::::
-derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.954683  1.73424  11.1297    3.96763
-::::::::::::::
-derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.945256  1.95954  15.0213    4.59223
-::::::::::::::
-derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.946941  1.89361  14.3306    4.40448
-::::::::::::::
-derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980284  1.89329  13.5752    4.29378
-::::::::::::::
-derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.943962  1.83606  15.2061    4.26764
-::::::::::::::
-derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973422  1.66774  11.0335    3.76403
-::::::::::::::
-derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970366  1.8137  13.9912    4.12226
-::::::::::::::
-derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956187  1.82513  14.7859    4.19803
-::::::::::::::
-derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.987487  1.80943  13.6378    4.05886
-::::::::::::::
-derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.95064  1.97917  17.0545    4.63522
-::::::::::::::
-derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.973269  1.80541  13.3549    4.09147
-::::::::::::::
-derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.96573  2.02452  17.9208    4.71093
-::::::::::::::
-derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.964201  1.96811  16.4533    4.55433
-::::::::::::::
-derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99399  1.93447  13.4942    4.36004
-::::::::::::::
-derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.924075  1.78108  14.1    4.19005
-::::::::::::::
-derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959951  1.62598  10.5527    3.70822
-::::::::::::::
-derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.961705  1.75037  13.1348    3.99248
-::::::::::::::
-derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.945625  1.75743  13.3863    4.05954
-::::::::::::::
-derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.980956  1.74326  12.4224    3.91753
-::::::::::::::
-derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.929567  1.87071  15.8678    4.41021
-::::::::::::::
-derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.979058  1.68469  11.1872    3.7867
-::::::::::::::
-derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963527  1.83688  14.9505    4.20444
-::::::::::::::
-derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.961861  1.81879  14.5737    4.16318
-::::::::::::::
-derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.992073  1.85025  14.0322    4.14712
-::::::::::::::
-derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.970596  1.87303  13.9775    4.27228
-::::::::::::::
-derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.98659  1.84461  13.3608    4.14898
-::::::::::::::
-derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.993994  1.83135  0.74696    4.06406
-::::::::::::::
-derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.940853  1.91967  16.8823    4.50555
-::::::::::::::
-derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.953614  1.72913  13.207    3.96697
-::::::::::::::
-derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.942947  1.96661  17.9078    4.63103
-::::::::::::::
-derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.956843  1.91557  16.5644    4.43686
-::::::::::::::
-derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.928592  1.98673  17.0709    4.73841
-::::::::::::::
-derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.959351  1.75548  12.3557    4.00922
-::::::::::::::
-derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.95673  1.93418  15.5678    4.48478
-::::::::::::::
-derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.954271  1.92207  15.6028    4.46052
-::::::::::::::
-derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.989434  1.93948  14.8095    4.38872
-::::::::::::::
-derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.949733  1.95675  15.5406    4.57088
-::::::::::::::
-derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.964321  1.75794  11.8364    3.99879
-::::::::::::::
-derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.968175  1.97657  15.6755    4.5622
-::::::::::::::
-derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963715  1.93573  15.0896    4.46385
-::::::::::::::
-derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.990384  1.91722  13.9197    4.32565
-::::::::::::::
-derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.967498  1.69377  11.9322    3.84084
-::::::::::::::
-derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.97827  1.64538  11.0418    3.70232
-::::::::::::::
-derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.986368  1.61298  10.7538    3.61197
-::::::::::::::
-derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.941894  1.83257  14.3999    4.26239
-::::::::::::::
-derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.963646  1.57166  9.96804    3.58381
-::::::::::::::
-derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951786  1.76887  13.7314    4.06928
-::::::::::::::
-derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.946469  1.82155  13.1564    4.21419
-::::::::::::::
-derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983003  1.76365  12.4766    3.95991
-::::::::::::::
-derivatives/fsl/sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.989061  1.68276  11.3588    3.75568
-::::::::::::::
-derivatives/fsl/sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.911842  1.73619  0.143807    3.70435
-::::::::::::::
-derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.912968  1.88587  16.7484    4.51516
-::::::::::::::
-derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955793  1.69306  12.2206    3.8737
-::::::::::::::
-derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.966084  1.82083  14.1811    4.15391
-::::::::::::::
-derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.949756  1.81986  14.466    4.2046
-::::::::::::::
-derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.983293  1.82063  13.6173    4.09919
-::::::::::::::
-derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.920607  1.75879  14.1593    4.14692
-::::::::::::::
-derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951839  1.58249  10.4233    3.63843
-::::::::::::::
-derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.955532  1.73806  13.3196    3.98254
-::::::::::::::
-derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.93541  1.74153  13.6051    4.05439
-::::::::::::::
-derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.965791  1.71213  12.6483    3.88953
-::::::::::::::
-derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.903885  1.89882  17.6049    4.5894
-::::::::::::::
-derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.947776  1.74641  13.6512    4.02742
-::::::::::::::
-derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.947958  1.84876  15.957    4.28941
-::::::::::::::
-derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.935523  1.84946  16.0722    4.33442
-::::::::::::::
-derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.978984  1.86152  15.319    4.21814
-::::::::::::::
-derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.954312  1.73544  11.4555    3.97295
-::::::::::::::
-derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.951363  1.83775  13.4063    4.24084
-::::::::::::::
-derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.971259  1.68848  10.5317    3.81461
-::::::::::::::
-derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.964812  1.83958  13.2293    4.20268
-::::::::::::::
-derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.99002  1.69342  10.2001    3.77575
-::::::::::::::
-derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt
-::::::::::::::
-# old-style FWHM parameters
- 0  0  0    0
-# ACF model parameters for a*exp(-r*r/(2*b*b))+(1-a)*exp(-r/c) plus effective FWHM
- 0.988193  1.81649  12.4975    4.07309
+sub	acq	val	
+derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.957374	1.87266	16.154	4.32055
+derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955262	1.97031	18.3978	4.59789
+derivatives/fsl/sub-10015/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951923	1.96009	18.3774	4.58166
+derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956384	1.70251	11.7937	3.89197
+derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.944562	1.80443	13.9133	4.18051
+derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973764	1.70063	11.2301	3.83709
+derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956516	1.81227	13.629	4.16102
+derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99008	1.6848	10.6685	3.75685
+derivatives/fsl/sub-10017/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980071	1.79315	13.0459	4.04039
+derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956149	1.75501	12.3023	4.01741
+derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.948077	1.86924	14.8526	4.33846
+derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.96858	1.73882	11.7351	3.94101
+derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.96246	1.85014	14.2097	4.23981
+derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.981024	1.72542	11.2699	3.87396
+derivatives/fsl/sub-10024/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979601	1.81089	13.2463	4.08566
+derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.954864	1.69964	11.5533	3.88881
+derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959049	1.85391	13.5785	4.25845
+derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.965118	1.8546	13.4856	4.24077
+derivatives/fsl/sub-10028/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.98676	1.84607	12.8306	4.15159
+derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973817	1.74086	12.3601	3.93233
+derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959091	1.82821	14.7659	4.19634
+derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.986809	1.7261	11.9108	3.86046
+derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980663	1.81465	14.1863	4.09311
+derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993181	1.70662	11.5794	3.79819
+derivatives/fsl/sub-10035/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.989861	1.82615	14.1906	4.0935
+derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.945251	1.79488	12.7824	4.14959
+derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.925766	1.92023	15.6906	4.55617
+derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.95473	1.75124	12.0544	4.01165
+derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.941531	1.92337	15.2107	4.50666
+derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963468	1.73197	11.8121	3.93983
+derivatives/fsl/sub-10041/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963329	1.87528	14.3574	4.30239
+derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959995	1.74961	11.7995	3.99138
+derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.933772	1.85929	14.5791	4.35948
+derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.974034	1.71981	11.1027	3.87987
+derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.966715	1.83446	13.5189	4.18457
+derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.98682	1.71553	10.7977	3.83483
+derivatives/fsl/sub-10043/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.978011	1.82935	13.2562	4.13642
+derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.946862	1.72349	11.9073	3.96869
+derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.928704	1.85456	15.3336	4.36819
+derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.960162	1.68454	11.3504	3.83884
+derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.942951	1.85111	14.8947	4.30861
+derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.965272	1.69173	11.5037	3.84126
+derivatives/fsl/sub-10054/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963017	1.79062	13.334	4.08631
+derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.974339	1.77915	12.7065	4.02275
+derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.949536	1.86629	15.3	4.32744
+derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.982972	1.75382	12.3535	3.93652
+derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970109	1.8732	14.6792	4.2758
+derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993973	1.74681	11.8194	3.8886
+derivatives/fsl/sub-10059/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.988407	1.83473	14.0394	4.11926
+derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.944344	1.56859	10.4135	3.63004
+derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.921532	1.65556	13.081	3.8959
+derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.94395	1.55935	10.3478	3.61213
+derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.934204	1.69991	13.6708	3.96049
+derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.964871	1.54182	9.84285	3.52114
+derivatives/fsl/sub-10069/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956915	1.64708	12.2215	3.76804
+derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951211	1.58168	10.1392	3.63708
+derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.942865	1.69832	12.7364	3.92602
+derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.971665	1.56913	9.85439	3.55805
+derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.954744	1.66891	12.1579	3.82217
+derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979097	1.56617	9.56348	3.53297
+derivatives/fsl/sub-10074/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969793	1.65612	11.6404	3.74993
+derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.95113	1.66422	10.6886	3.81579
+derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.939884	1.80105	13.6622	4.186
+derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963441	1.63798	10.2167	3.72337
+derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.94871	1.76145	12.8745	4.05758
+derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973005	1.62709	9.98737	3.67452
+derivatives/fsl/sub-10078/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969943	1.73713	12.2179	3.93444
+derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.95426	1.7568	12.1017	4.02653
+derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.952228	1.88491	14.8389	4.3657
+derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979744	1.72548	11.2358	3.87754
+derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.954367	1.86989	14.458	4.3179
+derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.908475	1.77778	0.144482	3.78118
+derivatives/fsl/sub-10080/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.984784	1.81912	13.2423	4.09049
+derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.933674	1.65382	11.4653	3.84624
+derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.939533	1.80953	14.0188	4.21002
+derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.946466	1.63255	10.8889	3.76044
+derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955644	1.80791	13.6296	4.15288
+derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.966862	1.66292	10.0908	3.7681
+derivatives/fsl/sub-10085/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.974015	1.75865	12.691	3.97449
+derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955119	1.73129	12.4467	3.96481
+derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.941657	1.85178	15.1788	4.31586
+derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963442	1.69555	11.9243	3.85637
+derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.950773	1.85428	15.0677	4.29129
+derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983877	1.68901	11.4549	3.78371
+derivatives/fsl/sub-10094/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.978747	1.80247	13.6673	4.06815
+derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.972368	1.76498	12.0198	3.99288
+derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.96456	1.87612	14.6668	4.30138
+derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983021	1.74064	11.5457	3.90424
+derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980565	1.86144	14.0293	4.21113
+derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.919218	1.79041	0.129848	3.82564
+derivatives/fsl/sub-10108/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.991331	1.93169	14.7034	4.36167
+derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.948731	1.82257	12.5063	4.20672
+derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.931673	1.92626	15.3927	4.55002
+derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.962144	1.78689	11.8554	4.07508
+derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.953796	1.90289	14.7178	4.40772
+derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.97005	1.77267	11.588	4.01686
+derivatives/fsl/sub-10125/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969841	1.8968	14.236	4.33743
+derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.929007	1.58077	11.0871	3.70088
+derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.926585	1.724	13.5588	4.04044
+derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.940996	1.59784	10.5971	3.70022
+derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.93616	1.7372	12.946	4.03848
+derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963668	1.58637	10.0258	3.61381
+derivatives/fsl/sub-10130/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.943295	1.72735	12.5674	3.99147
+derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959397	1.76028	11.9873	4.01927
+derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.939294	1.8575	14.8333	4.33728
+derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.968441	1.72847	11.5567	3.91672
+derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.947288	1.84499	14.6609	4.27745
+derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.981324	1.72254	11.1747	3.86632
+derivatives/fsl/sub-10136/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983681	1.84433	13.2461	4.15694
+derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959719	1.71136	11.8746	3.903
+derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.950373	1.82457	14.4755	4.21452
+derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.976339	1.68647	11.2397	3.79818
+derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.957554	1.82382	14.3516	4.18902
+derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99009	1.67858	10.7888	3.74315
+derivatives/fsl/sub-10137/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979178	1.79745	13.4819	4.05424
+derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.950298	1.7086	11.7372	3.92329
+derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.949042	1.82544	13.9749	4.2192
+derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.958566	1.72754	11.5308	3.94254
+derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.957059	1.82033	13.6853	4.1797
+derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.869432	1.81066	0.135168	3.77651
+derivatives/fsl/sub-10142/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.972498	1.8259	13.4254	4.14493
+derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.968711	1.70441	10.6892	3.85798
+derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.945223	1.78856	13.28	4.13628
+derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.977497	1.68883	10.3482	3.79835
+derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955504	1.783	12.8139	4.08894
+derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.789068	1.83301	0.127652	3.67351
+derivatives/fsl/sub-10150/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.991549	1.77094	12.0634	3.9525
+derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.952877	1.56917	10.3436	3.60825
+derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.940271	1.68168	12.9378	3.89672
+derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.967448	1.54464	9.64169	3.51952
+derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.965199	1.65642	11.8618	3.76394
+derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.982331	1.53652	9.34468	3.46665
+derivatives/fsl/sub-10154/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980511	1.65139	11.6871	3.71038
+derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979084	1.75807	11.7419	3.95663
+derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.961791	1.84865	14.1632	4.23799
+derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.922989	1.79906	0.150126	3.8504
+derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.989616	1.85308	13.4803	4.16138
+derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.928389	1.78094	0.14721	3.8223
+derivatives/fsl/sub-10166/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993981	1.89432	0.217397	4.22115
+derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969591	1.58551	10.2811	3.59765
+derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969003	1.66117	11.6135	3.76311
+derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.985677	1.58034	9.68887	3.54543
+derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.989319	1.67612	11.3115	3.74025
+derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.81603	1.66593	0.101861	3.44822
+derivatives/fsl/sub-10185/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970483	1.65262	0.177725	3.62137
+derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951138	1.65873	10.6943	3.80366
+derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.937899	1.76495	12.8916	4.09955
+derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.960959	1.62857	10.1412	3.70945
+derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951718	1.77186	12.6188	4.07255
+derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.974043	1.60509	9.50879	3.6244
+derivatives/fsl/sub-10186/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970613	1.75118	12.1236	3.96535
+derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963711	1.68829	11.0068	3.83621
+derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.936314	1.75566	13.4143	4.08461
+derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.976559	1.6736	10.5778	3.76748
+derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956916	1.76187	13.1151	4.03445
+derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.819476	1.78534	0.122153	3.64643
+derivatives/fsl/sub-10188/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970364	1.79518	13.0605	4.07444
+derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.94165	1.81786	14.1077	4.22454
+derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.982742	1.67398	10.4134	3.75171
+derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.967021	1.77372	12.789	4.03156
+derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.841841	1.76491	0.12743	3.64733
+derivatives/fsl/sub-10198/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99153	1.7589	12.3651	3.92418
+derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.9762	1.60292	9.91837	3.61558
+derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959794	1.68112	12.0682	3.83466
+derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.736281	1.77633	0.109532	3.50362
+derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.981222	1.69451	11.7643	3.80379
+derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.750021	1.72225	0.0945443	3.44706
+derivatives/fsl/sub-10203/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.94987	1.73102	0.122595	3.7539
+derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.947537	1.68447	12.1073	3.87781
+derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.928613	1.79611	15.0259	4.21717
+derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955418	1.64134	11.6183	3.75768
+derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.940365	1.76959	14.2491	4.10927
+derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970062	1.62588	11.1161	3.68272
+derivatives/fsl/sub-10221/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956973	1.76604	13.7459	4.04632
+derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980143	1.74642	11.5848	3.92587
+derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956106	1.84457	14.3491	4.24643
+derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.895155	1.81382	0.148746	3.82934
+derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979205	1.8465	13.8652	4.17701
+derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.927264	1.76824	0.129875	3.79403
+derivatives/fsl/sub-10223/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993976	1.82202	0.18312	4.04015
+derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973531	1.66888	10.8256	3.76572
+derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.942736	1.79807	14.1291	4.17139
+derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.981025	1.62912	10.3053	3.65896
+derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980704	1.80202	13.1071	4.0603
+derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.840731	1.73031	0.127587	3.58617
+derivatives/fsl/sub-10234/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.953243	1.82869	0.156491	3.97282
+derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.964059	1.78888	13.0385	4.07803
+derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.961276	1.8845	14.6698	4.33407
+derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.98277	1.77661	12.1788	3.99115
+derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980869	1.89622	14.417	4.30088
+derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.949403	1.78375	0.142111	3.86582
+derivatives/fsl/sub-10296/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993955	1.91139	14.1955	4.29924
+derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.976038	1.70715	11.2426	3.84568
+derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.960221	1.83186	14.1441	4.20018
+derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.989839	1.69698	10.8582	3.78486
+derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.890414	1.74251	0.131357	3.68301
+derivatives/fsl/sub-10303/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993969	1.76575	0.187323	3.90562
+derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983934	1.67391	10.8104	3.74908
+derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.968142	1.75728	13.0162	3.98934
+derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.908696	1.72537	0.143754	3.67842
+derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.992374	1.74652	12.4311	3.89274
+derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.961928	1.66244	0.0922175	3.62996
+derivatives/fsl/sub-10318/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993965	1.7197	0.650329	3.80031
+derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969545	1.7128	11.9145	3.87837
+derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.958953	1.83185	14.3204	4.20475
+derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.991579	1.70119	11.1766	3.78999
+derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983479	1.78922	13.555	4.02136
+derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.929858	1.71744	0.135551	3.69498
+derivatives/fsl/sub-10319/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.987736	1.8183	0.152975	4.01838
+derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.968787	1.70613	11.2231	3.86332
+derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959174	1.79782	13.3107	4.11579
+derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.987528	1.69048	10.7158	3.77625
+derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979641	1.78324	12.856	4.01729
+derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.872433	1.75423	0.0958703	3.6766
+derivatives/fsl/sub-10320/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.976803	1.78513	0.138113	3.91916
+derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.972654	1.61648	10.019	3.65313
+derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.960295	1.6858	11.9073	3.84323
+derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.741842	1.796	0.120256	3.53984
+derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983655	1.68579	11.4956	3.77719
+derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.802679	1.69364	0.0843037	3.4743
+derivatives/fsl/sub-10321/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.927519	1.71177	0.14904	3.68016
+derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.971167	1.65735	11.0563	3.74738
+derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955912	1.74399	13.2471	3.99521
+derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.987391	1.63892	10.5619	3.66379
+derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.981013	1.71785	12.4924	3.85852
+derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.879661	1.67899	0.11966	3.55126
+derivatives/fsl/sub-10363/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99396	1.70034	0.216941	3.75644
+derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.967845	1.72996	11.964	3.92303
+derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.948757	1.81739	14.5286	4.20184
+derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.986392	1.71635	11.4721	3.83872
+derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.962597	1.85843	14.7919	4.26223
+derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993998	1.72168	0.150401	3.80431
+derivatives/fsl/sub-10382/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993997	1.85359	0.962138	4.12047
+derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.969223	1.66093	10.4929	3.75882
+derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959094	1.73981	12.3191	3.97267
+derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983239	1.63609	9.96033	3.6675
+derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973167	1.73443	12.2243	3.91884
+derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.805903	1.73482	0.113686	3.54324
+derivatives/fsl/sub-10391/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.953202	1.75663	0.13157	3.81379
+derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.978562	1.65376	11.0407	3.71967
+derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.972057	1.77042	13.6711	4.01047
+derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.94334	1.66231	0.124287	3.60478
+derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.984774	1.7563	13.3417	3.93838
+derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99399	1.64809	0.150609	3.6431
+derivatives/fsl/sub-10416/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993988	1.72862	0.715764	3.82079
+derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973146	1.65434	11.0995	3.73557
+derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955097	1.7446	13.7432	4.00073
+derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.986698	1.63282	10.6095	3.65266
+derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.977575	1.76248	13.3878	3.97437
+derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.990785	1.62789	10.567	3.63168
+derivatives/fsl/sub-10422/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955045	1.75241	0.328931	3.80791
+derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.972326	1.71524	12.0717	3.87646
+derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.968374	1.847	14.6516	4.21388
+derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99121	1.72119	11.4231	3.83661
+derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983819	1.83385	14.1815	4.13128
+derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.928483	1.75911	0.144445	3.77729
+derivatives/fsl/sub-10438/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993996	1.83135	0.473045	4.06319
+derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.947237	1.81893	14.4693	4.21047
+derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.977522	1.61445	10.1641	3.63678
+derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973162	1.78967	13.5871	4.05361
+derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.967581	1.8047	13.6578	4.10781
+derivatives/fsl/sub-10589sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993991	1.78022	12.79	3.96818
+derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.940559	1.76693	13.8721	4.10057
+derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951848	1.56116	10.51	3.59558
+derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.96782	1.78199	13.7519	4.05157
+derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.967744	1.78541	13.808	4.06027
+derivatives/fsl/sub-10590sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.985049	1.79148	12.8505	4.02137
+derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.925785	1.90513	14.8606	4.51049
+derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.954683	1.73424	11.1297	3.96763
+derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.945256	1.95954	15.0213	4.59223
+derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.946941	1.89361	14.3306	4.40448
+derivatives/fsl/sub-10603sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980284	1.89329	13.5752	4.29378
+derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.943962	1.83606	15.2061	4.26764
+derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973422	1.66774	11.0335	3.76403
+derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970366	1.8137	13.9912	4.12226
+derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956187	1.82513	14.7859	4.19803
+derivatives/fsl/sub-10606sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.987487	1.80943	13.6378	4.05886
+derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.95064	1.97917	17.0545	4.63522
+derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.973269	1.80541	13.3549	4.09147
+derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.96573	2.02452	17.9208	4.71093
+derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.964201	1.96811	16.4533	4.55433
+derivatives/fsl/sub-10608sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99399	1.93447	13.4942	4.36004
+derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.924075	1.78108	14.1	4.19005
+derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959951	1.62598	10.5527	3.70822
+derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.961705	1.75037	13.1348	3.99248
+derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.945625	1.75743	13.3863	4.05954
+derivatives/fsl/sub-10640sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.980956	1.74326	12.4224	3.91753
+derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.929567	1.87071	15.8678	4.41021
+derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.979058	1.68469	11.1872	3.7867
+derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963527	1.83688	14.9505	4.20444
+derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.961861	1.81879	14.5737	4.16318
+derivatives/fsl/sub-10644sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.992073	1.85025	14.0322	4.14712
+derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.970596	1.87303	13.9775	4.27228
+derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.98659	1.84461	13.3608	4.14898
+derivatives/fsl/sub-10652/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.993994	1.83135	0.74696	4.06406
+derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.940853	1.91967	16.8823	4.50555
+derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.953614	1.72913	13.207	3.96697
+derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.942947	1.96661	17.9078	4.63103
+derivatives/fsl/sub-10659sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.956843	1.91557	16.5644	4.43686
+derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.928592	1.98673	17.0709	4.73841
+derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.959351	1.75548	12.3557	4.00922
+derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.95673	1.93418	15.5678	4.48478
+derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.954271	1.92207	15.6028	4.46052
+derivatives/fsl/sub-10690sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.989434	1.93948	14.8095	4.38872
+derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.949733	1.95675	15.5406	4.57088
+derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.964321	1.75794	11.8364	3.99879
+derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.968175	1.97657	15.6755	4.5622
+derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963715	1.93573	15.0896	4.46385
+derivatives/fsl/sub-10691sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.990384	1.91722	13.9197	4.32565
+derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.967498	1.69377	11.9322	3.84084
+derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.97827	1.64538	11.0418	3.70232
+derivatives/fsl/sub-10716/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.986368	1.61298	10.7538	3.61197
+derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.941894	1.83257	14.3999	4.26239
+derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.963646	1.57166	9.96804	3.58381
+derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951786	1.76887	13.7314	4.06928
+derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.946469	1.82155	13.1564	4.21419
+derivatives/fsl/sub-10723sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983003	1.76365	12.4766	3.95991
+derivatives/fsl/sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.989061	1.68276	11.3588	3.75568
+derivatives/fsl/sub-10738/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.911842	1.73619	0.143807	3.70435
+derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.912968	1.88587	16.7484	4.51516
+derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955793	1.69306	12.2206	3.8737
+derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.966084	1.82083	14.1811	4.15391
+derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.949756	1.81986	14.466	4.2046
+derivatives/fsl/sub-10741sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.983293	1.82063	13.6173	4.09919
+derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.920607	1.75879	14.1593	4.14692
+derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951839	1.58249	10.4233	3.63843
+derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.955532	1.73806	13.3196	3.98254
+derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.93541	1.74153	13.6051	4.05439
+derivatives/fsl/sub-10777sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.965791	1.71213	12.6483	3.88953
+derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb2me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.903885	1.89882	17.6049	4.5894
+derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me1fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.947776	1.74641	13.6512	4.02742
+derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me3_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.947958	1.84876	15.957	4.28941
+derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4fa50_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.935523	1.84946	16.0722	4.33442
+derivatives/fsl/sub-10803sp/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.978984	1.86152	15.319	4.21814
+derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.954312	1.73544	11.4555	3.97295
+derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb1me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.951363	1.83775	13.4063	4.24084
+derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.971259	1.68848	10.5317	3.81461
+derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb3me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.964812	1.83958	13.2293	4.20268
+derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me1_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.99002	1.69342	10.2001	3.77575
+derivatives/fsl/sub-12042/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-5_denoising-base_EstimateSmoothing.feat/smoothness-0mm.txt			
+0.988193	1.81649	12.4975	4.07309
