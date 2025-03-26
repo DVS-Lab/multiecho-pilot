@@ -8,7 +8,7 @@ istartdatadir=/ZPOOL/data/projects/multiecho-pilot #need to fix this upon releas
 
 # study-specific inputs
 TASK=sharedreward
-sm=5
+sm=5 #input data is smoothed
 model=1 #probably will need to adjust this for some subjects with missing EVs
 sub=$1
 mbme=$2
@@ -106,7 +106,7 @@ fi
 # set output based in whether it is activation or ppi
 if [ "$ppi" == "0" ]; then
 	TYPE=act
-	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_EstimateSmoothing
+	OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_forTSNR
 	OTEMPLATE=${MAINOUTPUT}/tSNRandSmoothness_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}.fsf
 fi
 
@@ -123,7 +123,7 @@ ITEMPLATE=${maindir}/templates/L1_task-${TASK}_model-${model}_type-${TYPE}.fsf
 sed -e 's@OUTPUT@'$OUTPUT'@g' \
 -e 's@DATA@'$DATA'@g' \
 -e 's@EVDIR@'$EVDIR'@g' \
--e 's@SMOOTH@'$sm'@g' \
+-e 's@SMOOTH@'0'@g' \
 -e 's@CONFOUNDEVS@'$CONFOUNDEVS'@g' \
 -e 's@NVOLUMES@'$NVOLUMES'@g' \
 -e 's@SHAPE_MISSED_DEC@'$SHAPE_MISSED_DEC'@g' \
@@ -132,7 +132,7 @@ sed -e 's@OUTPUT@'$OUTPUT'@g' \
 <$ITEMPLATE> $OTEMPLATE
 feat $OTEMPLATE
 
-# extract smoothness and tSNR
+# extract smoothness and tSNR (extracted from smoothed data)
 fslmaths ${OUTPUT}.feat/filtered_func_data.nii.gz -Tmean ${OUTPUT}.feat/func_mean
 fslmaths ${OUTPUT}.feat/filtered_func_data.nii.gz -Tstd ${OUTPUT}.feat/func_std
 fslmaths ${OUTPUT}.feat/func_mean -div ${OUTPUT}.feat/func_std ${OUTPUT}.feat/tsnr
@@ -142,10 +142,6 @@ rm -rf ${OUTPUT}.feat/3dFWHMx.1D ${OUTPUT}.feat/3dFWHMx.1D.png
 3dFWHMx -detrend -ACF -mask ${OUTPUT}.feat/mask.nii.gz -input ${DATA} > ${OUTPUT}.feat/smoothness-5mm.txt
 rm -rf ${scriptdir}/3dFWHMx.1D ${scriptdir}/3dFWHMx.1D.png
 
-# extract from raw data
-rm -rf ${OUTPUT}.feat/3dFWHMx.1D ${OUTPUT}.feat/3dFWHMx.1D.png
-3dFWHMx -detrend -ACF -mask ${OUTPUT}.feat/mask.nii.gz -input ${RAWDATA} > ${OUTPUT}.feat/smoothness-0mm.txt
-rm -rf ${scriptdir}/3dFWHMx.1D ${scriptdir}/3dFWHMx.1D.png
 
 
 
