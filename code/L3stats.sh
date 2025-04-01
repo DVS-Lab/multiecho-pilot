@@ -19,7 +19,7 @@ maindir="$(dirname "$scriptdir")"
 
 # study-specific inputs and general output folder
 task=sharedreward
-N=32 #model-1 requires 32 #model-2 requires 29 #model-3 requires 31
+N=40 #model-1 requires 32 #model-2 requires 29 #model-3 requires 31
 MODEL="model-1"
 denoising="base"
 copenum=$1
