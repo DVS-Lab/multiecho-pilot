@@ -72,53 +72,54 @@ for denoise in "base"; do # "base" "tedana"
 done
 
 # After the main loop, create bilateral averaged outputs
-echo "Creating bilateral outputs..."
+elif [[ "$mask" == "rightMotor" ]] || [[ "$mask" == "leftCerebellum" ]] || [[ "$mask" == "leftMotor" ]] || [[ "$mask" == "rightCerebellum" ]]; then
+	echo "Creating bilateral outputs..."
 
-# Process each subject and acquisition
-for sub in $(cat ${scriptdir}/sublist-included.txt); do 
-  sub=${sub#*sub-}
-  sub=${sub%/}
+	# Process each subject and acquisition
+	for sub in $(cat ${scriptdir}/sublist-included.txt); do 
+  		sub=${sub#*sub-}
+  		sub=${sub%/}
   
-  if [[ "$sub" == *sp ]]; then
-    acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3ip0" "mb3me4" "mb3me4fa50")
-  else
-    acqs=("mb1me1" "mb1me4" "mb3me1" "mb3me4" "mb6me1" "mb6me4")
-  fi
+  		if [[ "$sub" == *sp ]]; then
+    			acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3ip0" "mb3me4" "mb3me4fa50")
+ 		else
+    			acqs=("mb1me1" "mb1me4" "mb3me1" "mb3me4" "mb6me1" "mb6me4")
+  		fi
   
-  for mbme in "${acqs[@]}"; do
-    for ppi in "act"; do
-      # Define the output paths
-      output_dir="/ZPOOL/data/projects/multiecho-pilot/derivatives/extractions"
+  		for mbme in "${acqs[@]}"; do
+    			for ppi in "act"; do
+      				# Define the output paths
+      				output_dir="/ZPOOL/data/projects/multiecho-pilot/derivatives/extractions"
       
-      # Process bilateral Motor cortex (left + right)
-      left_motor="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-leftMotor_denoise_${denoise}.txt"
-      right_motor="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-rightMotor_denoise_${denoise}.txt"
-      bilateral_motor="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-bilateralMotor_denoise_${denoise}.txt"
+      				# Process bilateral Motor cortex (left + right)
+      				left_motor="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-leftMotor_denoise_${denoise}.txt"
+      				right_motor="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-rightMotor_denoise_${denoise}.txt"
+      				bilateral_motor="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-bilateralMotor_denoise_${denoise}.txt"
       
-      # Process bilateral Cerebellum (left + right)
-      left_cereb="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-leftCerebellum_denoise_${denoise}.txt"
-      right_cereb="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-rightCerebellum_denoise_${denoise}.txt"
-      bilateral_cereb="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-bilateralCerebellum_denoise_${denoise}.txt"
+      				# Process bilateral Cerebellum (left + right)
+      				left_cereb="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-leftCerebellum_denoise_${denoise}.txt"
+      				right_cereb="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-rightCerebellum_denoise_${denoise}.txt"
+      				bilateral_cereb="${output_dir}/ts_sub-${sub}_acq_${mbme}_type-${ppi}_img-${input}_mask-bilateralCerebellum_denoise_${denoise}.txt"
       
-      # Average Motor cortex values if both files exist
-      if [[ -f "$left_motor" && -f "$right_motor" ]]; then
-        echo "Averaging left and right motor for sub-${sub}, acq-${mbme}"
-        # Use paste to combine files side by side, then awk to calculate the average
-        paste "$left_motor" "$right_motor" | awk '{print ($1 + $2) / 2}' > "$bilateral_motor"
-      else
-        echo "Warning: Cannot create bilateral motor output for sub-${sub}, acq-${mbme} (missing files)"
-      fi
+      				# Average Motor cortex values if both files exist
+      				if [[ -f "$left_motor" && -f "$right_motor" ]]; then
+        				echo "Averaging left and right motor for sub-${sub}, acq-${mbme}"
+        				# Use paste to combine files side by side, then awk to calculate the average
+        				paste "$left_motor" "$right_motor" | awk '{print ($1 + $2) / 2}' > "$bilateral_motor"
+      				else
+					echo "Warning: Cannot create bilateral motor output for sub-${sub}, acq-${mbme} (missing files)"
+      				fi
       
-      # Average Cerebellum values if both files exist
-      if [[ -f "$left_cereb" && -f "$right_cereb" ]]; then
-        echo "Averaging left and right cerebellum for sub-${sub}, acq-${mbme}"
-        # Use paste to combine files side by side, then awk to calculate the average
-        paste "$left_cereb" "$right_cereb" | awk '{print ($1 + $2) / 2}' > "$bilateral_cereb"
-      else
-        echo "Warning: Cannot create bilateral cerebellum output for sub-${sub}, acq-${mbme} (missing files)"
-      fi
-    done
-  done
-done
-
+      				# Average Cerebellum values if both files exist
+      				if [[ -f "$left_cereb" && -f "$right_cereb" ]]; then
+        				echo "Averaging left and right cerebellum for sub-${sub}, acq-${mbme}"
+        				# Use paste to combine files side by side, then awk to calculate the average
+        				paste "$left_cereb" "$right_cereb" | awk '{print ($1 + $2) / 2}' > "$bilateral_cereb"
+      				else
+        				echo "Warning: Cannot create bilateral cerebellum output for sub-${sub}, acq-${mbme} (missing files)"
+      				fi
+    			done
+  		done
+	done
 echo "Processing complete!"
+fi
