@@ -7,9 +7,9 @@ basedir="$(dirname "$scriptdir")"
 input=beta # tsnr, beta, or zstat
 
 for denoise in "base"; do # "base" "tedana" 
-  for mask in "ME_bonf" "HCxME_bonf" "3way_bonf"; do
+  for mask in "MEbonf" "HCxMEbonf" "3waybonf"; do
   #for mask in "VSconstrained" "VMPFC" "rightMotor" "leftMotor" "rightCerebellum" "leftCerebellum" "rFFA"; do
-    for ppi in "ppi_seed-VS"; do # "act" "ppi_seed-VS"
+    for ppi in "ppi_seed-VS_thr5"; do # "act" "ppi_seed-VS_thr5"
       for sub in $(cat ${scriptdir}/sublist-included.txt); do 
         sub=${sub#*sub-}
         sub=${sub%/}
@@ -42,7 +42,7 @@ for denoise in "base"; do # "base" "tedana"
             tsnr_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-act_acq-${mbme}_sm-5_denoising-base_forTSNR.feat/tsnr.nii.gz"
 	    beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope3.nii.gz"
             zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat3.nii.gz"
-          elif [[ "$mask" == "ME_bonf" ]] || [[ "$mask" == "HCxME_bonf" ]] || [[ "$mask" == "3way_bonf" ]]; then
+          elif [[ "$mask" == "MEbonf" ]] || [[ "$mask" == "HCxMEbonf" ]] || [[ "$mask" == "3waybonf" ]]; then
 	    beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope17.nii.gz"
           else
             echo "Invalid mask: $mask"
@@ -72,7 +72,7 @@ for denoise in "base"; do # "base" "tedana"
 done
 
 # After the main loop, create bilateral averaged outputs
-elif [[ "$mask" == "rightMotor" ]] || [[ "$mask" == "leftCerebellum" ]] || [[ "$mask" == "leftMotor" ]] || [[ "$mask" == "rightCerebellum" ]]; then
+if [[ "$mask" == "rightMotor" ]] || [[ "$mask" == "leftCerebellum" ]] || [[ "$mask" == "leftMotor" ]] || [[ "$mask" == "rightCerebellum" ]]; then
 	echo "Creating bilateral outputs..."
 
 	# Process each subject and acquisition
