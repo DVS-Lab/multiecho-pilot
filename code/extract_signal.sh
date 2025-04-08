@@ -9,7 +9,7 @@ input=beta # tsnr, beta, or zstat
 for denoise in "base"; do # "base" "tedana" 
   for mask in "ME_bonf" "HCxME_bonf" "3way_bonf"; do
   #for mask in "VSconstrained" "VMPFC" "rightMotor" "leftMotor" "rightCerebellum" "leftCerebellum" "rFFA"; do
-    for ppi in "act"; do # "act" "ppi_seed-VS"
+    for ppi in "ppi_seed-VS"; do # "act" "ppi_seed-VS"
       for sub in $(cat ${scriptdir}/sublist-included.txt); do 
         sub=${sub#*sub-}
         sub=${sub%/}
@@ -43,7 +43,7 @@ for denoise in "base"; do # "base" "tedana"
 	    beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope3.nii.gz"
             zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           elif [[ "$mask" == "ME_bonf" ]] || [[ "$mask" == "HCxME_bonf" ]] || [[ "$mask" == "3way_bonf" ]]; then
-	    beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope13.nii.gz"
+	    beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope17.nii.gz"
           else
             echo "Invalid mask: $mask"
             continue
