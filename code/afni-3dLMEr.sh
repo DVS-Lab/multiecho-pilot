@@ -195,6 +195,25 @@ done
 
 
 
+# TSNR model follow ups
+3dinfo -verb LME_output_tsnr+tlrc.HEAD
+
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[8]'  > acf_MB3_vs_MB1_tsnr.txt
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[10]' > acf_MB6_vs_MB1_tsnr.txt
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[12]' > acf_ME4_vs_ME1_tsnr.txt
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[14]' > acf_HC_vs_20ch_tsnr.txt
+
+3dClustSim -mask brain_mask.nii.gz \
+           -acf 0.175478 4.74007 26.6659 \
+           -prefix ClustSim_tsnr \
+           -pthr 0.05 -athr 0.00714
 
 
+3dClusterize -inset LME_output_tsnr+tlrc \
+             -ithr 8 -NN 1 -clust_nvox 5016 -bisided p=0.05 \
+             -pref_map LME_output_tsnr_MB3_vs_MB1_FWER
+
+3dClusterize -inset LME_output_tsnr+tlrc \
+             -ithr 8 -NN 1 -clust_nvox 5016 -bisided p=0.05 \
+             -pref_map LME_output_tsnr_MB3_vs_MB1_FWER.nii.gz
 
