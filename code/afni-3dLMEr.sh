@@ -41,6 +41,17 @@ maindir="$(dirname "$scriptdir")"
       -dataTable @LME_table_corrected_act-cope13.txt
 
 
+# tsnr
+3dLMEr -prefix /ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/LME_output_tsnr \
+      -jobs 8 \
+      -model "HC+MB+ME+HC:MB+HC:ME+MB:ME+HC:MB:ME+(1|Subj)" \
+      -gltCode MB3_vs_MB1 "MB : +1*MB3 -1*MB1" \
+      -gltCode MB6_vs_MB1 "MB : +1*MB6 -1*MB1" \
+      -gltCode ME4_vs_ME1 "ME : +1*ME4 -1*ME1" \
+      -gltCode HC_vs_20ch "HC : +1*64ch -1*20ch" \
+      -dataTable @LME_table_corrected_tsnr.txt
+
+
 
 ## PPI phys post-hoc tests
 
