@@ -41,6 +41,17 @@ maindir="$(dirname "$scriptdir")"
       -dataTable @LME_table_corrected_act-cope13.txt
 
 
+# tsnr
+3dLMEr -prefix /ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/LME_output_tsnr \
+      -jobs 8 \
+      -model "HC+MB+ME+HC:MB+HC:ME+MB:ME+HC:MB:ME+(1|Subj)" \
+      -gltCode MB3_vs_MB1 "MB : +1*MB3 -1*MB1" \
+      -gltCode MB6_vs_MB1 "MB : +1*MB6 -1*MB1" \
+      -gltCode ME4_vs_ME1 "ME : +1*ME4 -1*ME1" \
+      -gltCode HC_vs_20ch "HC : +1*64ch -1*20ch" \
+      -dataTable @LME_table_corrected_tsnr.txt
+
+
 
 ## PPI phys post-hoc tests
 
@@ -184,6 +195,25 @@ done
 
 
 
+# TSNR model follow ups
+3dinfo -verb LME_output_tsnr+tlrc.HEAD
+
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[8]'  > acf_MB3_vs_MB1_tsnr.txt
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[10]' > acf_MB6_vs_MB1_tsnr.txt
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[12]' > acf_ME4_vs_ME1_tsnr.txt
+3dFWHMx -mask brain_mask.nii.gz -acf -input LME_output_tsnr+tlrc'[14]' > acf_HC_vs_20ch_tsnr.txt
+
+3dClustSim -mask brain_mask.nii.gz \
+           -acf 0.175478 4.74007 26.6659 \
+           -prefix ClustSim_tsnr \
+           -pthr 0.05 -athr 0.00714
 
 
+3dClusterize -inset LME_output_tsnr+tlrc \
+             -ithr 8 -NN 1 -clust_nvox 5016 -bisided p=0.05 \
+             -pref_map LME_output_tsnr_MB3_vs_MB1_FWER
+
+3dClusterize -inset LME_output_tsnr+tlrc \
+             -ithr 8 -NN 1 -clust_nvox 5016 -bisided p=0.05 \
+             -pref_map LME_output_tsnr_MB3_vs_MB1_FWER.nii.gz
 
