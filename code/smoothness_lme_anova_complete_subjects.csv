@@ -1,0 +1,8 @@
+Effect,Sum Sq,Mean Sq,Num df,Den df,F,p,Partial η²
+Head Coil,0.01,0.01,1,39.0,5.6,0.023,0.028
+Multiband,0.99,0.5,2,195.0,246.31,< .001,0.717
+Multi-echo,5.37,5.37,1,195.0,2658.41,< .001,0.932
+Head Coil × Multiband,0.0,0.0,2,195.0,0.36,0.696,0.004
+Head Coil × Multi-echo,0.03,0.03,1,195.0,14.3,< .001,0.069
+Multiband × Multi-echo,0.01,0.0,2,195.0,2.26,0.107,0.023
+Head Coil × Multiband × Multi-echo,0.0,0.0,2,195.0,0.24,0.787,0.002
