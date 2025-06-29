@@ -7,12 +7,12 @@ basedir="$(dirname "$scriptdir")"
 task=sharedreward # edit if necessary
 
 for denoise in "base" "tedana"; do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
-	for ppi in 0 "VS_thr5"; do #"VS_thr5"; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
+	for ppi in 0; do #"VS_thr5"; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
 		for model in 1; do
 
 			#for sub in 10085 10094; do
 			#for sub in `cat ${scriptdir}/sublist-sp.txt`; do # `ls -d ${basedir}/derivatives/fmriprep/sub-*/`
-			for sub in `cat ${scriptdir}/sublist-sp.txt`; do
+			for sub in `cat ${scriptdir}/sublist-openneuro.txt`; do
 				sub=${sub#*sub-}
 				sub=${sub%/}
 			
@@ -28,7 +28,7 @@ for denoise in "base" "tedana"; do # "base" = aCompCor confounds; "tedana" = aCo
 
 			  	# Manages the number of jobs and cores
 			  	SCRIPTNAME=${basedir}/code/L1stats.sh
-			  	NCORES=10
+			  	NCORES=20
 			  	while [ $(ps -ef | grep -v grep | grep $SCRIPTNAME | wc -l) -ge $NCORES ]; do
 			    		sleep 5s
 			  	done

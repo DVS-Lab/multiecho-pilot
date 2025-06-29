@@ -10,7 +10,7 @@ echo "==================================================="
 
 # Define base paths
 BASE_DIR="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl"
-SUBLIST="/ZPOOL/data/projects/multiecho-pilot/code/sublist-complete.txt"
+SUBLIST="/ZPOOL/data/projects/multiecho-pilot/code/sublist-openneuro.txt"
 
 # Define acquisition types to iterate through
 ACQ_TYPES=("mb1me4" "mb3me4" "mb6me4")

@@ -16,7 +16,8 @@ FMRIPREP_BASE_DIR="/ZPOOL/data/projects/multiecho-pilot/derivatives/fmriprep"
 # (This list comes directly from your previous kernel's output)
 SUBJECTS=(
     "10024" "10035" "10041" "10054" "10059" "10078" "10130" "10150"
-    "10185" "10221" "10223" "10234" "10321" "10382" "10416"
+    "10185" "10221" "10223" "10234" "10321" "10382" "10416" "10006"
+    "10015" "10046" "10303" "10716" "10738" "10017"
 )
 
 # Acquisition types to process for these subjects

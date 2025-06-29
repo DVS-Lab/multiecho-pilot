@@ -17,7 +17,7 @@ SELECTED_ACQ_TYPE="mb1me4"
 
 # Define base paths
 BASE_DIR="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl"
-SUBLIST="/ZPOOL/data/projects/multiecho-pilot/code/sublist-complete.txt"
+SUBLIST="/ZPOOL/data/projects/multiecho-pilot/code/sublist-openneuro.txt"
 
 echo "Selected Acquisition Type: $SELECTED_ACQ_TYPE"
 echo "-------------------------------------------------------"
