@@ -4,13 +4,15 @@
 scriptdir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 basedir="$(dirname "$scriptdir")"
 
-input=beta # tsnr, beta, or zstat
+input=zstat # tsnr, beta, or zstat
 
 for denoise in "base"; do # "base" "tedana" 
-  for mask in "MEbonf" "HCxMEbonf" "3waybonf"; do
+  for mask in "rightMotor" "leftMotor"; do
+  #for mask in "MEbonf" "HCxMEbonf" "3waybonf"; do
   #for mask in "VSconstrained" "VMPFC" "rightMotor" "leftMotor" "rightCerebellum" "leftCerebellum" "rFFA"; do
-    for ppi in "ppi_seed-VS_thr5"; do # "act" "ppi_seed-VS_thr5"
-      for sub in $(cat ${scriptdir}/sublist-included.txt); do 
+    for ppi in "act"; do # "act" "ppi_seed-VS_thr5"
+      for sub in 10108 10188; do
+	#for sub in $(cat ${scriptdir}/sublist-included.txt); do 
         sub=${sub#*sub-}
         sub=${sub%/}
 
@@ -76,7 +78,8 @@ if [[ "$mask" == "rightMotor" ]] || [[ "$mask" == "leftCerebellum" ]] || [[ "$ma
 	echo "Creating bilateral outputs..."
 
 	# Process each subject and acquisition
-	for sub in $(cat ${scriptdir}/sublist-included.txt); do 
+	for sub in 10108 10188; do
+	#for sub in $(cat ${scriptdir}/sublist-included.txt); do 
   		sub=${sub#*sub-}
   		sub=${sub%/}
   
