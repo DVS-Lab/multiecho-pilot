@@ -46,7 +46,8 @@ for denoise in "base"; do # "base" "tedana"
             zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-3_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat3.nii.gz"
           elif [[ "$mask" == "MEbonf" ]] || [[ "$mask" == "HCxMEbonf" ]] || [[ "$mask" == "3waybonf" ]]; then
 	    beta_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/cope17.nii.gz"
-          else
+	    zstat_image="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl/sub-${sub}/L1_task-sharedreward_model-1_type-${ppi}_acq-${mbme}_sm-0_denoising-${denoise}.feat/stats/zstat17.nii.gz"
+    	  else
             echo "Invalid mask: $mask"
             continue
           fi
