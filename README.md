@@ -1,4 +1,4 @@
-# rf1-mbm-pilot: Shared Reward Task Data with Multiband and Multi-Echo Task Analyses
+# rf1-mbme-pilot: Shared Reward Task Data with Multiband and Multi-Echo Task Analyses
 This repository contains code related to our in prep project related to determine the optimal fMRI sequence for assessing activation in the striatum. All hypotheses and analysis plans were pre-registered on AsPredicted in the winter of 2021, and data collection commenced on shortly thereafter. Imaging data will be shared via [OpenNeuro][openneuro] when the manuscript is posted on bioRxiv.
 
 
