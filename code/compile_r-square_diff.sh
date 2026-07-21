@@ -51,7 +51,7 @@ while IFS= read -r SUB_ID; do
 
     # Construct the path to the r-square_diff.nii.gz file for the current subject
     # Example path: /ZPOOL/data/projects/multiecho-pilot/derivatives/fsl_feat_pipeline_analysis/sub-10024_sharedreward/feat/r-square_diff.nii.gz
-    IMAGE_PATH="${FEAT_DERIVATIVES_BASE_DIR}/fsl/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-tedana_r-square.feat/R-squared_diff.nii.gz"
+    IMAGE_PATH="${FEAT_DERIVATIVES_BASE_DIR}/fsl/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-mb6me4_sm-0_denoising-tedana_update.feat/R-squared_diff.nii.gz"
 
     # Check if the image file exists
     if [ -f "$IMAGE_PATH" ]; then

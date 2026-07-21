@@ -6,21 +6,23 @@ basedir="$(dirname "$scriptdir")"
 
 task=sharedreward # edit if necessary
 
-for denoise in "base" "tedana"; do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
+for denoise in "tedana"; do # "base" = aCompCor confounds; "tedana" = aCompCor + tedana
 	for ppi in 0; do #"VS_thr5"; do #"VS_thr5"; do # putting 0 first will indicate "activation" "VS_thr5"
 		for model in 1; do
 
-			#for sub in 10085 10094; do
+			for sub in 10017 10024 10028 10035 10041 10043 10054 10059 10069 10074 10078 10080 10085 10094; do
 			#for sub in `cat ${scriptdir}/sublist-sp.txt`; do # `ls -d ${basedir}/derivatives/fmriprep/sub-*/`
-			for sub in `cat ${scriptdir}/sublist-openneuro.txt`; do
+			#for sub in `cat ${scriptdir}/sublist-openneuro.txt`; do
 				sub=${sub#*sub-}
 				sub=${sub%/}
 			
 			if [[ $sub == *sp ]]; then
-				acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3ip0" "mb3me4" "mb3me4fa50")
-				#acqs="mb3me3ip0"
+				#acqs=("mb2me4" "mb3me1fa50" "mb3me3" "mb3me3ip0" "mb3me4" "mb3me4fa50")
+				acqs="mb3me3ip0"
 			else
-				acqs=("mb1me1" "mb1me4" "mb3me1" "mb3me4" "mb6me1" "mb6me4")
+				acqs=("mb6me4")
+				#acqs=("mb1me4" "mb3me4" "mb6me4")
+				#acqs=("mb1me1" "mb1me4" "mb3me1" "mb3me4" "mb6me1" "mb6me4")
 			fi
 			
 			#for mbme in mb1me1 mb1me4 mb3me1 mb3me4 mb6me1 mb6me4 mb2me4 mb3me1fa50 mb3me3 mb3me3ip0 mb3me4fa50; do

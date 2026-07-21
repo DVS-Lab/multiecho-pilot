@@ -190,8 +190,8 @@ else # otherwise, do activation and seed-based ppi
 	# set output based in whether it is activation or ppi
 	if [ "$ppi" == "0" ]; then
 		TYPE=act
-		OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_r-square
-		OTEMPLATE=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_r-square.fsf
+		OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_update
+		OTEMPLATE=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_acq-${acq}_sm-${sm}_denoising-${denoise}_update.fsf
 	else
 		TYPE=ppi
 		OUTPUT=${MAINOUTPUT}/L1_task-${TASK}_model-${model}_type-${TYPE}_seed-${ppi}_acq-${acq}_sm-${sm}_denoising-${denoise}

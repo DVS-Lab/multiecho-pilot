@@ -10,10 +10,11 @@ echo "==================================================="
 
 # Define base paths
 BASE_DIR="/ZPOOL/data/projects/multiecho-pilot/derivatives/fsl"
-SUBLIST="/ZPOOL/data/projects/multiecho-pilot/code/sublist-openneuro.txt"
+SUBLIST="/ZPOOL/data/projects/multiecho-pilot/code/sublist-openneuro_sub.txt"
 
 # Define acquisition types to iterate through
-ACQ_TYPES=("mb1me4" "mb3me4" "mb6me4")
+#ACQ_TYPES=("mb1me4" "mb3me4" "mb6me4")
+ACQ_TYPES=("mb6me4")
 
 # Check if the subject list file exists
 if [ ! -f "$SUBLIST" ]; then
@@ -36,10 +37,10 @@ for SUB_ID in "${SUBJECTS[@]}"; do
 
         # Define input paths for base and tedana R-squared images
         BASE_R2_PATH="${BASE_DIR}/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-${ACQ_TYPE}_sm-0_denoising-base_r-square.feat/R-squared.nii.gz"
-        TEDANA_R2_PATH="${BASE_DIR}/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-${ACQ_TYPE}_sm-0_denoising-tedana_r-square.feat/R-squared.nii.gz"
+        TEDANA_R2_PATH="${BASE_DIR}/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-${ACQ_TYPE}_sm-0_denoising-tedana_update.feat/R-squared.nii.gz"
 
         # Define output directory and file for the difference image
-        OUTPUT_DIR="${BASE_DIR}/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-${ACQ_TYPE}_sm-0_denoising-tedana_r-square.feat"
+        OUTPUT_DIR="${BASE_DIR}/sub-${SUB_ID}/L1_task-sharedreward_model-1_type-act_acq-${ACQ_TYPE}_sm-0_denoising-tedana_update.feat"
         OUTPUT_FILE="${OUTPUT_DIR}/R-squared_diff.nii.gz"
 
         # Check if base R-squared image exists
