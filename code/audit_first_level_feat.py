@@ -14,6 +14,8 @@ import subprocess
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--root", type=Path, default=Path("/ZPOOL/data/projects/multiecho-pilot"))
+parser.add_argument("--timing-only", action="store_true",
+                    help="Check timing in the previously matched canonical runs without reading images.")
 parser.add_argument("--local-details", action="store_true",
                     help="Print participant-level diagnostics for local use only. Do not commit this output.")
 parser.add_argument("subjects", nargs="*",
@@ -22,7 +24,7 @@ args = parser.parse_args()
 root = args.root.resolve()
 if not (root / "derivatives/fsl").is_dir():
     parser.error(f"FEAT directory unavailable under {root}")
-for tool in ("fslmeants", "fslstats", "fslhd"):
+for tool in () if args.timing_only else ("fslmeants", "fslstats", "fslhd"):
     if not shutil.which(tool):
         parser.error(f"{tool} is unavailable. Load the existing FSL environment first.")
 
@@ -120,13 +122,22 @@ def vest(path):
     return metadata, [list(map(float, line.split())) for line in after.splitlines() if line.strip()]
 
 
-def inspect(feat, cope, mask, bids, record=None):
-    fsf = {}
-    for key, value in re.findall(r"^set (\S+)\s+(.+)$", read(feat / "design.fsf"), re.M):
-        fsf[key] = value.strip().strip('"')
-    settings = ("version", "level", "analysis", "tr", "npts", "ndelete", "norm_yn",
-                "smooth", "temphp_yn", "filtering_yn", "paradigm_hp", "evs_orig", "evs_real")
-    emit("FSF", feat, *(f"{k}={fsf.get(f'fmri({k})', 'NA')}" for k in settings))
+def timing_status(expected, actual):
+    if len(expected) != len(actual):
+        return "row_count_differs"
+    if any(abs(a[1] - b[1]) > 1e-5 for a, b in zip(expected, actual)):
+        return "duration_differs"
+    if all(abs(a[0] - b[0]) <= 1e-5 for a, b in zip(expected, actual)):
+        return "matches"
+    # BIDSto3col.sh subtracts the shift in awk before printing the onset with %s.
+    # Numeric to string coercion then uses awk's default %.6g conversion format.
+    if all(min(abs(a[0] - b[0]), abs(float(f"{a[0]:.6g}") - b[0])) <= 1e-5
+           for a, b in zip(expected, actual)):
+        return "matches_after_awk_rounding"
+    return "onset_differs"
+
+
+def inspect_intensity(feat, mask, fsf, record):
     value = fsf.get("feat_files(1)", "")
     image = resolve_input(value, feat) if value else None
     mean = feat / "mean_func.nii.gz"
@@ -200,6 +211,20 @@ def inspect(feat, cope, mask, bids, record=None):
     if not saw_scale:
         emit("SCALING_LOG_UNAVAILABLE", feat)
 
+
+def inspect(feat, cope, mask, bids, record=None):
+    fsf = {}
+    for key, value in re.findall(r"^set (\S+)\s+(.+)$", read(feat / "design.fsf"), re.M):
+        fsf[key] = value.strip().strip('"')
+    settings = ("version", "level", "analysis", "tr", "npts", "ndelete", "norm_yn",
+                "smooth", "temphp_yn", "filtering_yn", "paradigm_hp", "evs_orig", "evs_real")
+    emit("FSF", feat, *(f"{k}={fsf.get(f'fmri({k})', 'NA')}" for k in settings))
+    if not args.timing_only:
+        inspect_intensity(feat, mask, fsf, record)
+    elif record is not None:
+        suffix = re.search(r"_([0-9]{1,2})mm\.nii(?:\.gz)?$", fsf.get("feat_files(1)", ""))
+        record["input_suffix_mm"] = int(suffix[1]) if suffix else None
+
     mat, matrix = vest(feat / "design.mat")
     con, contrasts = vest(feat / "design.con")
     emit("DESIGN", mat.get("NumPoints"), mat.get("NumWaves"), f"rows={len(matrix)}")
@@ -254,11 +279,10 @@ def inspect(feat, cope, mask, bids, record=None):
             expected = sorted((float(e["onset"]), float(e["duration"])) for e in events
                               if e["trial_type"] in trials)
             actual = sorted(r[:2] for r in valid_rows)
-            match = len(expected) == len(actual) and all(
-                abs(x - y) <= 1e-5 for a, b in zip(expected, actual) for x, y in zip(a, b))
+            status = timing_status(expected, actual) if bids and evfile else "unavailable"
             if weight:
                 target_ev_heights.append(heights == [1.0])
-                target_ev_timing.append(match if bids and evfile else None)
+                target_ev_timing.append(status)
                 if column <= len(pp):
                     target_ev_pp.append(number(pp[column - 1]))
             orth = [j for j in range(int(fsf.get("fmri(evs_orig)", "0")) + 1)
@@ -269,7 +293,7 @@ def inspect(feat, cope, mask, bids, record=None):
                  f"derivative={field('deriv_yn')}", f"orth={orth}",
                  f"PPheight={pp[column-1] if column <= len(pp) else 'NA'}",
                  f"matrix_range={max(samples)-min(samples):.6g}",
-                 f"bids_onset_duration_match={match if bids and evfile else 'NA'}")
+                 f"bids_timing={status}")
         column += field("deriv_yn") == "1"
     if record is not None:
         if mask.name == "mask_VSconstrained.nii.gz":
@@ -287,8 +311,10 @@ def inspect(feat, cope, mask, bids, record=None):
             record["left_motor_uses_left_gt_right"] = actual_weights == {
                 "guess_allLeftButton": 1, "guess_allRightButton": -1}
         record["target_evs_unit_height"] = bool(target_ev_heights) and all(target_ev_heights)
-        record["target_evs_match_bids"] = (all(target_ev_timing) if target_ev_timing and
-                                           None not in target_ev_timing else None)
+        record["target_ev_timing"] = target_ev_timing
+        record["target_evs_match_bids"] = (
+            all(status.startswith("matches") for status in target_ev_timing)
+            if target_ev_timing and "unavailable" not in target_ev_timing else None)
         record["target_evs_double_gamma_zero_phase"] = bool(target_ev_hrf) and all(target_ev_hrf)
         record["mean_target_ev_pp"] = sum(target_ev_pp) / len(target_ev_pp) if target_ev_pp else math.nan
         if cope <= len(contrast_pp):
@@ -344,6 +370,12 @@ for sub in subjects:
             mask = root / f"masks/mask_{roi}.nii.gz"
             stem = f"L1_task-sharedreward_model-{model}_type-act_acq-{acq}"
             canonical = root / f"derivatives/fsl/sub-{sub}/{stem}_sm-0_denoising-base.feat"
+            if args.timing_only:
+                record = {}
+                records[acq, roi].append(record)
+                if (canonical / "design.fsf").is_file():
+                    inspect(canonical, cope, mask, bids, record)
+                continue
             dirs = sorted((root / f"derivatives/fsl/sub-{sub}").glob(f"{stem}_*_denoising-base*.feat"))
             matches = []
             for feat in dirs:
@@ -378,7 +410,18 @@ def rounded_mean(values, increment, minimum=3):
     return round(sum(values) / len(values) / increment) * increment if len(values) >= minimum else None
 
 
-if not args.local_details:
+if args.timing_only and not args.local_details:
+    timing = {}
+    for (acq, roi), rows in records.items():
+        timing.setdefault(acq, {})[roi] = {
+            "fits_compared": sum(bool(row.get("target_ev_timing")) for row in rows),
+            "target_ev_status_counts": dict(Counter(status for row in rows
+                                                   for status in row.get("target_ev_timing", []))),
+            "input_filename_smoothing_mm_counts": dict(Counter(row["input_suffix_mm"] for row in rows
+                                                               if row.get("input_suffix_mm") is not None)),
+        }
+    print(json.dumps({"by_protocol_and_roi": timing}, indent=2))
+elif not args.local_details:
     output = {
         "sample_counts_by_coil": {str(c): sum(coil.get(s, "unknown") == c for s in subjects)
                                   for c in (20, 64, "unknown")},
