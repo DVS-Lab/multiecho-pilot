@@ -1,0 +1,23 @@
+name: seqpilot-motor-notebook
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # The publication notebook uses pymer4's Lmer class and rpy2's activate() API.
+  - python=3.11
+  - numpy=1.26
+  - pandas=2.2
+  - rpy2=3.5
+  - r-lme4
+  - r-lmertest
+  - r-emmeans
+  - scipy
+  - scikit-learn
+  - patsy
+  - joblib
+  - matplotlib-base
+  - seaborn
+  - openpyxl
+  - pip
+  - pip:
+      - pymer4==0.8.2
