@@ -1,0 +1,571 @@
+{
+  "complete_motor_extraction_sets": 40,
+  "sampled_for_image_checks": 4,
+  "by_protocol": {
+    "mb1me1": {
+      "model_2": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "model_4": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "reuse": {
+        "model_4_reverse_contrast_maps_present": 40,
+        "model_2_correct_tr_and_motor_maps_present": 40,
+        "same_input_nifti": 40,
+        "same_preprocessing_settings": 40,
+        "same_confound_file_content": 40,
+        "same_task_ev_specification": 40,
+        "sampled_model_2_covers_leftMotor": 4,
+        "sampled_model_2_covers_rightCerebellum": 4
+      },
+      "sampled_extraction_checks": {
+        "rightMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "rightCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      },
+      "sampled_bilateral_averages": {
+        "bilateralMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "bilateralCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      }
+    },
+    "mb1me4": {
+      "model_2": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "model_4": {
+        "left_gt_right": 40,
+        "tr_differs": 38,
+        "input_unavailable": 1,
+        "tr_matches": 1
+      },
+      "reuse": {
+        "model_4_reverse_contrast_maps_present": 40,
+        "model_2_correct_tr_and_motor_maps_present": 40,
+        "same_preprocessing_settings": 40,
+        "same_confound_file_content": 40,
+        "same_task_ev_specification": 40,
+        "sampled_model_2_covers_leftMotor": 4,
+        "sampled_model_2_covers_rightCerebellum": 4
+      },
+      "sampled_extraction_checks": {
+        "rightMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "rightCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      },
+      "sampled_bilateral_averages": {
+        "bilateralMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "bilateralCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      }
+    },
+    "mb3me1": {
+      "model_2": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "model_4": {
+        "left_gt_right": 40,
+        "tr_differs": 40
+      },
+      "reuse": {
+        "model_4_reverse_contrast_maps_present": 40,
+        "model_2_correct_tr_and_motor_maps_present": 40,
+        "same_input_nifti": 40,
+        "same_preprocessing_settings": 40,
+        "same_confound_file_content": 40,
+        "same_task_ev_specification": 40,
+        "sampled_model_2_covers_leftMotor": 4,
+        "sampled_model_2_covers_rightCerebellum": 4
+      },
+      "sampled_extraction_checks": {
+        "rightMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "rightCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      },
+      "sampled_bilateral_averages": {
+        "bilateralMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "bilateralCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      }
+    },
+    "mb3me4": {
+      "model_2": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "model_4": {
+        "left_gt_right": 39,
+        "tr_differs": 40,
+        "row_unavailable": 1
+      },
+      "reuse": {
+        "model_4_reverse_contrast_maps_present": 39,
+        "model_2_correct_tr_and_motor_maps_present": 40,
+        "same_preprocessing_settings": 40,
+        "same_confound_file_content": 40,
+        "same_task_ev_specification": 40,
+        "sampled_model_2_covers_leftMotor": 4,
+        "sampled_model_2_covers_rightCerebellum": 4
+      },
+      "sampled_extraction_checks": {
+        "rightMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "rightCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      },
+      "sampled_bilateral_averages": {
+        "bilateralMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "bilateralCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      }
+    },
+    "mb6me1": {
+      "model_2": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "model_4": {
+        "left_gt_right": 40,
+        "tr_differs": 40
+      },
+      "reuse": {
+        "model_4_reverse_contrast_maps_present": 40,
+        "model_2_correct_tr_and_motor_maps_present": 40,
+        "same_input_nifti": 40,
+        "same_preprocessing_settings": 40,
+        "same_confound_file_content": 40,
+        "same_task_ev_specification": 40,
+        "sampled_model_2_covers_leftMotor": 4,
+        "sampled_model_2_covers_rightCerebellum": 4
+      },
+      "sampled_extraction_checks": {
+        "rightMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "rightCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      },
+      "sampled_bilateral_averages": {
+        "bilateralMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "bilateralCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      }
+    },
+    "mb6me4": {
+      "model_2": {
+        "left_gt_right": 40,
+        "tr_matches": 40
+      },
+      "model_4": {
+        "left_gt_right": 40,
+        "tr_differs": 40
+      },
+      "reuse": {
+        "model_4_reverse_contrast_maps_present": 40,
+        "model_2_correct_tr_and_motor_maps_present": 40,
+        "same_preprocessing_settings": 40,
+        "same_confound_file_content": 40,
+        "same_task_ev_specification": 40,
+        "sampled_model_2_covers_leftMotor": 4,
+        "sampled_model_2_covers_rightCerebellum": 4
+      },
+      "sampled_extraction_checks": {
+        "rightMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "leftMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "rightCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      },
+      "sampled_bilateral_averages": {
+        "bilateralMotor": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        },
+        "bilateralCerebellum": {
+          "beta": {
+            "matches": 4
+          },
+          "zstat": {
+            "matches": 4
+          },
+          "varcope": {
+            "matches": 4
+          }
+        }
+      }
+    }
+  },
+  "figure_2c_mask_candidates": {
+    "group_cluster_images_scanned": 52,
+    "bilateral_mask_matches_unilateral_union": null,
+    "roi_masks": {
+      "leftMotor": {
+        "mask_present": true,
+        "exact_matches": {
+          "input_model_2": 1
+        },
+        "same_grid_candidates": 52
+      },
+      "rightMotor": {
+        "mask_present": true,
+        "exact_matches": {
+          "input_model_2": 1
+        },
+        "same_grid_candidates": 52
+      },
+      "bilateralMotor": {
+        "mask_present": false,
+        "exact_matches": {},
+        "same_grid_candidates": 0
+      }
+    }
+  }
+}
