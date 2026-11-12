@@ -1,0 +1,232 @@
+{
+  "by_protocol_and_roi": {
+    "mb1me1": {
+      "VSconstrained": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 16
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rFFA": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rightMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "leftMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      }
+    },
+    "mb1me4": {
+      "VSconstrained": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 16
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rFFA": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rightMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "leftMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "4": 4
+        }
+      }
+    },
+    "mb3me1": {
+      "VSconstrained": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 16
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rFFA": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rightMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "leftMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      }
+    },
+    "mb3me4": {
+      "VSconstrained": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 16
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rFFA": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rightMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "leftMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "4": 4
+        }
+      }
+    },
+    "mb6me1": {
+      "VSconstrained": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 16
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rFFA": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rightMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "leftMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      }
+    },
+    "mb6me4": {
+      "VSconstrained": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 16
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rFFA": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "rightMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "5": 4
+        }
+      },
+      "leftMotor": {
+        "fits_compared": 4,
+        "target_ev_status_counts": {
+          "matches_after_awk_rounding": 8
+        },
+        "input_filename_smoothing_mm_counts": {
+          "4": 4
+        }
+      }
+    }
+  }
+}
