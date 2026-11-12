@@ -56,8 +56,19 @@ def prepare_cells(cells):
     if not marker:
         raise ValueError("Could not locate the publication notebook's cohort filters.")
     motor_activation = replace_once(cells[15], "panel_labels = 'abcdefghi'", "panel_labels = 'ef'")
-    return ((2, setup), (3, cells[3]), (5, cohort), (7, cells[7]),
-            (15, motor_activation), (17, cells[17]))
+    selected = ((2, setup), (3, cells[3]), (5, cohort), (7, cells[7]),
+                (15, motor_activation), (17, cells[17]))
+    return tuple((index, source.replace("pandas2ri.rpy2py(", "as_pandas_frame("))
+                 for index, source in selected)
+
+
+def as_pandas_frame(table):
+    from pandas import DataFrame
+    from rpy2.robjects import pandas2ri
+
+    # The notebook enables automatic conversion, so an R call may already
+    # have returned a pandas DataFrame.
+    return table if isinstance(table, DataFrame) else pandas2ri.rpy2py(table)
 
 
 def coverage_summary(root):
@@ -174,6 +185,7 @@ def run_notebook(root, prepared_cells, output, expected):
     comparison_dir = output / "motor_cerebellum"
     comparison_dir.mkdir()
     namespace = {
+        "as_pandas_frame": as_pandas_frame,
         "rerun_project_root": root,
         "rerun_extractions": root / EXTRACTION_DIRECTORY,
         "rerun_activation_dir": activation_dir,
