@@ -1,0 +1,2322 @@
+{
+  "sample_counts_by_coil": {
+    "20": 2,
+    "64": 2,
+    "unknown": 0
+  },
+  "candidate_figure_csv_count": 0,
+  "bilateral_signed_average_checks": {
+    "mb1me1": {
+      "comparable": 4,
+      "matches_signed_average": 4
+    },
+    "mb1me4": {
+      "comparable": 4,
+      "matches_signed_average": 4
+    },
+    "mb3me1": {
+      "comparable": 4,
+      "matches_signed_average": 4
+    },
+    "mb3me4": {
+      "comparable": 4,
+      "matches_signed_average": 4
+    },
+    "mb6me1": {
+      "comparable": 4,
+      "matches_signed_average": 4
+    },
+    "mb6me4": {
+      "comparable": 4,
+      "matches_signed_average": 4
+    }
+  },
+  "by_protocol_and_roi": {
+    "mb1me1": {
+      "VSconstrained": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope13": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "3.39": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "0.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 5330
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 5500
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.1
+        }
+      },
+      "rFFA": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "3.39": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10200
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        }
+      },
+      "rightMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "3.39": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10300
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        }
+      },
+      "leftMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "3.39": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 0,
+            "no": 4
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9800
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        }
+      }
+    },
+    "mb1me4": {
+      "VSconstrained": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope13": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "4.71": 4
+          },
+          "input_tr": {
+            "4.71": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "0.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 9000
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10900
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4800
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4910
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.15
+        }
+      },
+      "rFFA": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "4.71": 4
+          },
+          "input_tr": {
+            "4.71": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 9000
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10600
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      },
+      "rightMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "4.71": 4
+          },
+          "input_tr": {
+            "4.71": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 9000
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10600
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.4
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      },
+      "leftMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "other_smoothed_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "4.71": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 0,
+            "no": 4
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 0,
+            "no": 4
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 9000
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9800
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4800
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4910
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      }
+    },
+    "mb3me1": {
+      "VSconstrained": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope13": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "1.15": 4
+          },
+          "input_tr": {
+            "1.15": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "0.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 5080
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 5240
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.15
+        }
+      },
+      "rFFA": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "1.15": 4
+          },
+          "input_tr": {
+            "1.15": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10300
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      },
+      "rightMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "1.15": 4
+          },
+          "input_tr": {
+            "1.15": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9800
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        }
+      },
+      "leftMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "1.15": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 0,
+            "no": 4
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 0,
+            "no": 4
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9400
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      }
+    },
+    "mb3me4": {
+      "VSconstrained": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope13": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "1.615": 4
+          },
+          "input_tr": {
+            "1.615": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "0.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10900
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4610
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4710
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.15
+        }
+      },
+      "rFFA": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "1.615": 4
+          },
+          "input_tr": {
+            "1.615": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10800
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.4
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      },
+      "rightMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "1.615": 4
+          },
+          "input_tr": {
+            "1.615": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10100
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.4
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        }
+      },
+      "leftMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "other_smoothed_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "1.615": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 0,
+            "no": 4
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 0,
+            "no": 4
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8900
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9400
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4600
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4700
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      }
+    },
+    "mb6me1": {
+      "VSconstrained": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope13": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "0.626": 4
+          },
+          "input_tr": {
+            "0.626": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "0.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8700
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 8700
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4740
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4890
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.15
+        }
+      },
+      "rFFA": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "0.626": 4
+          },
+          "input_tr": {
+            "0.626": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8700
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10100
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        }
+      },
+      "rightMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "0.626": 4
+          },
+          "input_tr": {
+            "0.626": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8700
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9800
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      },
+      "leftMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "0.626": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 0,
+            "no": 4
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 0,
+            "no": 4
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8700
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9400
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      }
+    },
+    "mb6me4": {
+      "VSconstrained": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope13": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "0.878": 4
+          },
+          "input_tr": {
+            "0.878": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "0.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 11200
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4180
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4280
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.25
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.15
+        }
+      },
+      "rFFA": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "0.878": 4
+          },
+          "input_tr": {
+            "0.878": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 11000
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.4
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        }
+      },
+      "rightMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "5mm_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "0.878": 4
+          },
+          "input_tr": {
+            "0.878": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 4,
+            "no": 0
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 4,
+            "no": 0
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 0,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 10300
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "upstream_mean": {
+          "count": 0,
+          "rounded_mean": null
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.4
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      },
+      "leftMotor": {
+        "saved_extractions": 4,
+        "matched_runs": {
+          "canonical_cope3": 4
+        },
+        "multiple_matches": 0,
+        "input_kind_counts": {
+          "other_smoothed_input": 4
+        },
+        "settings_counts": {
+          "tr": {
+            "3.39": 4
+          },
+          "input_tr": {
+            "0.878": 4
+          },
+          "norm_yn": {
+            "0.0": 4
+          },
+          "smooth": {
+            "4.0": 4
+          },
+          "temphp_yn": {
+            "0.0": 4
+          }
+        },
+        "checks": {
+          "tr_matches_input": {
+            "yes": 0,
+            "no": 4
+          },
+          "design_rows_match": {
+            "yes": 4,
+            "no": 0
+          },
+          "contrast_expected": {
+            "yes": 0,
+            "no": 4
+          },
+          "left_motor_uses_left_gt_right": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_unit_height": {
+            "yes": 4,
+            "no": 0
+          },
+          "target_evs_match_bids": {
+            "yes": 0,
+            "no": 4
+          },
+          "target_evs_double_gamma_zero_phase": {
+            "yes": 4,
+            "no": 0
+          },
+          "run_scaling_logged": {
+            "yes": 4,
+            "no": 0
+          },
+          "volume_scaling_logged": {
+            "yes": 0,
+            "no": 0
+          }
+        },
+        "global_mean": {
+          "count": 4,
+          "rounded_mean": 8800
+        },
+        "roi_mean": {
+          "count": 4,
+          "rounded_mean": 9600
+        },
+        "coverage": {
+          "count": 4,
+          "rounded_mean": 1.0
+        },
+        "input_mean": {
+          "count": 4,
+          "rounded_mean": 4170
+        },
+        "upstream_mean": {
+          "count": 4,
+          "rounded_mean": 4270
+        },
+        "mean_target_ev_pp": {
+          "count": 4,
+          "rounded_mean": 0.35
+        },
+        "contrast_pp": {
+          "count": 4,
+          "rounded_mean": 0.3
+        }
+      }
+    }
+  },
+  "within_participant_roi_baseline_spread": {
+    "VSconstrained": {
+      "20": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 20
+      },
+      "64": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 40
+      }
+    },
+    "rFFA": {
+      "20": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 10
+      },
+      "64": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 10
+      }
+    },
+    "rightMotor": {
+      "20": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 5
+      },
+      "64": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 10
+      }
+    },
+    "leftMotor": {
+      "20": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 5
+      },
+      "64": {
+        "complete_series": 2,
+        "mean_percent_range_rounded_to_5_points": 5
+      }
+    }
+  }
+}
