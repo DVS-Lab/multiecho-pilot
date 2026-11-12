@@ -1,0 +1,88 @@
+{
+  "manuscript_subjects_selected": 38,
+  "manuscript_runs_expected": 228,
+  "runs_ready": 228,
+  "repaired_files_staged": 2736,
+  "extraction_status": "ready",
+  "by_protocol": {
+    "mb1me1": {
+      "runs_expected": 38,
+      "runs_ready": 38,
+      "coverage": {
+        "leftMotor": {
+          "full": 38
+        },
+        "rightCerebellum": {
+          "full": 38
+        }
+      },
+      "issues": {}
+    },
+    "mb1me4": {
+      "runs_expected": 38,
+      "runs_ready": 38,
+      "coverage": {
+        "leftMotor": {
+          "full": 38
+        },
+        "rightCerebellum": {
+          "full": 38
+        }
+      },
+      "issues": {}
+    },
+    "mb3me1": {
+      "runs_expected": 38,
+      "runs_ready": 38,
+      "coverage": {
+        "leftMotor": {
+          "full": 38
+        },
+        "rightCerebellum": {
+          "full": 38
+        }
+      },
+      "issues": {}
+    },
+    "mb3me4": {
+      "runs_expected": 38,
+      "runs_ready": 38,
+      "coverage": {
+        "leftMotor": {
+          "full": 38
+        },
+        "rightCerebellum": {
+          "full": 38
+        }
+      },
+      "issues": {}
+    },
+    "mb6me1": {
+      "runs_expected": 38,
+      "runs_ready": 38,
+      "coverage": {
+        "leftMotor": {
+          "full": 38
+        },
+        "rightCerebellum": {
+          "full": 38
+        }
+      },
+      "issues": {}
+    },
+    "mb6me4": {
+      "runs_expected": 38,
+      "runs_ready": 38,
+      "coverage": {
+        "leftMotor": {
+          "full": 38
+        },
+        "rightCerebellum": {
+          "full": 38
+        }
+      },
+      "issues": {}
+    }
+  },
+  "extraction_directory": "derivatives/extractions_model2_motor"
+}
