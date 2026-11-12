@@ -7,7 +7,6 @@ import math
 import os
 from pathlib import Path
 import re
-import shutil
 import subprocess
 from tempfile import NamedTemporaryFile
 
@@ -19,6 +18,7 @@ ROIS = ("bilateralMotor", "bilateralCerebellum")
 STATS = ("beta", "zstat", "weighted_beta")
 ANOVA_NUMERIC = ("Sum Sq", "Mean Sq", "Num df", "Den df", "F", "Partial eta_sq")
 EMM_NUMERIC = ("emmean", "SE", "df", "lower.CL", "upper.CL", "asymp.LCL", "asymp.UCL")
+EMM_FACTORS = ("MB", "ME", "HC")
 EFFECT_TERM = r"Head Coil|Multiband|Multi-echo|Smoothness|ROI|headcoil|mb|me|roi|smoothness|HC|MB|ME"
 EFFECT = re.compile(rf"(?:{EFFECT_TERM})(?:(?: × |:)(?:{EFFECT_TERM}))*")
 EXPECTED_EMM_CELLS = {
@@ -51,6 +51,11 @@ def prepare_cells(cells):
         ("output_dir = project_root / 'derivatives' / 'plots'", "output_dir = rerun_activation_dir"),
     ):
         setup = replace_once(setup, assignment, replacement)
+    # Keep the R factors intact between transform() and the unweighted EMM fit.
+    setup = replace_once(
+        setup, "    r_df = ro.r(f'transform(",
+        "    with ro.default_converter.context():\n        r_df = ro.r(f'transform(",
+    )
     # Keep the notebook's cohort filters and skip its standalone demographics figure.
     cohort, marker, _ = cells[5].partition("# --- 3. Nature-Quality Visualization ---")
     if not marker:
@@ -112,31 +117,43 @@ def anova_rows(path, expected_rows):
     return rows
 
 
-def emmeans_rows(table):
+def emmeans_rows(table, model_data, label):
     rows = []
     seen = set()
+    unavailable = set()
+    if not set((*EMM_FACTORS, "emmean", "SE")).issubset(table.columns):
+        raise ValueError(f"Unexpected estimated marginal means columns for {label}.")
     for record in table.to_dict("records"):
-        cell = tuple(str(record[key]) for key in ("MB", "ME", "HC"))
+        cell = tuple(str(record[key]) for key in EMM_FACTORS)
         if cell not in EXPECTED_EMM_CELLS or cell in seen:
-            raise ValueError("Unexpected estimated marginal means condition.")
+            raise ValueError(f"Unexpected or duplicate estimated marginal means condition for {label}.")
         seen.add(cell)
-        row = dict(zip(("MB", "ME", "HC"), cell))
+        row = dict(zip(EMM_FACTORS, cell))
         row.update({field: finite(record[field]) for field in EMM_NUMERIC if field in record})
-        if row.get("emmean") is None or row.get("SE") is None:
-            raise ValueError("An estimated marginal mean or standard error is unavailable.")
+        if row["emmean"] is None or row["SE"] is None:
+            unavailable.add(cell)
         rows.append(row)
-    if seen != EXPECTED_EMM_CELLS:
-        raise ValueError("Some conditions are missing estimated marginal means.")
-    return rows
+
+    counts = model_data.groupby(["mb", "me", "headcoil"], observed=True).size().to_dict()
+    coverage = {"expected": len(EXPECTED_EMM_CELLS), "available": len(seen - unavailable)}
+    for field, cells in (("missing_cells", EXPECTED_EMM_CELLS - seen),
+                         ("unavailable_cells", unavailable)):
+        coverage[field] = [
+            {**dict(zip(EMM_FACTORS, cell)), "model_observations": int(counts.get(cell, 0))}
+            for cell in sorted(cells)
+        ]
+    return rows, coverage
 
 
 def roi_results(namespace, data_name, emms_name, roi):
     data = namespace[data_name][roi]
+    emmeans, coverage = emmeans_rows(namespace[emms_name][roi], data["data"], f"{emms_name}/{roi}")
     return {
         "subjects": int(data["n_subjects"]),
         "observations": len(data["data"]),
         "subjects_by_coil": {"20": int(data["n_20ch"]), "64": int(data["n_64ch"])},
-        "emmeans": emmeans_rows(namespace[emms_name][roi]),
+        "emmeans": emmeans,
+        "emmeans_coverage": coverage,
     }
 
 
@@ -180,6 +197,17 @@ def verify_figures(output, prefix):
                 raise ValueError(f"Missing notebook output {path.name}")
 
 
+def summary_status(activation, comparison):
+    roi_analyses = [*activation.values(), *comparison["weighted_beta_by_roi"].values()]
+    for stat in ("beta", "zstat"):
+        roi_analyses.extend(comparison[stat]["by_roi"].values())
+    for result in roi_analyses:
+        coverage = result["emmeans_coverage"]
+        if coverage["available"] != coverage["expected"]:
+            return "needs_emmeans_review"
+    return "complete"
+
+
 def run_notebook(root, prepared_cells, output, expected):
     activation_dir = output / "motor_activation"
     comparison_dir = output / "motor_cerebellum"
@@ -207,8 +235,10 @@ def run_notebook(root, prepared_cells, output, expected):
     verify_figures(activation_dir, "multi_roi")
     verify_figures(comparison_dir, "motor_cerebellum")
     brain_images = root / "derivatives/figures/brain_images"
+    activation = activation_results(namespace, activation_dir)
+    comparison = comparison_results(namespace, comparison_dir)
     return {
-        "status": "complete",
+        "status": summary_status(activation, comparison),
         "notebook_revision": NOTEBOOK_REVISION,
         "staged_coverage": expected,
         "local_output_directory": str(output.relative_to(root)),
@@ -216,8 +246,8 @@ def run_notebook(root, prepared_cells, output, expected):
             "bilateralMotor": (brain_images / "mask_bilateralMotor.png").is_file(),
             "bilateralCerebellum": (brain_images / "mask_bilateralCerebellum_red.png").is_file(),
         },
-        "motor_activation": activation_results(namespace, activation_dir),
-        "motor_cerebellum_comparison": comparison_results(namespace, comparison_dir),
+        "motor_activation": activation,
+        "motor_cerebellum_comparison": comparison,
         "joint_weighted_motor_cerebellum": "source_not_in_publication_notebook",
     }
 
@@ -248,13 +278,10 @@ def main():
     parent.mkdir(exist_ok=True)
     output = parent / datetime.now(timezone.utc).strftime("run-%Y%m%dT%H%M%S%fZ")
     output.mkdir()
-    try:
-        summary = run_notebook(root, prepared, output, expected)
-        save_summary(args.summary.resolve(), summary)
-    except BaseException:
-        shutil.rmtree(output)
-        raise
-    print(f"Motor analyses and plots saved to {output}")
+    print(f"Local motor notebook outputs: {output}", flush=True)
+    summary = run_notebook(root, prepared, output, expected)
+    save_summary(args.summary.resolve(), summary)
+    print(f"Aggregate summary written to {args.summary} ({summary['status']}).")
 
 
 if __name__ == "__main__":
