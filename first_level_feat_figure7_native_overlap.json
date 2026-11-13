@@ -1,0 +1,104 @@
+{
+  "figure7_saved_masks": [
+    {
+      "location": "derivatives/fsl/afni/MBxME_ppi_zstat17_thresh+tlrc.HEAD",
+      "saved_voxel_sizes_mm": [
+        2.7,
+        2.7,
+        2.97
+      ],
+      "primary_ppi_masks_found": 228,
+      "primary_ppi_masks_expected": 228,
+      "nonzero_voxels_on_saved_grid": 140,
+      "components": [
+        {
+          "saved_label": 1,
+          "voxels_on_saved_grid": 140,
+          "centroid_mm": [
+            -10.12,
+            12.11,
+            -4.14
+          ],
+          "distance_to_caption_centroid_mm": 0.21,
+          "inside_primary_ppi_intersection": 122,
+          "outside_primary_ppi_intersection": 18
+        }
+      ]
+    },
+    {
+      "location": "derivatives/fsl/afni/MBxME_ppi_zstat17_thresh.nii.gz",
+      "saved_voxel_sizes_mm": [
+        2.7,
+        2.7,
+        2.97
+      ],
+      "primary_ppi_masks_found": 228,
+      "primary_ppi_masks_expected": 228,
+      "nonzero_voxels_on_saved_grid": 140,
+      "components": [
+        {
+          "saved_label": 1,
+          "voxels_on_saved_grid": 140,
+          "centroid_mm": [
+            -10.12,
+            12.1,
+            -4.14
+          ],
+          "distance_to_caption_centroid_mm": 0.21,
+          "inside_primary_ppi_intersection": 122,
+          "outside_primary_ppi_intersection": 18
+        }
+      ]
+    },
+    {
+      "location": "masks/mask_MBxME_ppi_zstat17_thresh.nii.gz",
+      "saved_voxel_sizes_mm": [
+        2.7,
+        2.7,
+        2.97
+      ],
+      "primary_ppi_masks_found": 228,
+      "primary_ppi_masks_expected": 228,
+      "nonzero_voxels_on_saved_grid": 140,
+      "components": [
+        {
+          "saved_label": 1,
+          "voxels_on_saved_grid": 140,
+          "centroid_mm": [
+            -10.12,
+            12.1,
+            -4.14
+          ],
+          "distance_to_caption_centroid_mm": 0.21,
+          "inside_primary_ppi_intersection": 122,
+          "outside_primary_ppi_intersection": 18
+        }
+      ]
+    },
+    {
+      "location": "masks/lme/MBxME_ppi_zstat17_thresh.nii.gz",
+      "saved_voxel_sizes_mm": [
+        2.7,
+        2.7,
+        2.97
+      ],
+      "primary_ppi_masks_found": 228,
+      "primary_ppi_masks_expected": 228,
+      "nonzero_voxels_on_saved_grid": 140,
+      "components": [
+        {
+          "saved_label": 1,
+          "voxels_on_saved_grid": 140,
+          "centroid_mm": [
+            -10.12,
+            12.1,
+            -4.14
+          ],
+          "distance_to_caption_centroid_mm": 0.21,
+          "inside_primary_ppi_intersection": 122,
+          "outside_primary_ppi_intersection": 18
+        }
+      ]
+    }
+  ]
+}
