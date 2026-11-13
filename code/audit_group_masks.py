@@ -12,6 +12,7 @@ import subprocess
 import nibabel as nib
 from nibabel.processing import resample_from_to
 import numpy as np
+from scipy.ndimage import find_objects, label
 
 from audit_motor_repair import ACQUISITIONS, FEAT_INPUT, read
 
@@ -512,6 +513,49 @@ def primary_ppi_intersection(root, reference, subjects):
     return found, intersection if found == expected else None
 
 
+def figure7_components(root, path, subjects):
+    """Check saved components against PPI masks on the cluster file's own grid."""
+    image = nib.load(path)
+    data = array(path, image)
+    found, common = primary_ppi_intersection(root, image, subjects)
+    finite = np.isfinite(data)
+    nonzero = finite & (data != 0)
+    distinct = np.unique(data[nonzero])
+    # AFNI's pref_map records cluster IDs. For a binary extraction mask the
+    # same code separates disconnected islands within its single nonzero label.
+    integer_labels = len(distinct) <= 128 and np.all(distinct == np.rint(distinct))
+    regions = ([(int(value), data == value) for value in distinct] if integer_labels else
+               [(None, finite & (data > 0)), (None, finite & (data < 0))])
+    components = []
+    caption_centroid = np.array([-10., 12., -4.])
+    for saved_label, region in regions:
+        groups, _ = label(region)  # 3dClusterize -NN 1 uses face-sharing neighbors.
+        for index, box in enumerate(find_objects(groups), 1):
+            if box is None:
+                continue
+            selected = groups[box] == index
+            voxels = int(selected.sum())
+            offset = np.array([axis.start for axis in box])
+            centroid = nib.affines.apply_affine(image.affine, np.argwhere(selected).mean(axis=0) + offset)
+            inside = int((selected & common[box]).sum()) if common is not None else None
+            components.append({
+                "saved_label": saved_label,
+                "voxels_on_saved_grid": voxels,
+                "centroid_mm": centroid.round(2).tolist(),
+                "distance_to_caption_centroid_mm": round(float(np.linalg.norm(centroid - caption_centroid)), 2),
+                "inside_primary_ppi_intersection": inside,
+                "outside_primary_ppi_intersection": voxels - inside if inside is not None else None,
+            })
+    return {
+        "location": safe_location(root, path),
+        "saved_voxel_sizes_mm": [round(float(x), 5) for x in nib.affines.voxel_sizes(image.affine)],
+        "primary_ppi_masks_found": found,
+        "primary_ppi_masks_expected": len(subjects) * len(ACQUISITIONS),
+        "nonzero_voxels_on_saved_grid": int(nonzero.sum()),
+        "components": sorted(components, key=lambda component: -component["voxels_on_saved_grid"]),
+    }
+
+
 def follow_up(root, reference, rois, common, subjects, extra_roots):
     archive = discover_saved_outputs(root, extra_roots)
     ppi_found, ppi_common = primary_ppi_intersection(root, reference, subjects)
@@ -546,22 +590,34 @@ def main():
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path.cwd())
-    parser.add_argument("--coverage-run", type=Path, required=True)
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument("--coverage-run", type=Path)
+    mode.add_argument("--figure7-only", action="store_true",
+                      help="Check saved Figure 7 components on their original grids")
     parser.add_argument("--search-dir", type=Path, action="append", default=[])
     parser.add_argument("--fsldir", type=Path, default=Path(os.environ.get("FSLDIR", "/usr/local/fsl")))
     args = parser.parse_args()
-    from audit_coverage import roi_masks
     from reextract_motor_model2 import manuscript_subjects
 
     root = args.root.resolve()
-    reference = nib.load(args.coverage_run / "all_acquisitions_all_38_intersection.nii.gz")
-    rois, _ = roi_masks(args.fsldir, reference)
-    common = mask(args.coverage_run / "all_acquisitions_all_38_intersection.nii.gz", reference)
     subjects = manuscript_subjects(root)
     if len(subjects) != 38:
         parser.error("Expected the same 38 primary participants.")
-    report = follow_up(root, reference, rois, common, subjects,
-                       [path.resolve() for path in args.search_dir])
+    extra = [path.resolve() for path in args.search_dir]
+    if args.figure7_only:
+        archive = discover_saved_outputs(root, extra)
+        report = {
+            "figure7_saved_masks": [
+                figure7_components(root, path, subjects)
+                for path in archive["ppi_clusters"] if readable_image(path)],
+        }
+    else:
+        from audit_coverage import roi_masks
+
+        common_path = args.coverage_run / "all_acquisitions_all_38_intersection.nii.gz"
+        reference = nib.load(common_path)
+        rois, _ = roi_masks(args.fsldir, reference)
+        report = follow_up(root, reference, rois, mask(common_path, reference), subjects, extra)
     print(json.dumps(report, indent=2, allow_nan=False))
 
 
