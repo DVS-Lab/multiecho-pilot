@@ -1,0 +1,733 @@
+{
+  "afni_3dLMEr": {
+    "act-cope13": {
+      "location": "derivatives/fsl/afni/LME_output_act-cope13+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 266182,
+        "inside_reference": 200128,
+        "outside_reference": 66054,
+        "reference_omitted": 583,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 29168
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 266182,
+        "inside_reference": 199967,
+        "outside_reference": 66215,
+        "reference_omitted": 551,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.2986,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 66215,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    },
+    "ppi-cope17": {
+      "location": "derivatives/fsl/afni/LME_output_ppi-cope17+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 266182,
+        "inside_reference": 200128,
+        "outside_reference": 66054,
+        "reference_omitted": 583,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 29168
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 266182,
+        "inside_reference": 199967,
+        "outside_reference": 66215,
+        "reference_omitted": 551,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.2986,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 66215,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    },
+    "ppi-cope13": {
+      "location": "derivatives/fsl/afni/LME_output_ppi-cope13+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 266182,
+        "inside_reference": 200128,
+        "outside_reference": 66054,
+        "reference_omitted": 583,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 29168
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 266182,
+        "inside_reference": 199967,
+        "outside_reference": 66215,
+        "reference_omitted": 551,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.2986,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 66215,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    },
+    "act-zstat13": {
+      "location": "derivatives/fsl/afni/LME_output_act-zstat13+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 266182,
+        "inside_reference": 200128,
+        "outside_reference": 66054,
+        "reference_omitted": 583,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 29168
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 266182,
+        "inside_reference": 199967,
+        "outside_reference": 66215,
+        "reference_omitted": 551,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.2986,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 66215,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    },
+    "ppi-zstat17": {
+      "location": "derivatives/fsl/afni/LME_output_ppi-zstat17+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 266182,
+        "inside_reference": 200128,
+        "outside_reference": 66054,
+        "reference_omitted": 583,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 29168
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 266182,
+        "inside_reference": 199967,
+        "outside_reference": 66215,
+        "reference_omitted": 551,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.2986,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 66215,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    },
+    "ppi-zstat13": {
+      "location": "derivatives/fsl/afni/LME_output_ppi-zstat13+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 266182,
+        "inside_reference": 200128,
+        "outside_reference": 66054,
+        "reference_omitted": 583,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 29168
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 266182,
+        "inside_reference": 199967,
+        "outside_reference": 66215,
+        "reference_omitted": 551,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.9913,
+          "Cerebellum": 0.99201
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.2986,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75393
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 66215,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    },
+    "tsnr": {
+      "location": "derivatives/fsl/afni/LME_output_tsnr+tlrc.HEAD",
+      "history_has_3dLMEr": true,
+      "history_has_fit_mask": false,
+      "history_has_bounds": false,
+      "nonzero_output_footprint_vs_primary_mask_intersection": {
+        "voxels": 268531,
+        "inside_reference": 200291,
+        "outside_reference": 68240,
+        "reference_omitted": 420,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.99363,
+          "Cerebellum": 0.99252
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29701,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.54214,
+          "Cerebellum": 0.75444
+        }
+      },
+      "cluster_simulation_mask_candidate": {
+        "location": "derivatives/fsl/brain_mask.nii.gz",
+        "vs_primary_mask_intersection": {
+          "voxels": 237015,
+          "inside_reference": 192666,
+          "outside_reference": 44349,
+          "reference_omitted": 8045,
+          "roi_fraction": {
+            "Orbitofrontal cortex": 0.94886,
+            "Ventral striatum (accumbens)": 1.0,
+            "Anterior temporal cortex (temporal pole)": 0.87986,
+            "Cerebellum": 0.93751
+          },
+          "roi_outside_reference_fraction": {
+            "Orbitofrontal cortex": 0.25826,
+            "Ventral striatum (accumbens)": 0.06936,
+            "Anterior temporal cortex (temporal pole)": 0.4411,
+            "Cerebellum": 0.69942
+          }
+        },
+        "nonzero_output_outside_mask": 31517
+      },
+      "input_table_mask_checks": {
+        "rows": 240,
+        "checked": 240,
+        "subjects_in_input_paths": 40,
+        "primary_subjects_in_input_paths": 38,
+        "subjects_with_six_rows": 40
+      },
+      "input_table_source": "matching_filename_without_command_confirmation",
+      "nonzero_output_vs_actual_input_intersection": {
+        "voxels": 268531,
+        "inside_reference": 200173,
+        "outside_reference": 68358,
+        "reference_omitted": 388,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 1.0,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.99363,
+          "Cerebellum": 0.99252
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.29828,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.5398,
+          "Cerebellum": 0.75444
+        }
+      },
+      "nonzero_output_with_masked_zero_input": 68358,
+      "nonzero_output_with_masked_nonzero_input": 0,
+      "input_table_resolved": true
+    }
+  },
+  "primary_ppi_masks": {
+    "found": 228,
+    "expected": 228,
+    "against_primary_activation_common_mask": {
+      "voxels": 200711,
+      "inside_reference": 200711,
+      "outside_reference": 0,
+      "reference_omitted": 0,
+      "roi_fraction": {
+        "Orbitofrontal cortex": 0.70299,
+        "Ventral striatum (accumbens)": 0.93064,
+        "Anterior temporal cortex (temporal pole)": 0.4515,
+        "Cerebellum": 0.23808
+      },
+      "roi_outside_reference_fraction": {
+        "Orbitofrontal cortex": 0.0,
+        "Ventral striatum (accumbens)": 0.0,
+        "Anterior temporal cortex (temporal pole)": 0.0,
+        "Cerebellum": 0.0
+      }
+    }
+  },
+  "saved_figure7_cluster_candidates": [
+    {
+      "location": "derivatives/fsl/afni/MBxME_ppi_zstat17_thresh+tlrc.HEAD",
+      "against_primary_activation_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      },
+      "against_primary_ppi_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      }
+    },
+    {
+      "location": "derivatives/fsl/afni/MBxME_ppi_zstat17_thresh.nii.gz",
+      "against_primary_activation_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      },
+      "against_primary_ppi_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      }
+    },
+    {
+      "location": "masks/mask_MBxME_ppi_zstat17_thresh.nii.gz",
+      "against_primary_activation_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      },
+      "against_primary_ppi_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      }
+    },
+    {
+      "location": "masks/lme/MBxME_ppi_zstat17_thresh.nii.gz",
+      "against_primary_activation_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      },
+      "against_primary_ppi_common_mask": {
+        "voxels": 398,
+        "inside_reference": 356,
+        "outside_reference": 42,
+        "reference_omitted": 200355,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.19075,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.00222,
+          "Ventral striatum (accumbens)": 0.0,
+          "Anterior temporal cortex (temporal pole)": 0.0,
+          "Cerebellum": 0.0
+        }
+      }
+    }
+  ],
+  "cluster_simulation_mask_candidates": [
+    {
+      "location": "derivatives/fsl/brain_mask.nii.gz",
+      "against_primary_activation_common_mask": {
+        "voxels": 237015,
+        "inside_reference": 192666,
+        "outside_reference": 44349,
+        "reference_omitted": 8045,
+        "roi_fraction": {
+          "Orbitofrontal cortex": 0.94886,
+          "Ventral striatum (accumbens)": 1.0,
+          "Anterior temporal cortex (temporal pole)": 0.87986,
+          "Cerebellum": 0.93751
+        },
+        "roi_outside_reference_fraction": {
+          "Orbitofrontal cortex": 0.25826,
+          "Ventral striatum (accumbens)": 0.06936,
+          "Anterior temporal cortex (temporal pole)": 0.4411,
+          "Cerebellum": 0.69942
+        }
+      }
+    }
+  ],
+  "fsl_randomise": []
+}
