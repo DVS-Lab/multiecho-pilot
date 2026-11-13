@@ -1,0 +1,21 @@
+{
+  "target_voxels": 140,
+  "primary_ppi_masks_found": 228,
+  "target_voxels_outside_primary_ppi_intersection": 18,
+  "saved_clusterize_command_found": true,
+  "saved_clusterize_names_expected_fit": true,
+  "saved_clusterize_command_passes_explicit_mask": false,
+  "saved_clusterize_explicit_mask_resolved": null,
+  "saved_clusterize_command_requests_header_mask": false,
+  "fit_header_has_cluster_simulation_mask": false,
+  "saved_3dLMEr_history_passes_fit_mask": false,
+  "threshold_brick_index": 5,
+  "threshold_brick_source": "saved_cluster_history",
+  "simulation_mask_candidate": "derivatives/fsl/brain_mask.nii.gz",
+  "simulation_mask_candidate_matches_native_grid": true,
+  "target_voxels_inside_simulation_mask_candidate": 140,
+  "target_voxels_outside_simulation_mask_candidate": 0,
+  "incompletely_covered_target_voxels_inside_simulation_mask_candidate": 18,
+  "target_voxels_with_nonzero_threshold_brick_statistic": 140,
+  "nonzero_threshold_brick_voxels_outside_simulation_mask_candidate": 10954
+}
