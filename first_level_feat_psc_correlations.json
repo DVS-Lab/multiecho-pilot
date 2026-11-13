@@ -1,0 +1,72 @@
+{
+  "reference_event_seconds": 1,
+  "reference_double_gamma_peak": 0.2088,
+  "expected_subjects": 38,
+  "expected_runs_per_roi": 228,
+  "rois": {
+    "VSconstrained": {
+      "model": 1,
+      "contrast": 13,
+      "cope_to_psc_scale_before_baseline_division": 10.44,
+      "complete_subjects": 38,
+      "runs_used": 228,
+      "run_exclusions": {},
+      "pooled_pearson_r": {
+        "cope_vs_psc": 0.9208,
+        "zstat_vs_psc": 0.8714
+      },
+      "within_participant_pearson_r": {
+        "cope_vs_psc": 0.9225,
+        "zstat_vs_psc": 0.8685
+      }
+    },
+    "rFFA": {
+      "model": 3,
+      "contrast": 3,
+      "cope_to_psc_scale_before_baseline_division": 20.88,
+      "complete_subjects": 38,
+      "runs_used": 228,
+      "run_exclusions": {},
+      "pooled_pearson_r": {
+        "cope_vs_psc": 0.9922,
+        "zstat_vs_psc": 0.852
+      },
+      "within_participant_pearson_r": {
+        "cope_vs_psc": 0.9924,
+        "zstat_vs_psc": 0.8314
+      }
+    },
+    "bilateralMotor": {
+      "model": 2,
+      "contrast": 3,
+      "cope_to_psc_scale_before_baseline_division": 20.88,
+      "complete_subjects": 38,
+      "runs_used": 228,
+      "run_exclusions": {},
+      "pooled_pearson_r": {
+        "cope_vs_psc": 0.9878,
+        "zstat_vs_psc": 0.5929
+      },
+      "within_participant_pearson_r": {
+        "cope_vs_psc": 0.9874,
+        "zstat_vs_psc": 0.3692
+      }
+    },
+    "bilateralCerebellum": {
+      "model": 2,
+      "contrast": 3,
+      "cope_to_psc_scale_before_baseline_division": 20.88,
+      "complete_subjects": 38,
+      "runs_used": 228,
+      "run_exclusions": {},
+      "pooled_pearson_r": {
+        "cope_vs_psc": 0.9922,
+        "zstat_vs_psc": 0.6417
+      },
+      "within_participant_pearson_r": {
+        "cope_vs_psc": 0.9893,
+        "zstat_vs_psc": 0.5229
+      }
+    }
+  }
+}
