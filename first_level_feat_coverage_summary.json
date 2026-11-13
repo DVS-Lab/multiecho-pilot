@@ -1,0 +1,2371 @@
+{
+  "subjects": 38,
+  "subjects_by_coil": {
+    "64ch": 22,
+    "20ch": 16
+  },
+  "reference_space": "MNI152NLin6Asym",
+  "reference_lattice": "FSL MNI152 2 mm",
+  "primary_resampling": "nearest neighbor from aligned MNI first-level FEAT images",
+  "reference_shape": [
+    91,
+    109,
+    91
+  ],
+  "voxel_volume_mm3": 8.0,
+  "threshold_percent_of_cerebral_white_matter_median": [
+    25,
+    50,
+    75
+  ],
+  "primary_input": "canonical model-1 activation FEAT mask.nii.gz and mean_func.nii.gz",
+  "echo_input": "paired unsmoothed fMRIPrep echo 1, echo 4 and optimally combined BOLD",
+  "fsl_version": "6.0.7.17",
+  "primary_by_protocol": {
+    "mb1me1": {
+      "all": {
+        "participants": 38,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.91743,
+            "mask_participant_count": 34.86245,
+            "intersection": 0.73666,
+            "mean_normalized_signal": 0.72937,
+            "signal_participant_count": 34.4352,
+            "masked_or_invalid_fraction": 0.09381,
+            "valid_below_50_fraction": 0.28563,
+            "retained_25": 0.73501,
+            "retained_50": 0.62056,
+            "retained_75": 0.51959,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99863,
+            "mask_participant_count": 37.94798,
+            "intersection": 0.95376,
+            "mean_normalized_signal": 0.86474,
+            "signal_participant_count": 37.7341,
+            "masked_or_invalid_fraction": 0.007,
+            "valid_below_50_fraction": 0.18132,
+            "retained_25": 0.93779,
+            "retained_50": 0.81168,
+            "retained_75": 0.63021,
+            "minimum_signal_participants": 35,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.87792,
+            "mask_participant_count": 33.36086,
+            "intersection": 0.46657,
+            "mean_normalized_signal": 0.80362,
+            "signal_participant_count": 26.00573,
+            "masked_or_invalid_fraction": 0.31564,
+            "valid_below_50_fraction": 0.12355,
+            "retained_25": 0.63263,
+            "retained_50": 0.56081,
+            "retained_75": 0.43644,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.9727,
+            "mask_participant_count": 36.96269,
+            "intersection": 0.49336,
+            "mean_normalized_signal": 1.30413,
+            "signal_participant_count": 32.70212,
+            "masked_or_invalid_fraction": 0.13942,
+            "valid_below_50_fraction": 0.02941,
+            "retained_25": 0.84946,
+            "retained_50": 0.83117,
+            "retained_75": 0.79886,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "intersection_voxels": 213530
+      },
+      "20ch": {
+        "participants": 16,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.91832,
+            "mask_participant_count": 14.69314,
+            "intersection": 0.75572,
+            "mean_normalized_signal": 0.73477,
+            "signal_participant_count": 14.44727,
+            "masked_or_invalid_fraction": 0.09705,
+            "valid_below_50_fraction": 0.29392,
+            "retained_25": 0.731,
+            "retained_50": 0.60904,
+            "retained_75": 0.51044,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99747,
+            "mask_participant_count": 15.95954,
+            "intersection": 0.95954,
+            "mean_normalized_signal": 0.86758,
+            "signal_participant_count": 15.95954,
+            "masked_or_invalid_fraction": 0.00253,
+            "valid_below_50_fraction": 0.16149,
+            "retained_25": 0.95051,
+            "retained_50": 0.83598,
+            "retained_75": 0.6409,
+            "minimum_signal_participants": 15,
+            "maximum_signal_participants": 16
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.83381,
+            "mask_participant_count": 13.3409,
+            "intersection": 0.46742,
+            "mean_normalized_signal": 0.8261,
+            "signal_participant_count": 10.15177,
+            "masked_or_invalid_fraction": 0.36551,
+            "valid_below_50_fraction": 0.11391,
+            "retained_25": 0.58625,
+            "retained_50": 0.52058,
+            "retained_75": 0.41647,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.95417,
+            "mask_participant_count": 15.26675,
+            "intersection": 0.49363,
+            "mean_normalized_signal": 1.29661,
+            "signal_participant_count": 13.45126,
+            "masked_or_invalid_fraction": 0.1593,
+            "valid_below_50_fraction": 0.02738,
+            "retained_25": 0.83109,
+            "retained_50": 0.81333,
+            "retained_75": 0.78226,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          }
+        },
+        "intersection_voxels": 216665
+      },
+      "64ch": {
+        "participants": 22,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.91679,
+            "mask_participant_count": 20.16931,
+            "intersection": 0.78621,
+            "mean_normalized_signal": 0.73056,
+            "signal_participant_count": 19.98793,
+            "masked_or_invalid_fraction": 0.09146,
+            "valid_below_50_fraction": 0.2796,
+            "retained_25": 0.73793,
+            "retained_50": 0.62894,
+            "retained_75": 0.52625,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99947,
+            "mask_participant_count": 21.98844,
+            "intersection": 0.98844,
+            "mean_normalized_signal": 0.86281,
+            "signal_participant_count": 21.77457,
+            "masked_or_invalid_fraction": 0.01025,
+            "valid_below_50_fraction": 0.19574,
+            "retained_25": 0.92853,
+            "retained_50": 0.79401,
+            "retained_75": 0.62244,
+            "minimum_signal_participants": 20,
+            "maximum_signal_participants": 22
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.91,
+            "mask_participant_count": 20.01995,
+            "intersection": 0.73105,
+            "mean_normalized_signal": 0.80508,
+            "signal_participant_count": 15.85396,
+            "masked_or_invalid_fraction": 0.27937,
+            "valid_below_50_fraction": 0.13056,
+            "retained_25": 0.66637,
+            "retained_50": 0.59007,
+            "retained_75": 0.45097,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.98618,
+            "mask_participant_count": 21.69594,
+            "intersection": 0.93741,
+            "mean_normalized_signal": 1.31824,
+            "signal_participant_count": 19.25086,
+            "masked_or_invalid_fraction": 0.12496,
+            "valid_below_50_fraction": 0.03089,
+            "retained_25": 0.86282,
+            "retained_50": 0.84415,
+            "retained_75": 0.81094,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          }
+        },
+        "intersection_voxels": 232427
+      }
+    },
+    "mb1me4": {
+      "all": {
+        "participants": 38,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99331,
+            "mask_participant_count": 37.74587,
+            "intersection": 0.95044,
+            "mean_normalized_signal": 0.98303,
+            "signal_participant_count": 36.8291,
+            "masked_or_invalid_fraction": 0.03081,
+            "valid_below_50_fraction": 0.1257,
+            "retained_25": 0.89821,
+            "retained_50": 0.84348,
+            "retained_75": 0.77789,
+            "minimum_signal_participants": 8,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.3121,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99924,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.98727,
+            "mask_participant_count": 37.51624,
+            "intersection": 0.85693,
+            "mean_normalized_signal": 0.9353,
+            "signal_participant_count": 32.31522,
+            "masked_or_invalid_fraction": 0.1496,
+            "valid_below_50_fraction": 0.07301,
+            "retained_25": 0.82246,
+            "retained_50": 0.77739,
+            "retained_75": 0.68319,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.97609,
+            "mask_participant_count": 37.09144,
+            "intersection": 0.42101,
+            "mean_normalized_signal": 1.27932,
+            "signal_participant_count": 34.33561,
+            "masked_or_invalid_fraction": 0.09643,
+            "valid_below_50_fraction": 0.02312,
+            "retained_25": 0.89371,
+            "retained_50": 0.88044,
+            "retained_75": 0.8507,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "intersection_voxels": 228851
+      },
+      "20ch": {
+        "participants": 16,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99549,
+            "mask_participant_count": 15.92789,
+            "intersection": 0.96506,
+            "mean_normalized_signal": 1.01823,
+            "signal_participant_count": 15.53335,
+            "masked_or_invalid_fraction": 0.02917,
+            "valid_below_50_fraction": 0.12351,
+            "retained_25": 0.90023,
+            "retained_50": 0.84732,
+            "retained_75": 0.78691,
+            "minimum_signal_participants": 2,
+            "maximum_signal_participants": 16
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 16.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.3397,
+            "signal_participant_count": 16.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 1.0,
+            "minimum_signal_participants": 16,
+            "maximum_signal_participants": 16
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.97589,
+            "mask_participant_count": 15.61431,
+            "intersection": 0.85842,
+            "mean_normalized_signal": 0.9605,
+            "signal_participant_count": 13.27149,
+            "masked_or_invalid_fraction": 0.17053,
+            "valid_below_50_fraction": 0.06507,
+            "retained_25": 0.80315,
+            "retained_50": 0.76439,
+            "retained_75": 0.68321,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.95998,
+            "mask_participant_count": 15.35968,
+            "intersection": 0.4211,
+            "mean_normalized_signal": 1.26723,
+            "signal_participant_count": 14.1366,
+            "masked_or_invalid_fraction": 0.11646,
+            "valid_below_50_fraction": 0.022,
+            "retained_25": 0.87361,
+            "retained_50": 0.86153,
+            "retained_75": 0.83389,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          }
+        },
+        "intersection_voxels": 231029
+      },
+      "64ch": {
+        "participants": 22,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99173,
+            "mask_participant_count": 21.81798,
+            "intersection": 0.95172,
+            "mean_normalized_signal": 0.95721,
+            "signal_participant_count": 21.29574,
+            "masked_or_invalid_fraction": 0.03201,
+            "valid_below_50_fraction": 0.1273,
+            "retained_25": 0.89675,
+            "retained_50": 0.84069,
+            "retained_75": 0.77133,
+            "minimum_signal_participants": 5,
+            "maximum_signal_participants": 22
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 22.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.29202,
+            "signal_participant_count": 22.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99869,
+            "minimum_signal_participants": 22,
+            "maximum_signal_participants": 22
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.99554,
+            "mask_participant_count": 21.90193,
+            "intersection": 0.96646,
+            "mean_normalized_signal": 0.93076,
+            "signal_participant_count": 19.04373,
+            "masked_or_invalid_fraction": 0.13438,
+            "valid_below_50_fraction": 0.07878,
+            "retained_25": 0.8365,
+            "retained_50": 0.78684,
+            "retained_75": 0.68317,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.98781,
+            "mask_participant_count": 21.73176,
+            "intersection": 0.87083,
+            "mean_normalized_signal": 1.2946,
+            "signal_participant_count": 20.19901,
+            "masked_or_invalid_fraction": 0.08186,
+            "valid_below_50_fraction": 0.02394,
+            "retained_25": 0.90833,
+            "retained_50": 0.8942,
+            "retained_75": 0.86292,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          }
+        },
+        "intersection_voxels": 247275
+      }
+    },
+    "mb3me1": {
+      "all": {
+        "participants": 38,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.91498,
+            "mask_participant_count": 34.76938,
+            "intersection": 0.72078,
+            "mean_normalized_signal": 0.7091,
+            "signal_participant_count": 34.26334,
+            "masked_or_invalid_fraction": 0.09833,
+            "valid_below_50_fraction": 0.29071,
+            "retained_25": 0.72916,
+            "retained_50": 0.61096,
+            "retained_75": 0.50636,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99848,
+            "mask_participant_count": 37.9422,
+            "intersection": 0.94798,
+            "mean_normalized_signal": 0.84769,
+            "signal_participant_count": 37.72254,
+            "masked_or_invalid_fraction": 0.0073,
+            "valid_below_50_fraction": 0.18908,
+            "retained_25": 0.9282,
+            "retained_50": 0.80362,
+            "retained_75": 0.63523,
+            "minimum_signal_participants": 35,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.86444,
+            "mask_participant_count": 32.84865,
+            "intersection": 0.48397,
+            "mean_normalized_signal": 0.76477,
+            "signal_participant_count": 25.70261,
+            "masked_or_invalid_fraction": 0.32362,
+            "valid_below_50_fraction": 0.13222,
+            "retained_25": 0.62088,
+            "retained_50": 0.54417,
+            "retained_75": 0.4202,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.96661,
+            "mask_participant_count": 36.73125,
+            "intersection": 0.23808,
+            "mean_normalized_signal": 1.29397,
+            "signal_participant_count": 32.55947,
+            "masked_or_invalid_fraction": 0.14317,
+            "valid_below_50_fraction": 0.02966,
+            "retained_25": 0.84559,
+            "retained_50": 0.82717,
+            "retained_75": 0.79354,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "intersection_voxels": 204188
+      },
+      "20ch": {
+        "participants": 16,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.91111,
+            "mask_participant_count": 14.57783,
+            "intersection": 0.74047,
+            "mean_normalized_signal": 0.70489,
+            "signal_participant_count": 14.21728,
+            "masked_or_invalid_fraction": 0.11142,
+            "valid_below_50_fraction": 0.29699,
+            "retained_25": 0.71813,
+            "retained_50": 0.59159,
+            "retained_75": 0.49013,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99711,
+            "mask_participant_count": 15.95376,
+            "intersection": 0.95376,
+            "mean_normalized_signal": 0.84337,
+            "signal_participant_count": 15.95376,
+            "masked_or_invalid_fraction": 0.00289,
+            "valid_below_50_fraction": 0.19798,
+            "retained_25": 0.93316,
+            "retained_50": 0.79913,
+            "retained_75": 0.65065,
+            "minimum_signal_participants": 15,
+            "maximum_signal_participants": 16
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.80845,
+            "mask_participant_count": 12.93526,
+            "intersection": 0.48588,
+            "mean_normalized_signal": 0.79144,
+            "signal_participant_count": 9.86882,
+            "masked_or_invalid_fraction": 0.3832,
+            "valid_below_50_fraction": 0.11837,
+            "retained_25": 0.56412,
+            "retained_50": 0.49843,
+            "retained_75": 0.39822,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.93899,
+            "mask_participant_count": 15.02388,
+            "intersection": 0.23808,
+            "mean_normalized_signal": 1.27417,
+            "signal_participant_count": 13.25002,
+            "masked_or_invalid_fraction": 0.17187,
+            "valid_below_50_fraction": 0.02906,
+            "retained_25": 0.818,
+            "retained_50": 0.79907,
+            "retained_75": 0.76491,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          }
+        },
+        "intersection_voxels": 207111
+      },
+      "64ch": {
+        "participants": 22,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.9178,
+            "mask_participant_count": 20.19155,
+            "intersection": 0.77827,
+            "mean_normalized_signal": 0.71808,
+            "signal_participant_count": 20.04606,
+            "masked_or_invalid_fraction": 0.08882,
+            "valid_below_50_fraction": 0.28614,
+            "retained_25": 0.73718,
+            "retained_50": 0.62504,
+            "retained_75": 0.51816,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99947,
+            "mask_participant_count": 21.98844,
+            "intersection": 0.98844,
+            "mean_normalized_signal": 0.85102,
+            "signal_participant_count": 21.76879,
+            "masked_or_invalid_fraction": 0.01051,
+            "valid_below_50_fraction": 0.18261,
+            "retained_25": 0.92459,
+            "retained_50": 0.80688,
+            "retained_75": 0.62401,
+            "minimum_signal_participants": 20,
+            "maximum_signal_participants": 22
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.90515,
+            "mask_participant_count": 19.91339,
+            "intersection": 0.7336,
+            "mean_normalized_signal": 0.77221,
+            "signal_participant_count": 15.83379,
+            "masked_or_invalid_fraction": 0.28028,
+            "valid_below_50_fraction": 0.14229,
+            "retained_25": 0.66216,
+            "retained_50": 0.57743,
+            "retained_75": 0.43619,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.9867,
+            "mask_participant_count": 21.70737,
+            "intersection": 0.93927,
+            "mean_normalized_signal": 1.31665,
+            "signal_participant_count": 19.30945,
+            "masked_or_invalid_fraction": 0.1223,
+            "valid_below_50_fraction": 0.0301,
+            "retained_25": 0.86566,
+            "retained_50": 0.8476,
+            "retained_75": 0.81437,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          }
+        },
+        "intersection_voxels": 232995
+      }
+    },
+    "mb3me4": {
+      "all": {
+        "participants": 38,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99246,
+            "mask_participant_count": 37.71347,
+            "intersection": 0.94886,
+            "mean_normalized_signal": 0.97387,
+            "signal_participant_count": 36.8129,
+            "masked_or_invalid_fraction": 0.03124,
+            "valid_below_50_fraction": 0.12579,
+            "retained_25": 0.89921,
+            "retained_50": 0.84297,
+            "retained_75": 0.77645,
+            "minimum_signal_participants": 10,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.29905,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99939,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.98513,
+            "mask_participant_count": 37.43494,
+            "intersection": 0.84313,
+            "mean_normalized_signal": 0.93744,
+            "signal_participant_count": 32.19465,
+            "masked_or_invalid_fraction": 0.15277,
+            "valid_below_50_fraction": 0.07291,
+            "retained_25": 0.81831,
+            "retained_50": 0.77432,
+            "retained_75": 0.68609,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.9802,
+            "mask_participant_count": 37.24775,
+            "intersection": 0.43588,
+            "mean_normalized_signal": 1.2875,
+            "signal_participant_count": 34.61426,
+            "masked_or_invalid_fraction": 0.0891,
+            "valid_below_50_fraction": 0.02133,
+            "retained_25": 0.90219,
+            "retained_50": 0.88957,
+            "retained_75": 0.86099,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "intersection_voxels": 228940
+      },
+      "20ch": {
+        "participants": 16,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99506,
+            "mask_participant_count": 15.9209,
+            "intersection": 0.96665,
+            "mean_normalized_signal": 0.9972,
+            "signal_participant_count": 15.58736,
+            "masked_or_invalid_fraction": 0.02579,
+            "valid_below_50_fraction": 0.12933,
+            "retained_25": 0.90486,
+            "retained_50": 0.84488,
+            "retained_75": 0.78091,
+            "minimum_signal_participants": 2,
+            "maximum_signal_participants": 16
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 16.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.31155,
+            "signal_participant_count": 16.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99964,
+            "minimum_signal_participants": 16,
+            "maximum_signal_participants": 16
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.97207,
+            "mask_participant_count": 15.55317,
+            "intersection": 0.84356,
+            "mean_normalized_signal": 0.95759,
+            "signal_participant_count": 13.17003,
+            "masked_or_invalid_fraction": 0.17687,
+            "valid_below_50_fraction": 0.06836,
+            "retained_25": 0.79728,
+            "retained_50": 0.75476,
+            "retained_75": 0.67397,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.96199,
+            "mask_participant_count": 15.39188,
+            "intersection": 0.4362,
+            "mean_normalized_signal": 1.26204,
+            "signal_participant_count": 14.18456,
+            "masked_or_invalid_fraction": 0.11347,
+            "valid_below_50_fraction": 0.02151,
+            "retained_25": 0.87781,
+            "retained_50": 0.86502,
+            "retained_75": 0.83506,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          }
+        },
+        "intersection_voxels": 231221
+      },
+      "64ch": {
+        "participants": 22,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99057,
+            "mask_participant_count": 21.79257,
+            "intersection": 0.95013,
+            "mean_normalized_signal": 0.95654,
+            "signal_participant_count": 21.22554,
+            "masked_or_invalid_fraction": 0.0352,
+            "valid_below_50_fraction": 0.12321,
+            "retained_25": 0.8951,
+            "retained_50": 0.84159,
+            "retained_75": 0.7732,
+            "minimum_signal_participants": 2,
+            "maximum_signal_participants": 22
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 22.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.28996,
+            "signal_participant_count": 22.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99921,
+            "minimum_signal_participants": 22,
+            "maximum_signal_participants": 22
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.99463,
+            "mask_participant_count": 21.88177,
+            "intersection": 0.96455,
+            "mean_normalized_signal": 0.93437,
+            "signal_participant_count": 19.02462,
+            "masked_or_invalid_fraction": 0.13524,
+            "valid_below_50_fraction": 0.07621,
+            "retained_25": 0.8336,
+            "retained_50": 0.78854,
+            "retained_75": 0.69491,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.99345,
+            "mask_participant_count": 21.85587,
+            "intersection": 0.91088,
+            "mean_normalized_signal": 1.31297,
+            "signal_participant_count": 20.4297,
+            "masked_or_invalid_fraction": 0.07138,
+            "valid_below_50_fraction": 0.0212,
+            "retained_25": 0.91993,
+            "retained_50": 0.90742,
+            "retained_75": 0.87985,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          }
+        },
+        "intersection_voxels": 248305
+      }
+    },
+    "mb6me1": {
+      "all": {
+        "participants": 38,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.92085,
+            "mask_participant_count": 34.99238,
+            "intersection": 0.73856,
+            "mean_normalized_signal": 0.70521,
+            "signal_participant_count": 34.57274,
+            "masked_or_invalid_fraction": 0.09019,
+            "valid_below_50_fraction": 0.29727,
+            "retained_25": 0.73536,
+            "retained_50": 0.61254,
+            "retained_75": 0.50588,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99878,
+            "mask_participant_count": 37.95376,
+            "intersection": 0.95376,
+            "mean_normalized_signal": 0.84615,
+            "signal_participant_count": 37.80925,
+            "masked_or_invalid_fraction": 0.00502,
+            "valid_below_50_fraction": 0.17919,
+            "retained_25": 0.9387,
+            "retained_50": 0.81579,
+            "retained_75": 0.63249,
+            "minimum_signal_participants": 36,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.87887,
+            "mask_participant_count": 33.39694,
+            "intersection": 0.53959,
+            "mean_normalized_signal": 0.74398,
+            "signal_participant_count": 26.79134,
+            "masked_or_invalid_fraction": 0.29496,
+            "valid_below_50_fraction": 0.1512,
+            "retained_25": 0.64343,
+            "retained_50": 0.55383,
+            "retained_75": 0.41258,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.98826,
+            "mask_participant_count": 37.55371,
+            "intersection": 0.93518,
+            "mean_normalized_signal": 1.25133,
+            "signal_participant_count": 33.69882,
+            "masked_or_invalid_fraction": 0.11319,
+            "valid_below_50_fraction": 0.03511,
+            "retained_25": 0.87444,
+            "retained_50": 0.8517,
+            "retained_75": 0.81059,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "intersection_voxels": 226792
+      },
+      "20ch": {
+        "participants": 16,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.92567,
+            "mask_participant_count": 14.81067,
+            "intersection": 0.76144,
+            "mean_normalized_signal": 0.70449,
+            "signal_participant_count": 14.57147,
+            "masked_or_invalid_fraction": 0.08928,
+            "valid_below_50_fraction": 0.30944,
+            "retained_25": 0.7309,
+            "retained_50": 0.60127,
+            "retained_75": 0.49514,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99783,
+            "mask_participant_count": 15.96532,
+            "intersection": 0.96532,
+            "mean_normalized_signal": 0.84587,
+            "signal_participant_count": 15.96532,
+            "masked_or_invalid_fraction": 0.00217,
+            "valid_below_50_fraction": 0.15643,
+            "retained_25": 0.95123,
+            "retained_50": 0.8414,
+            "retained_75": 0.64451,
+            "minimum_signal_participants": 15,
+            "maximum_signal_participants": 16
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.84417,
+            "mask_participant_count": 13.50669,
+            "intersection": 0.54872,
+            "mean_normalized_signal": 0.75304,
+            "signal_participant_count": 10.80089,
+            "masked_or_invalid_fraction": 0.32494,
+            "valid_below_50_fraction": 0.1482,
+            "retained_25": 0.61502,
+            "retained_50": 0.52685,
+            "retained_75": 0.39571,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.98821,
+            "mask_participant_count": 15.8114,
+            "intersection": 0.95289,
+            "mean_normalized_signal": 1.21617,
+            "signal_participant_count": 14.18604,
+            "masked_or_invalid_fraction": 0.11337,
+            "valid_below_50_fraction": 0.03798,
+            "retained_25": 0.87438,
+            "retained_50": 0.84865,
+            "retained_75": 0.80307,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          }
+        },
+        "intersection_voxels": 232502
+      },
+      "64ch": {
+        "participants": 22,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.91735,
+            "mask_participant_count": 20.1817,
+            "intersection": 0.78494,
+            "mean_normalized_signal": 0.70773,
+            "signal_participant_count": 20.00127,
+            "masked_or_invalid_fraction": 0.09085,
+            "valid_below_50_fraction": 0.28842,
+            "retained_25": 0.73861,
+            "retained_50": 0.62073,
+            "retained_75": 0.51369,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 0.99947,
+            "mask_participant_count": 21.98844,
+            "intersection": 0.98844,
+            "mean_normalized_signal": 0.84648,
+            "signal_participant_count": 21.84393,
+            "masked_or_invalid_fraction": 0.00709,
+            "valid_below_50_fraction": 0.19574,
+            "retained_25": 0.92958,
+            "retained_50": 0.79716,
+            "retained_75": 0.62375,
+            "minimum_signal_participants": 20,
+            "maximum_signal_participants": 22
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.9041,
+            "mask_participant_count": 19.89026,
+            "intersection": 0.6574,
+            "mean_normalized_signal": 0.75222,
+            "signal_participant_count": 15.99045,
+            "masked_or_invalid_fraction": 0.27316,
+            "valid_below_50_fraction": 0.15338,
+            "retained_25": 0.66408,
+            "retained_50": 0.57345,
+            "retained_75": 0.42486,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.98829,
+            "mask_participant_count": 21.74231,
+            "intersection": 0.94299,
+            "mean_normalized_signal": 1.29006,
+            "signal_participant_count": 19.51278,
+            "masked_or_invalid_fraction": 0.11306,
+            "valid_below_50_fraction": 0.03301,
+            "retained_25": 0.87449,
+            "retained_50": 0.85393,
+            "retained_75": 0.81606,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          }
+        },
+        "intersection_voxels": 231343
+      }
+    },
+    "mb6me4": {
+      "all": {
+        "participants": 38,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99198,
+            "mask_participant_count": 37.69536,
+            "intersection": 0.946,
+            "mean_normalized_signal": 0.9552,
+            "signal_participant_count": 37.04638,
+            "masked_or_invalid_fraction": 0.0251,
+            "valid_below_50_fraction": 0.13616,
+            "retained_25": 0.90489,
+            "retained_50": 0.83874,
+            "retained_75": 0.76175,
+            "minimum_signal_participants": 6,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.26662,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99376,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.98572,
+            "mask_participant_count": 37.45744,
+            "intersection": 0.84568,
+            "mean_normalized_signal": 0.8817,
+            "signal_participant_count": 32.89344,
+            "masked_or_invalid_fraction": 0.13438,
+            "valid_below_50_fraction": 0.09421,
+            "retained_25": 0.82793,
+            "retained_50": 0.77141,
+            "retained_75": 0.65642,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.99855,
+            "mask_participant_count": 37.94503,
+            "intersection": 0.98304,
+            "mean_normalized_signal": 1.25947,
+            "signal_participant_count": 35.65059,
+            "masked_or_invalid_fraction": 0.06183,
+            "valid_below_50_fraction": 0.02404,
+            "retained_25": 0.9307,
+            "retained_50": 0.91413,
+            "retained_75": 0.87409,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "intersection_voxels": 246658
+      },
+      "20ch": {
+        "participants": 16,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99476,
+            "mask_participant_count": 15.91614,
+            "intersection": 0.96633,
+            "mean_normalized_signal": 0.97801,
+            "signal_participant_count": 15.73761,
+            "masked_or_invalid_fraction": 0.0164,
+            "valid_below_50_fraction": 0.13967,
+            "retained_25": 0.91802,
+            "retained_50": 0.84393,
+            "retained_75": 0.75949,
+            "minimum_signal_participants": 2,
+            "maximum_signal_participants": 16
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 16.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.25836,
+            "signal_participant_count": 16.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.98736,
+            "minimum_signal_participants": 16,
+            "maximum_signal_participants": 16
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.97511,
+            "mask_participant_count": 15.60178,
+            "intersection": 0.84674,
+            "mean_normalized_signal": 0.88096,
+            "signal_participant_count": 13.63044,
+            "masked_or_invalid_fraction": 0.1481,
+            "valid_below_50_fraction": 0.10073,
+            "retained_25": 0.81517,
+            "retained_50": 0.75117,
+            "retained_75": 0.62853,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.99805,
+            "mask_participant_count": 15.96873,
+            "intersection": 0.98471,
+            "mean_normalized_signal": 1.21234,
+            "signal_participant_count": 14.90052,
+            "masked_or_invalid_fraction": 0.06872,
+            "valid_below_50_fraction": 0.02885,
+            "retained_25": 0.92362,
+            "retained_50": 0.90243,
+            "retained_75": 0.84985,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 16
+          }
+        },
+        "intersection_voxels": 248785
+      },
+      "64ch": {
+        "participants": 22,
+        "rois": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.98996,
+            "mask_participant_count": 21.77922,
+            "intersection": 0.94663,
+            "mean_normalized_signal": 0.93771,
+            "signal_participant_count": 21.30877,
+            "masked_or_invalid_fraction": 0.03142,
+            "valid_below_50_fraction": 0.13361,
+            "retained_25": 0.89534,
+            "retained_50": 0.83497,
+            "retained_75": 0.76339,
+            "minimum_signal_participants": 4,
+            "maximum_signal_participants": 22
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 22.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.27263,
+            "signal_participant_count": 22.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99842,
+            "minimum_signal_participants": 22,
+            "maximum_signal_participants": 22
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.99344,
+            "mask_participant_count": 21.85566,
+            "intersection": 0.94906,
+            "mean_normalized_signal": 0.89171,
+            "signal_participant_count": 19.263,
+            "masked_or_invalid_fraction": 0.12441,
+            "valid_below_50_fraction": 0.08946,
+            "retained_25": 0.83722,
+            "retained_50": 0.78613,
+            "retained_75": 0.6767,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.99892,
+            "mask_participant_count": 21.9763,
+            "intersection": 0.9921,
+            "mean_normalized_signal": 1.29948,
+            "signal_participant_count": 20.75007,
+            "masked_or_invalid_fraction": 0.05682,
+            "valid_below_50_fraction": 0.02055,
+            "retained_25": 0.93585,
+            "retained_50": 0.92264,
+            "retained_75": 0.89172,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 22
+          }
+        },
+        "intersection_voxels": 251762
+      }
+    }
+  },
+  "mask_agreement_with_motor_and_ffa_models": {
+    "mb1me1": {
+      "model_2": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_2_only_summed_over_runs": 0
+      },
+      "model_3": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_3_only_summed_over_runs": 0
+      }
+    },
+    "mb1me4": {
+      "model_2": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_2_only_summed_over_runs": 0
+      },
+      "model_3": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_3_only_summed_over_runs": 0
+      }
+    },
+    "mb3me1": {
+      "model_2": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_2_only_summed_over_runs": 0
+      },
+      "model_3": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_3_only_summed_over_runs": 0
+      }
+    },
+    "mb3me4": {
+      "model_2": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_2_only_summed_over_runs": 0
+      },
+      "model_3": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_3_only_summed_over_runs": 0
+      }
+    },
+    "mb6me1": {
+      "model_2": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_2_only_summed_over_runs": 0
+      },
+      "model_3": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_3_only_summed_over_runs": 0
+      }
+    },
+    "mb6me4": {
+      "model_2": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_2_only_summed_over_runs": 0
+      },
+      "model_3": {
+        "compared": 38,
+        "identical": 38,
+        "voxels_in_model_1_only_summed_over_runs": 0,
+        "voxels_in_model_3_only_summed_over_runs": 0
+      }
+    }
+  },
+  "paired_echo_by_protocol": {
+    "mb1me4": {
+      "paired_participants": 38,
+      "excluded_runs": {},
+      "paired_participants_by_coil": {
+        "64ch": 22,
+        "20ch": 16
+      },
+      "sources": {
+        "early_native_brain_mask_transformed": 38,
+        "late_native_brain_mask_transformed": 38
+      },
+      "available_echo_times_ms": {
+        "early": [
+          13.8
+        ],
+        "late": [
+          67.02
+        ]
+      },
+      "maps": {
+        "early": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99563,
+            "mask_participant_count": 37.83386,
+            "intersection": 0.94504,
+            "mean_normalized_signal": 0.94326,
+            "signal_participant_count": 37.83386,
+            "masked_or_invalid_fraction": 0.00437,
+            "valid_below_50_fraction": 0.15993,
+            "retained_25": 0.92796,
+            "retained_50": 0.83569,
+            "retained_75": 0.74607,
+            "minimum_signal_participants": 8,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.33464,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99924,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.83951,
+            "mask_participant_count": 31.90151,
+            "intersection": 0.59817,
+            "mean_normalized_signal": 0.91438,
+            "signal_participant_count": 31.90151,
+            "masked_or_invalid_fraction": 0.16049,
+            "valid_below_50_fraction": 0.06907,
+            "retained_25": 0.8215,
+            "retained_50": 0.77045,
+            "retained_75": 0.66424,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.89497,
+            "mask_participant_count": 34.00892,
+            "intersection": 0.37181,
+            "mean_normalized_signal": 1.23728,
+            "signal_participant_count": 34.00892,
+            "masked_or_invalid_fraction": 0.10503,
+            "valid_below_50_fraction": 0.01777,
+            "retained_25": 0.89099,
+            "retained_50": 0.8772,
+            "retained_75": 0.84331,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "late": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99563,
+            "mask_participant_count": 37.83386,
+            "intersection": 0.94504,
+            "mean_normalized_signal": 0.6533,
+            "signal_participant_count": 37.83386,
+            "masked_or_invalid_fraction": 0.00437,
+            "valid_below_50_fraction": 0.52354,
+            "retained_25": 0.67483,
+            "retained_50": 0.47209,
+            "retained_75": 0.36404,
+            "minimum_signal_participants": 8,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 0.55689,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.54837,
+            "retained_25": 0.75327,
+            "retained_50": 0.45163,
+            "retained_75": 0.27396,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.83951,
+            "mask_participant_count": 31.90151,
+            "intersection": 0.59817,
+            "mean_normalized_signal": 0.63713,
+            "signal_participant_count": 31.90151,
+            "masked_or_invalid_fraction": 0.16049,
+            "valid_below_50_fraction": 0.38307,
+            "retained_25": 0.62409,
+            "retained_50": 0.45645,
+            "retained_75": 0.32826,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.89497,
+            "mask_participant_count": 34.00892,
+            "intersection": 0.37181,
+            "mean_normalized_signal": 1.10852,
+            "signal_participant_count": 34.00892,
+            "masked_or_invalid_fraction": 0.10503,
+            "valid_below_50_fraction": 0.19655,
+            "retained_25": 0.80515,
+            "retained_50": 0.69842,
+            "retained_75": 0.61584,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "combined": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99737,
+            "mask_participant_count": 37.89994,
+            "intersection": 0.96347,
+            "mean_normalized_signal": 0.96676,
+            "signal_participant_count": 37.46601,
+            "masked_or_invalid_fraction": 0.01405,
+            "valid_below_50_fraction": 0.14538,
+            "retained_25": 0.91573,
+            "retained_50": 0.84057,
+            "retained_75": 0.75823,
+            "minimum_signal_participants": 8,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.30351,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 1.0,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.85806,
+            "mask_participant_count": 32.60624,
+            "intersection": 0.64721,
+            "mean_normalized_signal": 0.92657,
+            "signal_participant_count": 32.46848,
+            "masked_or_invalid_fraction": 0.14557,
+            "valid_below_50_fraction": 0.07346,
+            "retained_25": 0.82915,
+            "retained_50": 0.78098,
+            "retained_75": 0.67852,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.91002,
+            "mask_participant_count": 34.58066,
+            "intersection": 0.38221,
+            "mean_normalized_signal": 1.26145,
+            "signal_participant_count": 34.52477,
+            "masked_or_invalid_fraction": 0.09145,
+            "valid_below_50_fraction": 0.02702,
+            "retained_25": 0.89822,
+            "retained_50": 0.88153,
+            "retained_75": 0.84447,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        }
+      }
+    },
+    "mb3me4": {
+      "paired_participants": 38,
+      "excluded_runs": {},
+      "paired_participants_by_coil": {
+        "64ch": 22,
+        "20ch": 16
+      },
+      "sources": {
+        "early_native_brain_mask_transformed": 38,
+        "late_native_brain_mask_transformed": 38
+      },
+      "available_echo_times_ms": {
+        "early": [
+          13.8
+        ],
+        "late": [
+          67.02
+        ]
+      },
+      "maps": {
+        "early": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99493,
+            "mask_participant_count": 37.80718,
+            "intersection": 0.92344,
+            "mean_normalized_signal": 0.93333,
+            "signal_participant_count": 37.80718,
+            "masked_or_invalid_fraction": 0.00507,
+            "valid_below_50_fraction": 0.16435,
+            "retained_25": 0.92611,
+            "retained_50": 0.83058,
+            "retained_75": 0.73927,
+            "minimum_signal_participants": 10,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.31771,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99924,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.83579,
+            "mask_participant_count": 31.75992,
+            "intersection": 0.57334,
+            "mean_normalized_signal": 0.91584,
+            "signal_participant_count": 31.75992,
+            "masked_or_invalid_fraction": 0.16421,
+            "valid_below_50_fraction": 0.07093,
+            "retained_25": 0.81578,
+            "retained_50": 0.76486,
+            "retained_75": 0.66315,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.90114,
+            "mask_participant_count": 34.24333,
+            "intersection": 0.38398,
+            "mean_normalized_signal": 1.24498,
+            "signal_participant_count": 34.24333,
+            "masked_or_invalid_fraction": 0.09886,
+            "valid_below_50_fraction": 0.01908,
+            "retained_25": 0.89643,
+            "retained_50": 0.88206,
+            "retained_75": 0.8481,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "late": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99493,
+            "mask_participant_count": 37.80718,
+            "intersection": 0.92344,
+            "mean_normalized_signal": 0.61196,
+            "signal_participant_count": 37.80718,
+            "masked_or_invalid_fraction": 0.00507,
+            "valid_below_50_fraction": 0.55189,
+            "retained_25": 0.62824,
+            "retained_50": 0.44304,
+            "retained_75": 0.34119,
+            "minimum_signal_participants": 10,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 0.51255,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.59492,
+            "retained_25": 0.7122,
+            "retained_50": 0.40508,
+            "retained_75": 0.23213,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.83579,
+            "mask_participant_count": 31.75992,
+            "intersection": 0.57334,
+            "mean_normalized_signal": 0.60662,
+            "signal_participant_count": 31.75992,
+            "masked_or_invalid_fraction": 0.16421,
+            "valid_below_50_fraction": 0.40413,
+            "retained_25": 0.58872,
+            "retained_50": 0.43166,
+            "retained_75": 0.31128,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.90114,
+            "mask_participant_count": 34.24333,
+            "intersection": 0.38398,
+            "mean_normalized_signal": 1.10253,
+            "signal_participant_count": 34.24333,
+            "masked_or_invalid_fraction": 0.09886,
+            "valid_below_50_fraction": 0.2098,
+            "retained_25": 0.79785,
+            "retained_50": 0.69134,
+            "retained_75": 0.61014,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "combined": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99676,
+            "mask_participant_count": 37.87706,
+            "intersection": 0.94568,
+            "mean_normalized_signal": 0.95948,
+            "signal_participant_count": 37.38247,
+            "masked_or_invalid_fraction": 0.01625,
+            "valid_below_50_fraction": 0.14464,
+            "retained_25": 0.9134,
+            "retained_50": 0.83911,
+            "retained_75": 0.75635,
+            "minimum_signal_participants": 10,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.29362,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 1.0,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.85464,
+            "mask_participant_count": 32.47633,
+            "intersection": 0.61876,
+            "mean_normalized_signal": 0.93215,
+            "signal_participant_count": 32.32626,
+            "masked_or_invalid_fraction": 0.14931,
+            "valid_below_50_fraction": 0.0729,
+            "retained_25": 0.82494,
+            "retained_50": 0.77779,
+            "retained_75": 0.68175,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.9158,
+            "mask_participant_count": 34.80058,
+            "intersection": 0.39476,
+            "mean_normalized_signal": 1.27383,
+            "signal_participant_count": 34.75416,
+            "masked_or_invalid_fraction": 0.08542,
+            "valid_below_50_fraction": 0.02456,
+            "retained_25": 0.90572,
+            "retained_50": 0.89003,
+            "retained_75": 0.85456,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        }
+      }
+    },
+    "mb6me4": {
+      "paired_participants": 38,
+      "excluded_runs": {},
+      "paired_participants_by_coil": {
+        "64ch": 22,
+        "20ch": 16
+      },
+      "sources": {
+        "early_native_brain_mask_transformed": 38,
+        "late_native_brain_mask_transformed": 38
+      },
+      "available_echo_times_ms": {
+        "early": [
+          14.0
+        ],
+        "late": [
+          68.3
+        ]
+      },
+      "maps": {
+        "early": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.9962,
+            "mask_participant_count": 37.85578,
+            "intersection": 0.97332,
+            "mean_normalized_signal": 0.9173,
+            "signal_participant_count": 37.85578,
+            "masked_or_invalid_fraction": 0.0038,
+            "valid_below_50_fraction": 0.17405,
+            "retained_25": 0.92909,
+            "retained_50": 0.82216,
+            "retained_75": 0.71873,
+            "minimum_signal_participants": 6,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.27587,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.0,
+            "retained_25": 1.0,
+            "retained_50": 1.0,
+            "retained_75": 0.99255,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.85701,
+            "mask_participant_count": 32.56633,
+            "intersection": 0.64084,
+            "mean_normalized_signal": 0.86133,
+            "signal_participant_count": 32.56633,
+            "masked_or_invalid_fraction": 0.14299,
+            "valid_below_50_fraction": 0.10412,
+            "retained_25": 0.82789,
+            "retained_50": 0.75289,
+            "retained_75": 0.62409,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.92621,
+            "mask_participant_count": 35.1958,
+            "intersection": 0.82297,
+            "mean_normalized_signal": 1.22989,
+            "signal_participant_count": 35.1958,
+            "masked_or_invalid_fraction": 0.07379,
+            "valid_below_50_fraction": 0.02658,
+            "retained_25": 0.92183,
+            "retained_50": 0.89963,
+            "retained_75": 0.85022,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "late": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.9962,
+            "mask_participant_count": 37.85578,
+            "intersection": 0.97332,
+            "mean_normalized_signal": 0.5839,
+            "signal_participant_count": 37.85578,
+            "masked_or_invalid_fraction": 0.0038,
+            "valid_below_50_fraction": 0.57717,
+            "retained_25": 0.61692,
+            "retained_50": 0.41904,
+            "retained_75": 0.31527,
+            "minimum_signal_participants": 6,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 0.45842,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.65987,
+            "retained_25": 0.69623,
+            "retained_50": 0.34013,
+            "retained_75": 0.16322,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.85701,
+            "mask_participant_count": 32.56633,
+            "intersection": 0.64084,
+            "mean_normalized_signal": 0.53053,
+            "signal_participant_count": 32.56633,
+            "masked_or_invalid_fraction": 0.14299,
+            "valid_below_50_fraction": 0.48273,
+            "retained_25": 0.54888,
+            "retained_50": 0.37428,
+            "retained_75": 0.25934,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.92621,
+            "mask_participant_count": 35.1958,
+            "intersection": 0.82297,
+            "mean_normalized_signal": 1.04546,
+            "signal_participant_count": 35.19566,
+            "masked_or_invalid_fraction": 0.0738,
+            "valid_below_50_fraction": 0.25223,
+            "retained_25": 0.80024,
+            "retained_50": 0.67398,
+            "retained_75": 0.58101,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        },
+        "combined": {
+          "Orbitofrontal cortex": {
+            "atlas_voxels": 3148,
+            "binary_fraction": 0.99799,
+            "mask_participant_count": 37.92376,
+            "intersection": 0.98825,
+            "mean_normalized_signal": 0.94385,
+            "signal_participant_count": 37.5683,
+            "masked_or_invalid_fraction": 0.01136,
+            "valid_below_50_fraction": 0.15391,
+            "retained_25": 0.91686,
+            "retained_50": 0.83473,
+            "retained_75": 0.74291,
+            "minimum_signal_participants": 6,
+            "maximum_signal_participants": 38
+          },
+          "Ventral striatum (accumbens)": {
+            "atlas_voxels": 173,
+            "binary_fraction": 1.0,
+            "mask_participant_count": 38.0,
+            "intersection": 1.0,
+            "mean_normalized_signal": 1.26186,
+            "signal_participant_count": 38.0,
+            "masked_or_invalid_fraction": 0.0,
+            "valid_below_50_fraction": 0.00015,
+            "retained_25": 1.0,
+            "retained_50": 0.99985,
+            "retained_75": 0.99468,
+            "minimum_signal_participants": 38,
+            "maximum_signal_participants": 38
+          },
+          "Anterior temporal cortex (temporal pole)": {
+            "atlas_voxels": 4711,
+            "binary_fraction": 0.87584,
+            "mask_participant_count": 33.28211,
+            "intersection": 0.68796,
+            "mean_normalized_signal": 0.88138,
+            "signal_participant_count": 33.03524,
+            "masked_or_invalid_fraction": 0.13065,
+            "valid_below_50_fraction": 0.09589,
+            "retained_25": 0.83428,
+            "retained_50": 0.77346,
+            "retained_75": 0.65539,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          },
+          "Cerebellum": {
+            "atlas_voxels": 21522,
+            "binary_fraction": 0.93923,
+            "mask_participant_count": 35.69078,
+            "intersection": 0.86275,
+            "mean_normalized_signal": 1.25397,
+            "signal_participant_count": 35.67675,
+            "masked_or_invalid_fraction": 0.06114,
+            "valid_below_50_fraction": 0.02578,
+            "retained_25": 0.93258,
+            "retained_50": 0.91309,
+            "retained_75": 0.86772,
+            "minimum_signal_participants": 0,
+            "maximum_signal_participants": 38
+          }
+        }
+      }
+    }
+  },
+  "all_acquisitions_all_participants": {
+    "participants": 38,
+    "runs": 228,
+    "intersection_voxels": 200711,
+    "rois": {
+      "Orbitofrontal cortex": {
+        "atlas_voxels": 3148,
+        "intersection": 0.70299
+      },
+      "Ventral striatum (accumbens)": {
+        "atlas_voxels": 173,
+        "intersection": 0.93064
+      },
+      "Anterior temporal cortex (temporal pole)": {
+        "atlas_voxels": 4711,
+        "intersection": 0.4515
+      },
+      "Cerebellum": {
+        "atlas_voxels": 21522,
+        "intersection": 0.23808
+      }
+    }
+  },
+  "group_masks": {
+    "fsl_feat": {
+      "second_level": {
+        "model1_act": {
+          "counts": {
+            "directories": 38,
+            "compared": 38,
+            "matches_all_input_masks": 38
+          },
+          "voxel_sums": {
+            "included_outside_input_intersection": 0,
+            "intersection_excluded": 0
+          }
+        },
+        "model1_ppi": {
+          "counts": {
+            "directories": 38,
+            "compared": 38,
+            "matches_all_input_masks": 38
+          },
+          "voxel_sums": {
+            "included_outside_input_intersection": 0,
+            "intersection_excluded": 0
+          }
+        },
+        "model2_act": {
+          "counts": {
+            "directories": 38,
+            "compared": 38,
+            "matches_all_input_masks": 38
+          },
+          "voxel_sums": {
+            "included_outside_input_intersection": 0,
+            "intersection_excluded": 0
+          }
+        },
+        "model3_act": {
+          "counts": {
+            "directories": 38,
+            "compared": 38,
+            "matches_all_input_masks": 38
+          },
+          "voxel_sums": {
+            "included_outside_input_intersection": 0,
+            "intersection_excluded": 0
+          }
+        }
+      },
+      "third_level": [
+        {
+          "location": "derivatives/fsl/L3_model-1_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-S_left_onegroup_denoising-base.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 40,
+              "input_masks_on_saved_group_grid": 40,
+              "against_input_mask_intersection": {
+                "outside_reference": 0,
+                "reference_omitted": 0
+              }
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-1_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-11_cname-StrVsComp_onegroup_denoising-base.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 40,
+              "input_masks_on_saved_group_grid": 40,
+              "against_input_mask_intersection": {
+                "outside_reference": 0,
+                "reference_omitted": 0
+              }
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-1_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-12_cname-LeftVsRight_onegroup_denoising-base.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 40,
+              "input_masks_on_saved_group_grid": 40,
+              "against_input_mask_intersection": {
+                "outside_reference": 0,
+                "reference_omitted": 0
+              }
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-1_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-13_cname-RewVsPun_onegroup_denoising-base.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 40,
+              "input_masks_on_saved_group_grid": 40,
+              "against_input_mask_intersection": {
+                "outside_reference": 0,
+                "reference_omitted": 0
+              }
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-2_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-Left-Right_onegroup_denoising-base.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 40,
+              "input_masks_on_saved_group_grid": 40,
+              "against_input_mask_intersection": {
+                "outside_reference": 0,
+                "reference_omitted": 0
+              }
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-2_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-Left-Right_onegroup_denoising-base_clust-4-1.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 39,
+              "input_masks_on_saved_group_grid": 39
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-2_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-Left-Right_onegroup_denoising-base_clust-5-1.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 39,
+              "input_masks_on_saved_group_grid": 39
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-2_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-Left-Right_onegroup_denoising-base_vox-01.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 39,
+              "input_masks_on_saved_group_grid": 39
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-2_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-Left-Right_onegroup_denoising-base_vox-05.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 39,
+              "input_masks_on_saved_group_grid": 39
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        },
+        {
+          "location": "derivatives/fsl/L3_model-3_task-sharedreward_n40_mixedeffects-flame1+2_denoising-base/L3_task-sharedreward_type-act_cnum-03_cname-Str-Comp_onegroup_denoising-base.gfeat",
+          "design_inputs": 40,
+          "contrasts": {
+            "cope1.feat": {
+              "voxels": 200566,
+              "inside_reference": 200566,
+              "outside_reference": 0,
+              "reference_omitted": 145,
+              "roi_fraction": {
+                "Orbitofrontal cortex": 0.70235,
+                "Ventral striatum (accumbens)": 0.93064,
+                "Anterior temporal cortex (temporal pole)": 0.4515,
+                "Cerebellum": 0.23808
+              },
+              "roi_outside_reference_fraction": {
+                "Orbitofrontal cortex": 0.0,
+                "Ventral striatum (accumbens)": 0.0,
+                "Anterior temporal cortex (temporal pole)": 0.0,
+                "Cerebellum": 0.0
+              },
+              "input_masks_found": 40,
+              "input_masks_on_saved_group_grid": 40,
+              "against_input_mask_intersection": {
+                "outside_reference": 0,
+                "reference_omitted": 0
+              }
+            }
+          },
+          "design_input_type": 2,
+          "log_records_mask_intersection": true,
+          "log_records_flame_mask": false,
+          "subjects_in_design": 40,
+          "primary_subjects_in_design": 38
+        }
+      ]
+    },
+    "afni_3dLMEr": {
+      "act-cope13": {
+        "status": "unavailable"
+      },
+      "ppi-cope17": {
+        "status": "unavailable"
+      },
+      "ppi-cope13": {
+        "status": "unavailable"
+      },
+      "act-zstat13": {
+        "status": "unavailable"
+      },
+      "ppi-zstat17": {
+        "status": "unavailable"
+      },
+      "ppi-zstat13": {
+        "status": "unavailable"
+      },
+      "tsnr": {
+        "status": "unavailable"
+      }
+    },
+    "fsl_randomise": []
+  }
+}
