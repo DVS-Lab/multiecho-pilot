@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Render group-only sagittal coverage figures from saved Linux1 audit inputs."""
 import argparse
+from io import BytesIO
 import json
 import os
 from pathlib import Path
@@ -13,6 +14,7 @@ from matplotlib.patches import Patch
 import nibabel as nib
 from nibabel.processing import resample_from_to
 import numpy as np
+from PIL import Image
 from scipy.ndimage import label
 
 from audit_coverage import ACQUISITIONS, METRICS, on_grid, roi_masks
@@ -40,9 +42,19 @@ def anatomy(ax, data, extent, vmax):
     ax.set(xticks=[], yticks=[])
 
 
+def save_png(fig, output):
+    # These are display figures. An indexed PNG keeps the montage easy to share.
+    with BytesIO() as buffer:
+        fig.savefig(buffer, format="png", dpi=175)
+        with Image.open(buffer) as raster:
+            raster.convert("RGB").quantize(colors=256, dither=Image.Dither.NONE).save(output, optimize=True)
+    plt.close(fig)
+
+
 def protocol_figure(run, reference, fsldir, output):
     summary = json.loads((run / "coverage_summary.json").read_text())
-    if summary["subjects"] != 38:
+    if summary["subjects"] != 38 or any(summary["primary_by_protocol"][acq]["all"]["participants"] != 38
+                                        for acq in ACQUISITIONS):
         raise ValueError("The coverage run must use the primary 38-participant cohort.")
     rois, _ = roi_masks(fsldir, reference)
     outline_colors = ("#ff8f42", "#fc70b5", "#f5dc61", "#63e0eb")
@@ -64,7 +76,7 @@ def protocol_figure(run, reference, fsldir, output):
                 layer = values[index]
                 valid = np.isfinite(layer) & ((brain > 0) | (layer > 0))
                 if metric == "mean_normalized_signal":
-                    valid &= layer > 0  # Zero denotes no contributing participants in this map.
+                    valid &= layer > 0  # Only positive finite signals contribute to the mean.
                 anatomy(ax, brain, extent, vmax)
                 last = ax.imshow(np.ma.masked_where(~valid, layer).T, origin="lower", extent=extent,
                                  cmap=cmap, vmin=0, vmax=maximum, alpha=.82, interpolation="nearest")
@@ -85,8 +97,7 @@ def protocol_figure(run, reference, fsldir, output):
     fig.legend(handles=[Patch(edgecolor=color, facecolor="none", label=name.split(" (")[0])
                         for name, color in zip(rois, outline_colors)],
                loc="outside lower center", ncol=4, frameon=False, fontsize=9)
-    fig.savefig(output, dpi=175)
-    plt.close(fig)
+    save_png(fig, output)
 
 
 def figure7_layers(root):
@@ -156,8 +167,7 @@ def figure7_slices(labels_image, reference, output):
     fig.legend(handles=[Patch(color=colors[0], label=f"Inside common mask ({totals[0]})"),
                         Patch(color=colors[1], label=f"Outside common mask ({totals[1]})")],
                loc="outside lower center", ncol=2, frameon=False)
-    fig.savefig(output, dpi=175)
-    plt.close(fig)
+    save_png(fig, output)
 
 
 def main():
