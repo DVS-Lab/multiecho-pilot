@@ -1,0 +1,5 @@
+Temporal signal-to-noise ratio across six acquisitions. Each map is the voxelwise mean of participant tSNR maps for the 20-channel (N = 16) or 64-channel (N = 22) coil. Participant tSNR is temporal mean divided by sample temporal SD of the unsmoothed series. Each sequence is displayed within its saved first-level FEAT mask intersection across all 38 participants, using the same intersection for both coils and requiring all coil-group tSNR values to be defined. All maps use the same 0–80 color scale. Gray marks voxels outside the sequence intersection or with undefined tSNR. Companion masks and counts identify these locations. Orange contours mark atlas-defined orbitofrontal cortex.
+
+Intersection coverage across six acquisitions (N = 38 per acquisition). Yellow marks voxels included in every participant's first-level FEAT mask, and blue marks incomplete coverage. The final column requires coverage in all 228 participant–acquisition runs. These maps reuse the completed coverage audit.
+
+Both figures use matched MNI axial slices at z = −24, −16, and −8 mm on the public MNI152 template.

@@ -1,0 +1,446 @@
+{
+  "created_utc": "2026-11-24T05:34:52+00:00",
+  "participants": 38,
+  "participants_by_coil": {
+    "20ch": 16,
+    "64ch": 22
+  },
+  "coverage_summary_sha256": "a2cf349108bca1a36a783ef9e93d65a43e50f108e1176d9829cfdffbeb0bf786",
+  "source": "unsmoothed fMRIPrep MNI152NLin6Asym magnitude or optimally combined series",
+  "computed_tsnr": "temporal mean divided by sample temporal SD (N-1 divisor), all input volumes",
+  "group_mean": "unweighted participant tSNR mean within the sequence's saved all-38 intersection, requiring all coil-group values finite",
+  "resampling": "nearest-neighbor scalar and mask sampling onto the completed MNI152 2-mm audit lattice",
+  "missing_values": "NaN outside the sequence intersection or where any coil-group tSNR is undefined, with masks and contributor counts saved separately",
+  "cells": {
+    "mb1me1_20ch": {
+      "participants": 16,
+      "computed_unsmoothed_tsnr_maps": 16,
+      "input_volumes_min": 131,
+      "input_volumes_max": 131,
+      "voxels_with_any_tsnr": 213530,
+      "voxels_with_complete_tsnr": 203299,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 26.5095,
+          "mean_tsnr_contributors": 11.7646,
+          "sequence_intersection_fraction": 0.73666,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 27.5393,
+          "mean_tsnr_contributors": 15.2486,
+          "sequence_intersection_fraction": 0.95376,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 27.0925,
+          "mean_tsnr_contributors": 7.4481,
+          "sequence_intersection_fraction": 0.46657,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 38.2815,
+          "mean_tsnr_contributors": 7.82,
+          "sequence_intersection_fraction": 0.49336,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb1me1_64ch": {
+      "participants": 22,
+      "computed_unsmoothed_tsnr_maps": 22,
+      "input_volumes_min": 131,
+      "input_volumes_max": 131,
+      "voxels_with_any_tsnr": 213530,
+      "voxels_with_complete_tsnr": 204431,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 33.5521,
+          "mean_tsnr_contributors": 16.1674,
+          "sequence_intersection_fraction": 0.73666,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 30.0619,
+          "mean_tsnr_contributors": 20.7168,
+          "sequence_intersection_fraction": 0.95376,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 34.2235,
+          "mean_tsnr_contributors": 10.2439,
+          "sequence_intersection_fraction": 0.46657,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 41.2722,
+          "mean_tsnr_contributors": 10.849,
+          "sequence_intersection_fraction": 0.49336,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb1me4_20ch": {
+      "participants": 16,
+      "computed_unsmoothed_tsnr_maps": 16,
+      "input_volumes_min": 94,
+      "input_volumes_max": 94,
+      "voxels_with_any_tsnr": 228836,
+      "voxels_with_complete_tsnr": 204237,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 38.6612,
+          "mean_tsnr_contributors": 14.8774,
+          "sequence_intersection_fraction": 0.95044,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 50.0089,
+          "mean_tsnr_contributors": 16.0,
+          "sequence_intersection_fraction": 1.0,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 34.7288,
+          "mean_tsnr_contributors": 13.439,
+          "sequence_intersection_fraction": 0.85693,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 51.1122,
+          "mean_tsnr_contributors": 6.6507,
+          "sequence_intersection_fraction": 0.42101,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb1me4_64ch": {
+      "participants": 22,
+      "computed_unsmoothed_tsnr_maps": 22,
+      "input_volumes_min": 94,
+      "input_volumes_max": 94,
+      "voxels_with_any_tsnr": 228851,
+      "voxels_with_complete_tsnr": 207162,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 45.3402,
+          "mean_tsnr_contributors": 20.5057,
+          "sequence_intersection_fraction": 0.95044,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 51.4934,
+          "mean_tsnr_contributors": 22.0,
+          "sequence_intersection_fraction": 1.0,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 41.0958,
+          "mean_tsnr_contributors": 18.6207,
+          "sequence_intersection_fraction": 0.85693,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 52.2302,
+          "mean_tsnr_contributors": 9.238,
+          "sequence_intersection_fraction": 0.42101,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb3me1_20ch": {
+      "participants": 16,
+      "computed_unsmoothed_tsnr_maps": 16,
+      "input_volumes_min": 385,
+      "input_volumes_max": 385,
+      "voxels_with_any_tsnr": 204188,
+      "voxels_with_complete_tsnr": 193533,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 23.8138,
+          "mean_tsnr_contributors": 11.5206,
+          "sequence_intersection_fraction": 0.72078,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 24.693,
+          "mean_tsnr_contributors": 15.1561,
+          "sequence_intersection_fraction": 0.94798,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 23.6455,
+          "mean_tsnr_contributors": 7.7236,
+          "sequence_intersection_fraction": 0.48397,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 38.2937,
+          "mean_tsnr_contributors": 3.7443,
+          "sequence_intersection_fraction": 0.23808,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb3me1_64ch": {
+      "participants": 22,
+      "computed_unsmoothed_tsnr_maps": 22,
+      "input_volumes_min": 385,
+      "input_volumes_max": 385,
+      "voxels_with_any_tsnr": 204188,
+      "voxels_with_complete_tsnr": 194999,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 32.927,
+          "mean_tsnr_contributors": 15.7992,
+          "sequence_intersection_fraction": 0.72078,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 29.8152,
+          "mean_tsnr_contributors": 20.5838,
+          "sequence_intersection_fraction": 0.94798,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 32.5112,
+          "mean_tsnr_contributors": 10.6234,
+          "sequence_intersection_fraction": 0.48397,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 40.2733,
+          "mean_tsnr_contributors": 5.2372,
+          "sequence_intersection_fraction": 0.23808,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb3me4_20ch": {
+      "participants": 16,
+      "computed_unsmoothed_tsnr_maps": 16,
+      "input_volumes_min": 274,
+      "input_volumes_max": 274,
+      "voxels_with_any_tsnr": 228940,
+      "voxels_with_complete_tsnr": 204877,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 30.611,
+          "mean_tsnr_contributors": 14.8774,
+          "sequence_intersection_fraction": 0.94886,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 34.0454,
+          "mean_tsnr_contributors": 16.0,
+          "sequence_intersection_fraction": 1.0,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 30.518,
+          "mean_tsnr_contributors": 13.2634,
+          "sequence_intersection_fraction": 0.84313,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 45.631,
+          "mean_tsnr_contributors": 6.8911,
+          "sequence_intersection_fraction": 0.43588,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb3me4_64ch": {
+      "participants": 22,
+      "computed_unsmoothed_tsnr_maps": 22,
+      "input_volumes_min": 274,
+      "input_volumes_max": 274,
+      "voxels_with_any_tsnr": 228940,
+      "voxels_with_complete_tsnr": 207186,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 40.7502,
+          "mean_tsnr_contributors": 20.412,
+          "sequence_intersection_fraction": 0.94886,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 42.8855,
+          "mean_tsnr_contributors": 22.0,
+          "sequence_intersection_fraction": 1.0,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 38.4328,
+          "mean_tsnr_contributors": 18.3163,
+          "sequence_intersection_fraction": 0.84313,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 50.3062,
+          "mean_tsnr_contributors": 9.561,
+          "sequence_intersection_fraction": 0.43588,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb6me1_20ch": {
+      "participants": 16,
+      "computed_unsmoothed_tsnr_maps": 16,
+      "input_volumes_min": 706,
+      "input_volumes_max": 706,
+      "voxels_with_any_tsnr": 226792,
+      "voxels_with_complete_tsnr": 218680,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 22.2264,
+          "mean_tsnr_contributors": 11.8027,
+          "sequence_intersection_fraction": 0.73856,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 23.7082,
+          "mean_tsnr_contributors": 15.2601,
+          "sequence_intersection_fraction": 0.95376,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 21.7249,
+          "mean_tsnr_contributors": 8.6128,
+          "sequence_intersection_fraction": 0.53959,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 28.6517,
+          "mean_tsnr_contributors": 14.9501,
+          "sequence_intersection_fraction": 0.93518,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb6me1_64ch": {
+      "participants": 22,
+      "computed_unsmoothed_tsnr_maps": 22,
+      "input_volumes_min": 706,
+      "input_volumes_max": 706,
+      "voxels_with_any_tsnr": 226792,
+      "voxels_with_complete_tsnr": 216101,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 30.2008,
+          "mean_tsnr_contributors": 16.1928,
+          "sequence_intersection_fraction": 0.73856,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 27.9881,
+          "mean_tsnr_contributors": 20.7341,
+          "sequence_intersection_fraction": 0.95376,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 30.6829,
+          "mean_tsnr_contributors": 11.8489,
+          "sequence_intersection_fraction": 0.53959,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 37.6934,
+          "mean_tsnr_contributors": 20.5257,
+          "sequence_intersection_fraction": 0.93518,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb6me4_20ch": {
+      "participants": 16,
+      "computed_unsmoothed_tsnr_maps": 16,
+      "input_volumes_min": 504,
+      "input_volumes_max": 504,
+      "voxels_with_any_tsnr": 246658,
+      "voxels_with_complete_tsnr": 222884,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 20.4171,
+          "mean_tsnr_contributors": 14.9393,
+          "sequence_intersection_fraction": 0.946,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 18.8139,
+          "mean_tsnr_contributors": 16.0,
+          "sequence_intersection_fraction": 1.0,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 19.6256,
+          "mean_tsnr_contributors": 13.3895,
+          "sequence_intersection_fraction": 0.84568,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 24.3238,
+          "mean_tsnr_contributors": 15.643,
+          "sequence_intersection_fraction": 0.98304,
+          "atlas_voxels": 21522
+        }
+      }
+    },
+    "mb6me4_64ch": {
+      "participants": 22,
+      "computed_unsmoothed_tsnr_maps": 22,
+      "input_volumes_min": 504,
+      "input_volumes_max": 504,
+      "voxels_with_any_tsnr": 246658,
+      "voxels_with_complete_tsnr": 221808,
+      "rois": {
+        "Orbitofrontal cortex": {
+          "mean_group_tsnr_over_available_voxels": 33.3115,
+          "mean_tsnr_contributors": 20.3996,
+          "sequence_intersection_fraction": 0.946,
+          "atlas_voxels": 3148
+        },
+        "Ventral striatum (accumbens)": {
+          "mean_group_tsnr_over_available_voxels": 31.4196,
+          "mean_tsnr_contributors": 22.0,
+          "sequence_intersection_fraction": 1.0,
+          "atlas_voxels": 173
+        },
+        "Anterior temporal cortex (temporal pole)": {
+          "mean_group_tsnr_over_available_voxels": 33.6451,
+          "mean_tsnr_contributors": 18.3821,
+          "sequence_intersection_fraction": 0.84568,
+          "atlas_voxels": 4711
+        },
+        "Cerebellum": {
+          "mean_group_tsnr_over_available_voxels": 41.2212,
+          "mean_tsnr_contributors": 21.5138,
+          "sequence_intersection_fraction": 0.98304,
+          "atlas_voxels": 21522
+        }
+      }
+    }
+  },
+  "tsnr_display_range": [
+    0,
+    80
+  ],
+  "fraction_of_group_mean_voxels_above_display_maximum": 0.001809,
+  "figure_slices_mni_mm": [
+    {
+      "region": "OFC and temporal cortex",
+      "axis": "z",
+      "coordinate": -24
+    },
+    {
+      "region": "OFC",
+      "axis": "z",
+      "coordinate": -16
+    },
+    {
+      "region": "OFC and ventral striatum",
+      "axis": "z",
+      "coordinate": -8
+    }
+  ]
+}
